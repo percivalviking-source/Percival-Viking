@@ -1,13 +1,72 @@
 <header class="site-header">
   <div class="header-inner">
-    <button class="icon-button menu-button" type="button" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+
+    <button
+      class="icon-button menu-button"
+      type="button"
+      aria-label="Abrir menu"
+      aria-expanded="false"
+      data-menu-open
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
     <a class="brand" href="/" aria-label="Percival Viking - início">
       <img class="brand-logo" src="/assets/img/logo-percival-viking.png" alt="">
       <span class="brand-name">Percival <strong>Viking</strong></span>
     </a>
-    <button class="icon-button search-button" type="button" aria-label="Buscar">⌕</button>
+
+    <button class="icon-button search-button" type="button" aria-label="Buscar">
+      ⌕
+    </button>
+
   </div>
+
   <nav class="desktop-nav" aria-label="Categorias">
-    <a href="/">Início</a><a href="#">Games</a><a href="#">Animes</a><a href="#">TCG</a><a href="#">LEGO®</a><a href="#">Colecionismo</a>
+    <a href="/">Início</a>
+    <a href="#">Games</a>
+    <a href="#">Animes</a>
+    <a href="#">TCG</a>
+    <a href="#">LEGO®</a>
+    <a href="#">Colecionismo</a>
   </nav>
 </header>
+
+<div class="menu-overlay" data-menu-close></div>
+
+<aside class="mobile-menu" aria-label="Menu principal">
+
+  <div class="mobile-menu-header">
+    <a class="mobile-menu-brand" href="/">
+      <img src="/assets/img/logo-percival-viking.png" alt="">
+      <span>Percival <strong>Viking</strong></span>
+    </a>
+
+    <button
+      class="mobile-menu-close"
+      type="button"
+      aria-label="Fechar menu"
+      data-menu-close
+    >
+      ×
+    </button>
+  </div>
+
+  <nav class="mobile-menu-nav">
+    <a href="/">Início</a>
+    <a href="#">Games</a>
+    <a href="#">Animes</a>
+    <a href="#">TCG</a>
+    <a href="#">LEGO®</a>
+    <a href="#">Colecionismo</a>
+  </nav>
+
+  <div class="mobile-menu-footer">
+    <p>
+      Notícias, guias e cultura geek com alma de colecionador brasileiro.
+    </p>
+  </div>
+
+</aside>
