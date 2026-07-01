@@ -41,29 +41,31 @@
     }
 
     .article-content {
-      padding: 20px;
+      padding: 18px;
     }
 
     .article-content h1 {
-      margin: 10px 0;
-      font-size: clamp(2rem, 8vw, 3rem);
-      line-height: 1.02;
-      letter-spacing: -0.05em;
+      margin: 10px 0 12px;
+      font-size: clamp(1.65rem, 6.4vw, 2.35rem);
+      line-height: 1.08;
+      letter-spacing: -0.04em;
     }
 
     .article-content p {
-      font-size: 1.08rem;
+      margin: 0 0 18px;
+      font-size: 1rem;
       color: #374151;
-      line-height: 1.72;
+      line-height: 1.62;
     }
 
     .lead {
       color: var(--muted);
-      font-size: 1.18rem;
+      font-size: 1.05rem;
+      line-height: 1.55;
     }
 
     .article-figure {
-      margin: 26px 0;
+      margin: 22px 0;
     }
 
     .article-figure img {
@@ -75,11 +77,44 @@
     }
 
     .article-figure figcaption {
-      margin-top: 10px;
+      margin-top: 9px;
       color: var(--muted);
-      font-size: 0.92rem;
-      line-height: 1.5;
+      font-size: 0.86rem;
+      line-height: 1.45;
       text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      .article-page {
+        padding: 12px 10px 32px;
+      }
+
+      .article-content {
+        padding: 18px 16px;
+      }
+
+      .article-content h1 {
+        font-size: clamp(1.55rem, 7vw, 1.95rem);
+        line-height: 1.1;
+      }
+
+      .article-content p {
+        font-size: 0.96rem;
+        line-height: 1.6;
+      }
+
+      .lead {
+        font-size: 1rem;
+        line-height: 1.55;
+      }
+
+      .article-figure {
+        margin: 20px 0;
+      }
+
+      .article-figure figcaption {
+        font-size: 0.84rem;
+      }
     }
   </style>
 </head>
@@ -151,7 +186,7 @@
 
         <p>
           A seleção cabo-verdiana deixou sua marca não como uma simples surpresa, mas como símbolo de resiliência.
-           </p>
+        </p>
 
         <p>
           Estreante no Mundial, Cabo Verde enfrentou seleções muito mais conhecidas, mas
@@ -197,7 +232,7 @@
           >
 
           <figcaption>
-            Mais do que goleiro, Vozinha virou símbolo da reseliência e da travessia histórica
+            Mais do que goleiro, Vozinha virou símbolo da resiliência e da travessia histórica
             de Cabo Verde.
           </figcaption>
         </figure>
