@@ -10,17 +10,17 @@
     "fonte": "Percival Viking",
     "url": "/artigos/copa-cabo-verde.html"
   },
-  {
-    "titulo": "Como começar uma coleção LEGO® sem quebrar o bolso",
-    "slug": "como-comecar-colecao-lego",
-    "categoria": "LEGO®",
-    "data": "2026-06-21",
-    "capa": "/assets/img/artigos/colecao-lego.svg",
-    "alt": "Arte para guia de coleção LEGO",
-    "resumo": "Um guia simples para colecionar com calma, evitar ansiedade e transformar compra em construção de legado.",
-    "fonte": "Percival Viking",
-    "url": "/artigos/como-comecar-colecao-lego.html"
-  },
+{
+  "titulo": "Colecionismo com legado: preservar objetos, histórias e identidade",
+  "slug": "colecionismo-com-legado",
+  "categoria": "Colecionismo",
+  "data": "2026-07-14",
+  "capa": "/assets/img/artigos/colecionismo/legado/colecionismo_com_legado.png",
+  "alt": "Álbum de fotografias aberto, com registros familiares acompanhados por datas, lugares e pequenos históricos sobre o significado de cada memória.",
+  "resumo": "Fotografias e objetos preservam momentos, mas são as histórias e os significados que transformam uma coleção em legado.",
+  "fonte": "Percival Viking",
+  "url": "/artigos/colecionismo-com-legado.html"
+}
   {
     "titulo": "7 animes de futebol para assistir depois de Blue Lock",
     "slug": "blue-lock-animes-parecidos",
@@ -31,27 +31,5 @@
     "resumo": "Uma lista para quem quer continuar na energia de competição, rivalidade e evolução pessoal dos animes de esporte.",
     "fonte": "Percival Viking",
     "url": "/artigos/blue-lock-animes-parecidos.html"
-  },
-  {
-    "titulo": "Guia rápido: como evitar compra por impulso em colecionáveis",
-    "slug": "evitar-compra-por-impulso-colecionaveis",
-    "categoria": "Colecionismo",
-    "data": "2026-06-19",
-    "capa": "/assets/img/artigos/colecao-lego.svg",
-    "alt": "Arte para guia de colecionismo consciente",
-    "resumo": "Antes de comprar, respire: uma coleção precisa crescer com alegria, não com culpa.",
-    "fonte": "Percival Viking",
-    "url": "/artigos/evitar-compra-por-impulso-colecionaveis.html"
-  },
-  {
-    "titulo": "A taverna do colecionador: por que comunidade importa",
-    "slug": "taverna-do-colecionador-comunidade",
-    "categoria": "Comunidade",
-    "data": "2026-06-18",
-    "capa": "/assets/img/artigos/taverna.svg",
-    "alt": "Arte para comunidade geek",
-    "resumo": "Colecionar sozinho é possível. Mas a memória fica mais forte quando vira conversa.",
-    "fonte": "Percival Viking",
-    "url": "/artigos/taverna-do-colecionador-comunidade.html"
   }
 ]
