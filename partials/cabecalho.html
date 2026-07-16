@@ -18,7 +18,13 @@
       <span class="brand-name">Percival <strong>Viking</strong></span>
     </a>
 
-    <button class="icon-button search-button" type="button" aria-label="Buscar">
+    <button
+      class="icon-button search-button"
+      type="button"
+      aria-label="Buscar"
+      aria-expanded="false"
+      data-search-open
+    >
       ⌕
     </button>
 
@@ -68,3 +74,47 @@
   </div>
 
 </aside>
+
+<div class="search-overlay" data-search-close></div>
+
+<section
+  class="search-panel"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Busca do Percival Viking"
+>
+  <div class="search-panel-inner">
+
+    <div class="search-panel-header">
+      <div>
+        <span class="eyebrow">Busca</span>
+        <h2>Encontre uma travessia</h2>
+      </div>
+
+      <button
+        class="search-close"
+        type="button"
+        aria-label="Fechar busca"
+        data-search-close
+      >
+        ×
+      </button>
+    </div>
+
+    <div class="search-box">
+      <input
+        type="search"
+        placeholder="Buscar por Copa, Pokémon, LEGO, TCG..."
+        aria-label="Buscar artigos"
+        data-search-input
+      >
+    </div>
+
+    <p class="search-status" data-search-status>
+      Digite para buscar nos artigos do Percival Viking.
+    </p>
+
+    <div class="search-results" data-search-results></div>
+
+  </div>
+</section>
