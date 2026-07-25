@@ -14,7 +14,12 @@ async function carregarParcial(alvo) {
 
     alvo.innerHTML = await resposta.text();
   } catch (erro) {
-    alvo.innerHTML = `<div class="error">Erro ao carregar ${arquivo}</div>`;
+    alvo.innerHTML = `
+      <div class="error">
+        Erro ao carregar ${arquivo}
+      </div>
+    `;
+
     console.error(erro);
   }
 }
@@ -146,7 +151,8 @@ function renderizarResultadosBusca(termo = "") {
       return textoCompleto.includes(termoNormalizado);
     });
 
-    statusEl.textContent = `${resultados.length} resultado(s) para “${termoLimpo}”.`;
+    statusEl.textContent =
+      `${resultados.length} resultado(s) para “${termoLimpo}”.`;
   } else {
     resultados = resultados.slice(0, 5);
     statusEl.textContent = "Últimos artigos publicados.";
@@ -166,7 +172,10 @@ function renderizarResultadosBusca(termo = "") {
     .slice(0, 8)
     .map(function (artigo) {
       return `
-        <a class="search-result" href="${escaparHTML(obterUrlArtigo(artigo))}">
+        <a
+          class="search-result"
+          href="${escaparHTML(obterUrlArtigo(artigo))}"
+        >
           <span class="search-result-category">
             ${escaparHTML(artigo.categoria || "Artigo")}
           </span>
@@ -204,7 +213,8 @@ async function abrirBuscaSite() {
     const statusEl = document.querySelector("[data-search-status]");
 
     if (statusEl) {
-      statusEl.textContent = "Não foi possível carregar a busca agora.";
+      statusEl.textContent =
+        "Não foi possível carregar a busca agora.";
     }
 
     if (resultadosEl) {
@@ -271,7 +281,9 @@ function iniciarBuscaSite() {
 /* Inicialização */
 
 async function iniciarPercivalViking() {
-  const parciais = [...document.querySelectorAll("[data-partial]")];
+  const parciais = [
+    ...document.querySelectorAll("[data-partial]")
+  ];
 
   for (const parcial of parciais) {
     await carregarParcial(parcial);
@@ -281,7 +293,11 @@ async function iniciarPercivalViking() {
   iniciarBuscaSite();
 
   if (typeof carregarFeedHome === "function") {
-    carregarFeedHome();
+    await carregarFeedHome();
+  }
+
+  if (typeof carregarFeedCategoria === "function") {
+    await carregarFeedCategoria();
   }
 }
 
@@ -292,4 +308,7 @@ document.addEventListener("keydown", function (evento) {
   }
 });
 
-document.addEventListener("DOMContentLoaded", iniciarPercivalViking);
+document.addEventListener(
+  "DOMContentLoaded",
+  iniciarPercivalViking
+);
