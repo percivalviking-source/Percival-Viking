@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 
 <head>
+
   <meta charset="UTF-8">
 
   <meta
@@ -9,50 +10,91 @@
     content="width=device-width, initial-scale=1.0"
   >
 
-  <!-- Catálogo privado/temporário: evita indexação -->
   <meta
     name="robots"
     content="noindex, nofollow, noarchive"
   >
 
   <title>Lote LEGO | Percival Viking</title>
+
+
+  <!-- CSS OFICIAL DO SITE -->
+  <link
+    rel="stylesheet"
+    href="/assets/css/style.css"
+  >
+
+
+  <!-- CSS EXCLUSIVO DO CATÁLOGO -->
+  <link
+    rel="stylesheet"
+    href="/assets/css/lotes.css"
+  >
+
 </head>
+
 
 <body>
 
-  <!-- CABEÇALHO -->
+
+  <!-- CABEÇALHO OFICIAL -->
   <div id="cabecalho"></div>
 
 
-  <!-- CONTEÚDO -->
-  <main id="conteudo-principal">
+  <!-- CONTEÚDO DO CATÁLOGO -->
+  <main
+    id="conteudo-principal"
+    class="site-main"
+  >
 
     <div id="body-lotes"></div>
 
   </main>
 
 
-  <!-- RODAPÉ -->
+  <!-- RODAPÉ OFICIAL -->
   <div id="rodape"></div>
+
 
 
   <script>
 
     /*
-      ==============================
+      ==========================================
       CARREGAR PARTIAL
-      ==============================
+      ==========================================
     */
 
-    async function carregarPartial(id, arquivo) {
+    async function carregarPartial(
+      id,
+      arquivo
+    ) {
 
       const destino =
         document.getElementById(id);
 
+
+      if (!destino) {
+
+        console.error(
+          `Elemento #${id} não encontrado.`
+        );
+
+        return;
+
+      }
+
+
       try {
 
         const resposta =
-          await fetch(arquivo);
+          await fetch(
+            arquivo,
+            {
+              cache: "no-store"
+            }
+          );
+
 
         if (!resposta.ok) {
 
@@ -62,27 +104,38 @@
 
         }
 
+
         destino.innerHTML =
           await resposta.text();
 
       }
 
+
       catch (erro) {
 
-        console.error(erro);
+        console.error(
+          `Erro ao carregar ${arquivo}:`,
+          erro
+        );
+
 
         destino.innerHTML = `
+
           <p
             style="
               max-width:900px;
               margin:20px auto;
               padding:16px;
-              font-family:Arial,sans-serif;
-              color:#555;
+              color:#6b7280;
+              text-align:center;
             "
           >
-            Não foi possível carregar esta parte da página.
+
+            Não foi possível carregar
+            esta parte da página.
+
           </p>
+
         `;
 
       }
@@ -92,34 +145,44 @@
 
 
     /*
-      ==============================
-      CARREGAR JAVASCRIPT
-      ==============================
-
-      O lotes.js só é carregado
-      depois que body-lotes.html
-      já estiver dentro da página.
+      ==========================================
+      CARREGAR SCRIPT
+      ==========================================
     */
 
-    function carregarScript(arquivo) {
+    function carregarScript(
+      arquivo
+    ) {
 
       return new Promise(
         (resolve, reject) => {
 
-          const script =
-            document.createElement("script");
 
-          script.src = arquivo;
+          const script =
+            document.createElement(
+              "script"
+            );
+
+
+          script.src =
+            arquivo;
+
 
           script.onload =
             resolve;
 
+
           script.onerror =
-            () => reject(
-              new Error(
-                `Erro ao carregar ${arquivo}`
-              )
-            );
+            () => {
+
+              reject(
+                new Error(
+                  `Erro ao carregar ${arquivo}`
+                )
+              );
+
+            };
+
 
           document.body.appendChild(
             script
@@ -133,52 +196,75 @@
 
 
     /*
-      ==============================
+      ==========================================
       INICIAR PÁGINA
-      ==============================
+      ==========================================
     */
 
     async function iniciarPagina() {
 
       try {
 
+
         /*
-          Carrega cabeçalho,
-          corpo e rodapé
-          simultaneamente.
+          Primeiro montamos:
+
+          cabeçalho
+          catálogo
+          rodapé
         */
 
         await Promise.all([
 
+
           carregarPartial(
             "cabecalho",
-            "partials/cabecalho.html"
+            "/partials/cabecalho.html"
           ),
+
 
           carregarPartial(
             "body-lotes",
-            "partials/body-lotes.html"
+            "/partials/body-lotes.html"
           ),
+
 
           carregarPartial(
             "rodape",
-            "partials/rodape.html"
+            "/partials/rodape.html"
           )
+
 
         ]);
 
 
+
         /*
-          Agora que o body-lotes
-          já existe, ligamos
-          o motor do catálogo.
+          Depois ligamos o JS oficial
+          do Percival Viking.
+
+          Ele cuida do cabeçalho,
+          menu, pesquisa global etc.
         */
 
         await carregarScript(
-          "assets/js/lotes.js"
+          "/assets/js/app.js"
         );
 
+
+
+        /*
+          Por último ligamos
+          o catálogo LEGO.
+        */
+
+        await carregarScript(
+          "/assets/js/lotes.js"
+        );
+
+
       }
+
 
       catch (erro) {
 
@@ -194,14 +280,15 @@
 
 
     /*
-      ==============================
+      ==========================================
       START
-      ==============================
+      ==========================================
     */
 
     iniciarPagina();
 
   </script>
+
 
 </body>
 
