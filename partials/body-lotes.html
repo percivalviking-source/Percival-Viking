@@ -1,241 +1,865 @@
 <!--
-  Percival Viking
+  ==========================================================
+  PERCIVAL VIKING
   partials/body-lotes.html
 
-  Este arquivo contém apenas o corpo do catálogo.
-  O preenchimento dos itens e dos totais será feito por:
+  Catálogo LEGO
+  ==========================================================
+
+  DADOS:
+  data/lotes.json
+
+  MOTOR:
   assets/js/lotes.js
+
+  Este arquivo contém somente:
+  - estrutura visual
+  - resumo do lote
+  - pesquisa
+  - filtro
+  - área dos cards
+  - mensagem de vazio
+  - nota metodológica
+  ==========================================================
 -->
 
+
 <style>
+
+  /*
+    ==========================================================
+    ÁREA PRINCIPAL
+    ==========================================================
+  */
+
   .lotes-wrap {
-    width: min(1180px, 92%);
-    margin: 0 auto;
-    padding: 30px 0 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #222;
+
+    width:
+      min(1180px, 92%);
+
+    margin:
+      0 auto;
+
+    padding:
+      32px 0 70px;
+
+    font-family:
+      Arial,
+      Helvetica,
+      sans-serif;
+
+    color:
+      #222;
+
   }
+
+
+
+  /*
+    ==========================================================
+    TOPO
+    ==========================================================
+  */
 
   .lotes-topo {
-    background: #fff;
-    border: 1px solid #e7e7e7;
-    border-radius: 18px;
-    padding: 22px;
-    box-shadow: 0 5px 20px rgba(0,0,0,.05);
-    margin-bottom: 20px;
+
+    background:
+      #fff;
+
+    border:
+      1px solid #e7e7e7;
+
+    border-radius:
+      18px;
+
+    padding:
+      24px;
+
+    margin-bottom:
+      20px;
+
+    box-shadow:
+      0 5px 20px
+      rgba(0,0,0,.05);
+
   }
+
 
   .lotes-topo h1 {
-    margin: 0 0 8px;
-    font-size: clamp(1.6rem, 4vw, 2.35rem);
+
+    margin:
+      0 0 8px;
+
+    font-size:
+      clamp(
+        1.7rem,
+        4vw,
+        2.4rem
+      );
+
+    line-height:
+      1.15;
+
   }
+
 
   .lotes-topo p {
-    margin: 0;
-    color: #666;
-    line-height: 1.55;
+
+    margin:
+      0;
+
+    color:
+      #666;
+
+    line-height:
+      1.55;
+
+    max-width:
+      780px;
+
   }
+
+
+
+  /*
+    ==========================================================
+    RESUMO
+    ==========================================================
+  */
 
   .lotes-resumo {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-    margin-top: 20px;
+
+    display:
+      grid;
+
+    grid-template-columns:
+      repeat(4, 1fr);
+
+    gap:
+      12px;
+
+    margin-top:
+      22px;
+
   }
+
 
   .lotes-resumo-item {
-    background: #f6f6f6;
-    border-radius: 12px;
-    padding: 15px;
+
+    background:
+      #f6f6f6;
+
+    border-radius:
+      12px;
+
+    padding:
+      15px;
+
   }
+
 
   .lotes-resumo-item span {
-    display: block;
-    color: #6b6b6b;
-    font-size: .82rem;
-    margin-bottom: 6px;
+
+    display:
+      block;
+
+    color:
+      #6b6b6b;
+
+    font-size:
+      .82rem;
+
+    line-height:
+      1.3;
+
+    margin-bottom:
+      6px;
+
   }
+
 
   .lotes-resumo-item strong {
-    display: block;
-    font-size: 1.15rem;
+
+    display:
+      block;
+
+    font-size:
+      1.18rem;
+
+    line-height:
+      1.25;
+
   }
+
+
+
+  /*
+    ==========================================================
+    PESQUISA E FILTRO
+    ==========================================================
+  */
 
   .lotes-controles {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 12px;
-    margin-bottom: 22px;
-    align-items: center;
+
+    display:
+      grid;
+
+    grid-template-columns:
+      1fr auto;
+
+    gap:
+      12px;
+
+    align-items:
+      center;
+
+    margin-bottom:
+      12px;
+
   }
+
 
   .lotes-pesquisa {
-    width: 100%;
-    min-height: 48px;
-    border: 1px solid #d8d8d8;
-    border-radius: 12px;
-    padding: 0 15px;
-    background: #fff;
-    color: #222;
-    font-size: 1rem;
-    outline: none;
+
+    width:
+      100%;
+
+    min-height:
+      50px;
+
+    border:
+      1px solid #d8d8d8;
+
+    border-radius:
+      12px;
+
+    padding:
+      0 16px;
+
+    background:
+      #fff;
+
+    color:
+      #222;
+
+    font-size:
+      1rem;
+
+    outline:
+      none;
+
+    transition:
+      border-color .18s ease,
+      box-shadow .18s ease;
+
   }
+
 
   .lotes-pesquisa:focus {
-    border-color: #888;
+
+    border-color:
+      #999;
+
+    box-shadow:
+      0 0 0 3px
+      rgba(0,0,0,.04);
+
   }
+
 
   .lotes-filtro {
-    min-height: 48px;
-    border: 1px solid #d8d8d8;
-    border-radius: 12px;
-    padding: 0 16px;
-    background: #fff;
-    color: #222;
-    cursor: pointer;
-    font-weight: 600;
+
+    min-height:
+      50px;
+
+    border:
+      1px solid #d8d8d8;
+
+    border-radius:
+      12px;
+
+    padding:
+      0 17px;
+
+    background:
+      #fff;
+
+    color:
+      #222;
+
+    cursor:
+      pointer;
+
+    font-weight:
+      700;
+
+    white-space:
+      nowrap;
+
+    transition:
+      background .18s ease,
+      color .18s ease,
+      border-color .18s ease;
+
   }
+
 
   .lotes-filtro.ativo {
-    background: #222;
-    color: #fff;
-    border-color: #222;
+
+    background:
+      #222;
+
+    color:
+      #fff;
+
+    border-color:
+      #222;
+
   }
+
+
+
+  /*
+    ==========================================================
+    STATUS
+    ==========================================================
+  */
 
   .lotes-status {
-    margin: -8px 0 18px;
-    color: #777;
-    font-size: .9rem;
+
+    min-height:
+      22px;
+
+    margin:
+      0 0 18px;
+
+    color:
+      #777;
+
+    font-size:
+      .9rem;
+
   }
+
+
+
+  /*
+    ==========================================================
+    CATÁLOGO
+    ==========================================================
+  */
 
   .lotes-catalogo {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+
+    display:
+      grid;
+
+    grid-template-columns:
+      repeat(3, 1fr);
+
+    gap:
+      20px;
+
   }
+
+
+
+  /*
+    ==========================================================
+    RESULTADO VAZIO
+    ==========================================================
+  */
 
   .lotes-vazio {
-    display: none;
-    background: #fff;
-    border: 1px solid #e7e7e7;
-    border-radius: 14px;
-    padding: 28px;
-    text-align: center;
-    color: #777;
+
+    display:
+      none;
+
+    background:
+      #fff;
+
+    border:
+      1px solid #e7e7e7;
+
+    border-radius:
+      14px;
+
+    padding:
+      32px 22px;
+
+    text-align:
+      center;
+
+    color:
+      #777;
+
+    margin-top:
+      10px;
+
   }
+
+
+
+  /*
+    ==========================================================
+    NOTA METODOLÓGICA
+    ==========================================================
+  */
 
   .lotes-nota {
-    margin-top: 26px;
-    padding: 16px 18px;
-    background: #fafafa;
-    border: 1px solid #e8e8e8;
-    border-radius: 12px;
-    color: #666;
-    font-size: .88rem;
-    line-height: 1.55;
+
+    margin-top:
+      28px;
+
+    padding:
+      17px 19px;
+
+    background:
+      #fafafa;
+
+    border:
+      1px solid #e8e8e8;
+
+    border-radius:
+      12px;
+
+    color:
+      #666;
+
+    font-size:
+      .88rem;
+
+    line-height:
+      1.6;
+
   }
 
-  @media (max-width: 900px) {
+
+  .lotes-nota strong {
+
+    color:
+      #444;
+
+  }
+
+
+
+  /*
+    ==========================================================
+    CARREGANDO
+    ==========================================================
+  */
+
+  .lotes-carregando {
+
+    grid-column:
+      1 / -1;
+
+    padding:
+      34px;
+
+    background:
+      #fff;
+
+    border:
+      1px solid #e7e7e7;
+
+    border-radius:
+      14px;
+
+    text-align:
+      center;
+
+    color:
+      #777;
+
+  }
+
+
+
+  /*
+    ==========================================================
+    TABLET
+    ==========================================================
+  */
+
+  @media
+  (max-width: 900px) {
+
     .lotes-resumo {
-      grid-template-columns: repeat(2, 1fr);
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
     }
+
 
     .lotes-catalogo {
-      grid-template-columns: repeat(2, 1fr);
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
     }
+
   }
 
-  @media (max-width: 620px) {
+
+
+  /*
+    ==========================================================
+    CELULAR
+    ==========================================================
+  */
+
+  @media
+  (max-width: 620px) {
+
     .lotes-wrap {
-      width: min(94%, 1180px);
-      padding-top: 18px;
+
+      width:
+        94%;
+
+      padding:
+        18px 0 50px;
+
     }
+
 
     .lotes-topo {
-      padding: 18px;
-      border-radius: 14px;
+
+      padding:
+        18px;
+
+      border-radius:
+        14px;
+
     }
+
+
+    .lotes-resumo {
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
+      gap:
+        9px;
+
+    }
+
+
+    .lotes-resumo-item {
+
+      padding:
+        12px;
+
+    }
+
+
+    .lotes-resumo-item strong {
+
+      font-size:
+        1rem;
+
+    }
+
 
     .lotes-controles {
-      grid-template-columns: 1fr;
+
+      grid-template-columns:
+        1fr;
+
     }
+
+
+    .lotes-filtro {
+
+      width:
+        100%;
+
+    }
+
 
     .lotes-catalogo {
-      grid-template-columns: 1fr;
+
+      grid-template-columns:
+        1fr;
+
     }
+
   }
+
+
+
+  /*
+    ==========================================================
+    CELULAR PEQUENO
+    ==========================================================
+  */
+
+  @media
+  (max-width: 390px) {
+
+    .lotes-resumo {
+
+      grid-template-columns:
+        1fr;
+
+    }
+
+  }
+
 </style>
 
-<section class="lotes-wrap" aria-labelledby="titulo-lote-lego">
 
-  <header class="lotes-topo">
-    <h1 id="titulo-lote-lego">Catálogo do lote LEGO</h1>
+
+<section
+  class="lotes-wrap"
+  aria-labelledby="titulo-lote-lego"
+>
+
+
+  <!--
+    ==========================================================
+    CABEÇALHO DO CATÁLOGO
+    ==========================================================
+  -->
+
+  <header
+    class="lotes-topo"
+  >
+
+    <h1
+      id="titulo-lote-lego"
+    >
+      Catálogo do Lote LEGO
+    </h1>
+
 
     <p>
-      Catálogo de conferência com códigos, quantidades, condição,
-      referências internacionais e valores estimados para o Brasil.
+      Consulte os itens por código, nome, tema ou set de origem.
+      Todas as unidades deste catálogo estão em condição nova.
     </p>
 
-    <div class="lotes-resumo" aria-label="Resumo do lote">
-      <div class="lotes-resumo-item">
-        <span>Quantidade total</span>
-        <strong id="lotes-total-quantidade">0</strong>
+
+
+    <!--
+      ========================================================
+      RESUMO AUTOMÁTICO
+      ========================================================
+
+      Os valores abaixo serão preenchidos pelo lotes.js.
+    -->
+
+    <div
+      class="lotes-resumo"
+      aria-label="Resumo do lote"
+    >
+
+
+      <div
+        class="lotes-resumo-item"
+      >
+
+        <span>
+          Quantidade total
+        </span>
+
+        <strong
+          id="lotes-total-quantidade"
+        >
+          0
+        </strong>
+
       </div>
 
-      <div class="lotes-resumo-item">
-        <span>Valor individual estimado</span>
-        <strong id="lotes-total-referencia">R$ 0,00</strong>
+
+
+      <div
+        class="lotes-resumo-item"
+      >
+
+        <span>
+          Valor individual estimado
+        </span>
+
+        <strong
+          id="lotes-total-referencia"
+        >
+          R$ 0,00
+        </strong>
+
       </div>
 
-      <div class="lotes-resumo-item">
-        <span>Valor total do lote</span>
-        <strong id="lotes-total-lote">R$ 0,00</strong>
+
+
+      <div
+        class="lotes-resumo-item"
+      >
+
+        <span>
+          Valor total do lote
+        </span>
+
+        <strong
+          id="lotes-total-lote"
+        >
+          R$ 0,00
+        </strong>
+
       </div>
 
-      <div class="lotes-resumo-item">
-        <span>Economia estimada</span>
-        <strong id="lotes-total-economia">R$ 0,00</strong>
+
+
+      <div
+        class="lotes-resumo-item"
+      >
+
+        <span>
+          Economia estimada
+        </span>
+
+        <strong
+          id="lotes-total-economia"
+        >
+          R$ 0,00
+        </strong>
+
       </div>
+
+
     </div>
+
   </header>
 
-  <div class="lotes-controles">
+
+
+  <!--
+    ==========================================================
+    PESQUISA
+    ==========================================================
+  -->
+
+  <div
+    class="lotes-controles"
+  >
+
+
     <input
       id="lotes-pesquisa"
       class="lotes-pesquisa"
       type="search"
-      placeholder="Pesquisar por código ou nome, ex.: sw0554"
+      placeholder="Pesquisar por código, nome, tema ou set..."
       autocomplete="off"
-      aria-label="Pesquisar itens do lote"
+      spellcheck="false"
+      aria-label="Pesquisar itens do lote LEGO"
     >
+
+
+
+    <!--
+      O texto deste botão será atualizado
+      automaticamente pelo lotes.js
+      conforme limiteLoteMedio do JSON.
+    -->
 
     <button
       id="lotes-filtro-75"
       class="lotes-filtro"
       type="button"
       aria-pressed="false"
-      title="Mostrar apenas itens com referência individual acima de R$ 75"
+      title="Mostrar somente itens acima do limite do lote médio"
     >
       Acima de R$ 75
     </button>
+
+
   </div>
 
-  <div id="lotes-status" class="lotes-status" aria-live="polite"></div>
+
+
+  <!--
+    ==========================================================
+    STATUS DA PESQUISA
+    ==========================================================
+  -->
+
+  <div
+    id="lotes-status"
+    class="lotes-status"
+    aria-live="polite"
+  >
+    Carregando catálogo...
+  </div>
+
+
+
+  <!--
+    ==========================================================
+    CARDS
+    ==========================================================
+
+    O lotes.js cria os cards aqui.
+  -->
 
   <section
     id="lotes-catalogo"
     class="lotes-catalogo"
     aria-label="Itens do lote LEGO"
-  ></section>
+  >
 
-  <div id="lotes-vazio" class="lotes-vazio">
+    <div
+      class="lotes-carregando"
+    >
+      Carregando itens do lote...
+    </div>
+
+  </section>
+
+
+
+  <!--
+    ==========================================================
+    NENHUM RESULTADO
+    ==========================================================
+  -->
+
+  <div
+    id="lotes-vazio"
+    class="lotes-vazio"
+  >
+
     Nenhum item encontrado para esta pesquisa.
+
   </div>
 
-  <div class="lotes-nota">
-    Os valores individuais são referências estimadas com base em preço internacional NEW,
-    conversão para reais e tributação aplicável, sem inclusão de frete internacional.
-    Os códigos exibidos permitem conferência independente dos itens.
+
+
+  <!--
+    ==========================================================
+    METODOLOGIA
+    ==========================================================
+  -->
+
+  <div
+    class="lotes-nota"
+  >
+
+    <strong>
+      Sobre os valores:
+    </strong>
+
+    as referências individuais apresentadas neste catálogo
+    consideram preço internacional em condição NEW,
+    conversão para reais e tributação estimada aplicável.
+
+    O frete internacional não está incluído,
+    pois varia conforme vendedor, origem, quantidade
+    e modalidade escolhida pelo comprador.
+
+    Os códigos apresentados permitem consulta
+    e conferência independente dos itens.
+
   </div>
+
 
 </section>
