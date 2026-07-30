@@ -1,0 +1,33 @@
+{
+  "catalogo": {
+    "titulo": "Catálogo do Lote LEGO",
+    "condicaoPadrao": "NOVO",
+    "valorUnitarioLote": 30.0,
+    "limiteLoteMedio": 75.0,
+    "moeda": "BRL",
+    "cotacaoDolar": 5.1,
+    "freteIncluido": false,
+    "observacaoMetodologia": "Referências individuais estimadas a partir de preço internacional NEW, conversão para reais e tributação aplicável. Frete internacional não incluído."
+  },
+
+  "itens": [
+    {
+      "id": "sh0262",
+      "codigo": "sh0262",
+      "nome": "Crossbones",
+      "tema": "Marvel Super Heroes",
+      "setOrigem": "76050",
+      "imagem": "assets/img/lotes/img001.jpg",
+      "quantidade": 14,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 9.43,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 92.71,
+      "valorLote": 30.0,
+      "observacao": "Minifigura nova."
+    }
+  ]
+}
