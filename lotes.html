@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Catálogo temporário: evita indexação -->
+  <meta name="robots" content="noindex, nofollow, noarchive">
+
+  <title>Lote LEGO | Percival Viking</title>
+
+  <!--
+    Se o seu shell atual já usa um CSS global específico,
+    pode incluir aqui o mesmo arquivo das outras páginas.
+    Exemplo:
+    <link rel="stylesheet" href="assets/css/style.css">
+  -->
+</head>
+
+<body>
+
+  <div id="cabecalho"></div>
+
+  <main id="conteudo-principal">
+    <div id="body-lotes"></div>
+  </main>
+
+  <div id="rodape"></div>
+
+  <script>
+    async function carregarPartial(id, arquivo) {
+      const destino = document.getElementById(id);
+
+      try {
+        const resposta = await fetch(arquivo);
+
+        if (!resposta.ok) {
+          throw new Error(`Erro ${resposta.status} ao carregar ${arquivo}`);
+        }
+
+        destino.innerHTML = await resposta.text();
+      } catch (erro) {
+        console.error(erro);
+
+        destino.innerHTML = `
+          <p style="
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 16px;
+            font-family: Arial, sans-serif;
+            color: #555;
+          ">
+            Não foi possível carregar esta parte da página.
+          </p>
+        `;
+      }
+    }
+
+    async function iniciarPagina() {
+      await Promise.all([
+        carregarPartial("cabecalho", "partials/cabecalho.html"),
+        carregarPartial("body-lotes", "partials/body-lotes.html"),
+        carregarPartial("rodape", "partials/rodape.html")
+      ]);
+
+      /*
+        O catálogo será controlado por:
+        assets/js/lotes.js
+
+        Ele será adicionado quando fizermos o body-lotes.html,
+        para garantir que os elementos da página já existam
+        antes de o catálogo ser montado.
+      */
+    }
+
+    iniciarPagina();
+  </script>
+
+</body>
+</html>
