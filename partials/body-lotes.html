@@ -1,0 +1,241 @@
+<!--
+  Percival Viking
+  partials/body-lotes.html
+
+  Este arquivo contém apenas o corpo do catálogo.
+  O preenchimento dos itens e dos totais será feito por:
+  assets/js/lotes.js
+-->
+
+<style>
+  .lotes-wrap {
+    width: min(1180px, 92%);
+    margin: 0 auto;
+    padding: 30px 0 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+  }
+
+  .lotes-topo {
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.05);
+    margin-bottom: 20px;
+  }
+
+  .lotes-topo h1 {
+    margin: 0 0 8px;
+    font-size: clamp(1.6rem, 4vw, 2.35rem);
+  }
+
+  .lotes-topo p {
+    margin: 0;
+    color: #666;
+    line-height: 1.55;
+  }
+
+  .lotes-resumo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .lotes-resumo-item {
+    background: #f6f6f6;
+    border-radius: 12px;
+    padding: 15px;
+  }
+
+  .lotes-resumo-item span {
+    display: block;
+    color: #6b6b6b;
+    font-size: .82rem;
+    margin-bottom: 6px;
+  }
+
+  .lotes-resumo-item strong {
+    display: block;
+    font-size: 1.15rem;
+  }
+
+  .lotes-controles {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    margin-bottom: 22px;
+    align-items: center;
+  }
+
+  .lotes-pesquisa {
+    width: 100%;
+    min-height: 48px;
+    border: 1px solid #d8d8d8;
+    border-radius: 12px;
+    padding: 0 15px;
+    background: #fff;
+    color: #222;
+    font-size: 1rem;
+    outline: none;
+  }
+
+  .lotes-pesquisa:focus {
+    border-color: #888;
+  }
+
+  .lotes-filtro {
+    min-height: 48px;
+    border: 1px solid #d8d8d8;
+    border-radius: 12px;
+    padding: 0 16px;
+    background: #fff;
+    color: #222;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .lotes-filtro.ativo {
+    background: #222;
+    color: #fff;
+    border-color: #222;
+  }
+
+  .lotes-status {
+    margin: -8px 0 18px;
+    color: #777;
+    font-size: .9rem;
+  }
+
+  .lotes-catalogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .lotes-vazio {
+    display: none;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 14px;
+    padding: 28px;
+    text-align: center;
+    color: #777;
+  }
+
+  .lotes-nota {
+    margin-top: 26px;
+    padding: 16px 18px;
+    background: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    color: #666;
+    font-size: .88rem;
+    line-height: 1.55;
+  }
+
+  @media (max-width: 900px) {
+    .lotes-resumo {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .lotes-catalogo {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 620px) {
+    .lotes-wrap {
+      width: min(94%, 1180px);
+      padding-top: 18px;
+    }
+
+    .lotes-topo {
+      padding: 18px;
+      border-radius: 14px;
+    }
+
+    .lotes-controles {
+      grid-template-columns: 1fr;
+    }
+
+    .lotes-catalogo {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<section class="lotes-wrap" aria-labelledby="titulo-lote-lego">
+
+  <header class="lotes-topo">
+    <h1 id="titulo-lote-lego">Catálogo do lote LEGO</h1>
+
+    <p>
+      Catálogo de conferência com códigos, quantidades, condição,
+      referências internacionais e valores estimados para o Brasil.
+    </p>
+
+    <div class="lotes-resumo" aria-label="Resumo do lote">
+      <div class="lotes-resumo-item">
+        <span>Quantidade total</span>
+        <strong id="lotes-total-quantidade">0</strong>
+      </div>
+
+      <div class="lotes-resumo-item">
+        <span>Valor individual estimado</span>
+        <strong id="lotes-total-referencia">R$ 0,00</strong>
+      </div>
+
+      <div class="lotes-resumo-item">
+        <span>Valor total do lote</span>
+        <strong id="lotes-total-lote">R$ 0,00</strong>
+      </div>
+
+      <div class="lotes-resumo-item">
+        <span>Economia estimada</span>
+        <strong id="lotes-total-economia">R$ 0,00</strong>
+      </div>
+    </div>
+  </header>
+
+  <div class="lotes-controles">
+    <input
+      id="lotes-pesquisa"
+      class="lotes-pesquisa"
+      type="search"
+      placeholder="Pesquisar por código ou nome, ex.: sw0554"
+      autocomplete="off"
+      aria-label="Pesquisar itens do lote"
+    >
+
+    <button
+      id="lotes-filtro-75"
+      class="lotes-filtro"
+      type="button"
+      aria-pressed="false"
+      title="Mostrar apenas itens com referência individual acima de R$ 75"
+    >
+      Acima de R$ 75
+    </button>
+  </div>
+
+  <div id="lotes-status" class="lotes-status" aria-live="polite"></div>
+
+  <section
+    id="lotes-catalogo"
+    class="lotes-catalogo"
+    aria-label="Itens do lote LEGO"
+  ></section>
+
+  <div id="lotes-vazio" class="lotes-vazio">
+    Nenhum item encontrado para esta pesquisa.
+  </div>
+
+  <div class="lotes-nota">
+    Os valores individuais são referências estimadas com base em preço internacional NEW,
+    conversão para reais e tributação aplicável, sem inclusão de frete internacional.
+    Os códigos exibidos permitem conferência independente dos itens.
+  </div>
+
+</section>
