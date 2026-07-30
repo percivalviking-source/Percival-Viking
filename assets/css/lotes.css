@@ -1,0 +1,889 @@
+/*
+  ==========================================================
+  PERCIVAL VIKING
+  assets/css/lotes.css
+
+  Estilos exclusivos do Catálogo LEGO.
+  Depende das variáveis já existentes em:
+  assets/css/style.css
+
+  IMPORTANTE:
+  Este arquivo evita alterar estilos globais do site.
+  ==========================================================
+*/
+
+
+/*
+  ==========================================================
+  ÁREA PRINCIPAL
+  ==========================================================
+*/
+
+.lotes-wrap {
+  width: min(var(--container), 94%);
+  margin: 0 auto;
+  padding: 28px 0 60px;
+}
+
+
+/*
+  ==========================================================
+  TOPO DO CATÁLOGO
+  ==========================================================
+*/
+
+.lotes-topo {
+  padding: 22px;
+  margin-bottom: 20px;
+
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.lotes-topo h1 {
+  margin: 0 0 8px;
+
+  font-size: clamp(1.55rem, 5vw, 2.3rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+.lotes-topo h1::before {
+  content: "";
+  display: inline-block;
+
+  width: 6px;
+  height: 28px;
+
+  margin-right: 12px;
+
+  border-radius: 999px;
+  background: var(--primary);
+
+  vertical-align: -5px;
+}
+
+.lotes-topo p {
+  max-width: 760px;
+
+  margin: 0;
+
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+
+/*
+  ==========================================================
+  RESUMO
+  ==========================================================
+*/
+
+.lotes-resumo {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.lotes-resumo-item {
+  min-width: 0;
+  padding: 15px;
+
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+
+.lotes-resumo-item span {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+.lotes-resumo-item strong {
+  display: block;
+
+  color: var(--text);
+  font-size: 1.12rem;
+  line-height: 1.25;
+
+  overflow-wrap: anywhere;
+}
+
+
+/*
+  ==========================================================
+  PESQUISA E FILTRO
+  ==========================================================
+*/
+
+.lotes-controles {
+  display: grid;
+  grid-template-columns: 1fr auto;
+
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.lotes-pesquisa {
+  width: 100%;
+  min-height: 52px;
+
+  padding: 0 16px;
+
+  color: var(--text);
+  background: var(--surface);
+
+  border: 1px solid var(--line);
+  border-radius: 16px;
+
+  font: inherit;
+  font-size: 1rem;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.lotes-pesquisa::placeholder {
+  color: #94a3b8;
+}
+
+.lotes-pesquisa:focus {
+  background: #fff;
+
+  border-color: rgba(11, 127, 134, 0.45);
+
+  box-shadow:
+    0 0 0 4px
+    rgba(11, 127, 134, 0.1);
+}
+
+.lotes-filtro {
+  min-height: 52px;
+
+  padding: 0 18px;
+
+  color: var(--primary-dark);
+  background: var(--surface);
+
+  border: 1px solid var(--line);
+  border-radius: 16px;
+
+  font: inherit;
+  font-weight: 850;
+
+  cursor: pointer;
+  white-space: nowrap;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.lotes-filtro:hover,
+.lotes-filtro:focus {
+  border-color: rgba(11, 127, 134, 0.3);
+  background: rgba(11, 127, 134, 0.07);
+}
+
+.lotes-filtro:active {
+  transform: scale(0.98);
+}
+
+.lotes-filtro.ativo {
+  color: #fff;
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+
+/*
+  ==========================================================
+  STATUS
+  ==========================================================
+*/
+
+.lotes-status {
+  min-height: 22px;
+
+  margin: 0 2px 18px;
+
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+
+/*
+  ==========================================================
+  CATÁLOGO
+  ==========================================================
+*/
+
+.lotes-catalogo {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 18px;
+}
+
+
+/*
+  ==========================================================
+  CARD
+  ==========================================================
+*/
+
+.lote-card {
+  min-width: 0;
+
+  overflow: hidden;
+
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+
+  box-shadow: var(--shadow);
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.lote-card:hover {
+  transform: translateY(-3px);
+
+  border-color:
+    rgba(11, 127, 134, 0.2);
+
+  box-shadow:
+    0 14px 34px
+    rgba(15, 23, 42, 0.11);
+}
+
+.lote-card:focus-visible {
+  outline:
+    3px solid
+    rgba(11, 127, 134, 0.32);
+
+  outline-offset: 3px;
+}
+
+
+/*
+  ==========================================================
+  IMAGEM DO CARD
+  ==========================================================
+*/
+
+.lote-card-imagem-wrap {
+  position: relative;
+
+  overflow: hidden;
+
+  background: #eef2f7;
+}
+
+.lote-card-imagem-wrap img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.3s ease;
+}
+
+.lote-card:hover
+.lote-card-imagem-wrap img {
+  transform: scale(1.015);
+}
+
+.lote-badge {
+  position: absolute;
+
+  top: 12px;
+  left: 12px;
+
+  display: inline-flex;
+  align-items: center;
+
+  min-height: 30px;
+
+  padding: 5px 10px;
+
+  color: var(--primary-dark);
+
+  background:
+    rgba(255, 255, 255, 0.94);
+
+  border:
+    1px solid
+    rgba(11, 127, 134, 0.15);
+
+  border-radius: 999px;
+
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+
+  backdrop-filter: blur(8px);
+}
+
+
+/*
+  ==========================================================
+  CONTEÚDO DO CARD
+  ==========================================================
+*/
+
+.lote-card-conteudo {
+  padding: 17px;
+}
+
+.lote-card-codigo {
+  margin-bottom: 6px;
+
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.lote-card-codigo strong {
+  color: var(--primary-dark);
+}
+
+.lote-card h2 {
+  margin: 0 0 14px;
+
+  color: var(--text);
+
+  font-size: 1.08rem;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+}
+
+
+/*
+  ==========================================================
+  LINHAS DE INFORMAÇÃO
+  ==========================================================
+*/
+
+.lote-card-linha {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 14px;
+
+  padding: 9px 0;
+
+  border-top: 1px solid var(--line);
+
+  font-size: 0.88rem;
+}
+
+.lote-card-linha span:first-child {
+  color: var(--muted);
+}
+
+.lote-card-linha span:last-child,
+.lote-card-linha strong {
+  max-width: 58%;
+
+  color: var(--text);
+  text-align: right;
+
+  overflow-wrap: anywhere;
+}
+
+
+/*
+  ==========================================================
+  PREÇO DO LOTE
+  ==========================================================
+*/
+
+.lote-card-preco {
+  margin-top: 13px;
+  padding: 13px;
+
+  background:
+    rgba(11, 127, 134, 0.08);
+
+  border:
+    1px solid
+    rgba(11, 127, 134, 0.12);
+
+  border-radius: 14px;
+}
+
+.lote-card-preco small {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: var(--muted);
+}
+
+.lote-card-preco > strong {
+  color: var(--primary-dark);
+  font-size: 1.32rem;
+}
+
+.lote-card-economia {
+  margin-top: 8px;
+
+  color: #475569;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.lote-card-economia strong {
+  color: var(--primary-dark);
+}
+
+
+/*
+  ==========================================================
+  ALERTA ACIMA DO LIMITE
+  ==========================================================
+*/
+
+.lote-card-alerta {
+  display: inline-flex;
+
+  margin-top: 11px;
+  padding: 6px 9px;
+
+  color: #92400e;
+  background: #fff7ed;
+
+  border: 1px solid #fed7aa;
+  border-radius: 999px;
+
+  font-size: 0.72rem;
+  font-weight: 850;
+}
+
+
+/*
+  ==========================================================
+  OBSERVAÇÃO
+  ==========================================================
+*/
+
+.lote-card-observacao {
+  margin: 12px 0 0;
+
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+
+/*
+  ==========================================================
+  CARREGAMENTO E RESULTADO VAZIO
+  ==========================================================
+*/
+
+.lotes-carregando,
+.lotes-vazio {
+  grid-column: 1 / -1;
+
+  padding: 28px;
+
+  color: var(--muted);
+  background: var(--surface);
+
+  border: 1px dashed var(--line);
+  border-radius: 18px;
+
+  text-align: center;
+}
+
+.lotes-vazio {
+  display: none;
+
+  margin-top: 12px;
+}
+
+
+/*
+  ==========================================================
+  NOTA METODOLÓGICA
+  ==========================================================
+*/
+
+.lotes-nota {
+  margin-top: 28px;
+  padding: 18px;
+
+  color: var(--muted);
+  background: var(--surface);
+
+  border: 1px solid var(--line);
+  border-radius: 18px;
+
+  font-size: 0.87rem;
+  line-height: 1.6;
+}
+
+.lotes-nota strong {
+  color: var(--text);
+}
+
+
+/*
+  ==========================================================
+  MODAL
+  ==========================================================
+*/
+
+.lotes-modal {
+  position: fixed;
+  inset: 0;
+
+  z-index: 150;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  padding: 18px;
+
+  background:
+    rgba(15, 23, 42, 0.72);
+
+  backdrop-filter: blur(5px);
+}
+
+.lotes-modal.aberto {
+  display: flex;
+}
+
+body.lotes-modal-travado {
+  overflow: hidden;
+}
+
+
+/*
+  ==========================================================
+  CAIXA DO MODAL
+  ==========================================================
+*/
+
+.lotes-modal-caixa {
+  position: relative;
+
+  width: min(760px, 100%);
+  max-height: 92dvh;
+
+  overflow-y: auto;
+
+  background: var(--surface);
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.35);
+
+  border-radius: 24px;
+
+  box-shadow:
+    0 28px 80px
+    rgba(15, 23, 42, 0.38);
+}
+
+
+/*
+  ==========================================================
+  BOTÃO FECHAR
+  ==========================================================
+*/
+
+.lotes-modal-fechar {
+  position: absolute;
+
+  top: 12px;
+  right: 12px;
+
+  z-index: 2;
+
+  width: 44px;
+  height: 44px;
+
+  display: grid;
+  place-items: center;
+
+  padding: 0;
+
+  color: var(--text);
+
+  background:
+    rgba(255, 255, 255, 0.94);
+
+  border: 1px solid var(--line);
+  border-radius: 999px;
+
+  font-size: 1.75rem;
+  line-height: 1;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 4px 16px
+    rgba(15, 23, 42, 0.12);
+}
+
+
+/*
+  ==========================================================
+  IMAGEM DO MODAL
+  ==========================================================
+*/
+
+.lotes-modal-imagem {
+  width: 100%;
+  max-height: 480px;
+
+  object-fit: contain;
+
+  background: #eef2f7;
+}
+
+
+/*
+  ==========================================================
+  CONTEÚDO DO MODAL
+  ==========================================================
+*/
+
+.lotes-modal-conteudo {
+  padding: 22px;
+}
+
+.lotes-modal-codigo {
+  margin-bottom: 5px;
+
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.lotes-modal-codigo strong {
+  color: var(--primary-dark);
+}
+
+.lotes-modal-conteudo h2 {
+  margin: 0 0 18px;
+
+  color: var(--text);
+
+  font-size: clamp(1.3rem, 5vw, 1.75rem);
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+}
+
+
+/*
+  ==========================================================
+  GRID DO MODAL
+  ==========================================================
+*/
+
+.lotes-modal-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 10px;
+}
+
+.lotes-modal-item {
+  min-width: 0;
+
+  padding: 12px;
+
+  background: #f8fafc;
+
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.lotes-modal-item small {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: var(--muted);
+}
+
+.lotes-modal-item strong {
+  display: block;
+
+  color: var(--text);
+
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+
+/*
+  ==========================================================
+  PREÇO NO MODAL
+  ==========================================================
+*/
+
+.lotes-modal-preco {
+  margin-top: 16px;
+  padding: 16px;
+
+  background:
+    rgba(11, 127, 134, 0.08);
+
+  border:
+    1px solid
+    rgba(11, 127, 134, 0.14);
+
+  border-radius: 16px;
+}
+
+.lotes-modal-preco small {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: var(--muted);
+}
+
+.lotes-modal-preco > strong {
+  color: var(--primary-dark);
+  font-size: 1.55rem;
+}
+
+.lotes-modal-nota {
+  margin: 16px 0 0;
+
+  color: var(--muted);
+
+  font-size: 0.87rem;
+  line-height: 1.55;
+}
+
+
+/*
+  ==========================================================
+  TABLET
+  ==========================================================
+*/
+
+@media (max-width: 900px) {
+
+  .lotes-resumo {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .lotes-catalogo {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/*
+  ==========================================================
+  CELULAR
+  ==========================================================
+*/
+
+@media (max-width: 620px) {
+
+  .lotes-wrap {
+    width: 94%;
+    padding-top: 18px;
+  }
+
+  .lotes-topo {
+    padding: 18px;
+    border-radius: 18px;
+  }
+
+  .lotes-resumo {
+    gap: 9px;
+  }
+
+  .lotes-resumo-item {
+    padding: 12px;
+  }
+
+  .lotes-resumo-item strong {
+    font-size: 1rem;
+  }
+
+  .lotes-controles {
+    grid-template-columns: 1fr;
+  }
+
+  .lotes-filtro {
+    width: 100%;
+  }
+
+  .lotes-catalogo {
+    grid-template-columns: 1fr;
+  }
+
+  .lotes-modal {
+    padding: 8px;
+  }
+
+  .lotes-modal-caixa {
+    max-height: 96dvh;
+    border-radius: 18px;
+  }
+
+  .lotes-modal-conteudo {
+    padding: 17px;
+  }
+
+  .lotes-modal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lotes-modal-imagem {
+    max-height: 55dvh;
+  }
+
+}
+
+
+/*
+  ==========================================================
+  CELULAR PEQUENO
+  ==========================================================
+*/
+
+@media (max-width: 390px) {
+
+  .lotes-resumo {
+    grid-template-columns: 1fr;
+  }
+
+  }
