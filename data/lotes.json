@@ -2,15 +2,16 @@
   "catalogo": {
     "titulo": "Catálogo do Lote LEGO",
     "condicaoPadrao": "NOVO",
-    "valorUnitarioLote": 30.0,
-    "limiteLoteMedio": 75.0,
+    "valorUnitarioLote": 35.0,
+    "limiteLoteMedio": 99.0,
     "moeda": "BRL",
     "cotacaoDolar": 5.1,
     "freteIncluido": false,
-    "observacaoMetodologia": "Referências individuais estimadas a partir de preço internacional NEW, conversão para reais e tributação aplicável. Frete internacional não incluído."
+    "observacaoMetodologia": "Referências individuais estimadas a partir de preço internacional em condição NEW, conversão para reais e tributação estimada aplicável. Frete internacional não incluído."
   },
 
   "itens": [
+
     {
       "id": "sh0262",
       "codigo": "sh0262",
@@ -20,14 +21,110 @@
       "imagem": "assets/img/lotes/img001.jpg",
       "quantidade": 14,
       "condicao": "NOVO",
+
       "referenciaInternacional": {
         "valor": 9.43,
         "moeda": "USD",
         "tipo": "NEW"
       },
+
       "valorBrasil": 92.71,
-      "valorLote": 30.0,
-      "observacao": "Minifigura nova."
+      "valorLote": 35.0,
+
+      "observacao": "Minifigura nova, proveniente de set lacrado aberto recentemente."
+    },
+
+
+    {
+      "id": "60108-cty0652",
+      "codigo": "60108-1 + cty0652",
+      "nome": "Moto Fire Response completa + bombeiro",
+      "tema": "LEGO City",
+      "setOrigem": "60108",
+      "imagem": "assets/img/lotes/img002.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": null,
+        "moeda": "USD",
+        "tipo": "REFERÊNCIA COMPOSTA"
+      },
+
+      "valorBrasil": 60.0,
+      "valorLote": 35.0,
+
+      "observacao": "Motocicleta completa do set 60108-1 acompanhada da minifigura cty0652."
+    },
+
+
+    {
+      "id": "colmar12",
+      "codigo": "colmar-12 / colmar12",
+      "nome": "Gamora with the Blade of Thanos + base e acessórios",
+      "tema": "Marvel Studios Collectible Minifigures",
+      "setOrigem": "71031-12",
+      "imagem": "assets/img/lotes/img003.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 6.39,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+
+      "valorBrasil": 62.82,
+      "valorLote": 35.0,
+
+      "observacao": "Conjunto completo com suporte e acessórios originais."
+    },
+
+
+    {
+      "id": "sw1193",
+      "codigo": "sw1193",
+      "nome": "Bib Fortuna",
+      "tema": "Star Wars",
+      "setOrigem": "75326",
+      "imagem": "assets/img/lotes/img004.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 7.97,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+
+      "valorBrasil": 78.36,
+      "valorLote": 35.0,
+
+      "observacao": "Bib Fortuna sw1193 em condição nova, acompanhado do acessório."
+    },
+
+
+    {
+      "id": "colmar2-3",
+      "codigo": "colmar2-3 / colmar15",
+      "nome": "Mr. Knight completo",
+      "tema": "Marvel Studios Series 2",
+      "setOrigem": "71039",
+      "imagem": "assets/img/lotes/img005.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 9.99,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+
+      "valorBrasil": 98.21,
+      "valorLote": 35.0,
+
+      "observacao": "Conjunto completo com base e acessórios originais."
     }
+
   ]
 }
