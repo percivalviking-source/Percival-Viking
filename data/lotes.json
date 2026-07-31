@@ -148,6 +148,29 @@
       "valorLote": 35.0,
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. As unidades pertencem ao mesmo código e podem acompanhar instrumentos diferentes."
+    },
+
+
+    {
+      "id": "sw1259",
+      "codigo": "sw1259",
+      "nome": "Mandalorian Fleet Commander completo",
+      "tema": "Star Wars",
+      "setOrigem": "75348-1",
+      "imagem": "assets/img/lotes/img007.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 7.65,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+
+      "valorBrasil": 75.21,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. Cada unidade acompanha cabelo original, capacete azul, rangefinder, jetpack e blaster, conforme fotografado."
     }
 
   ]
