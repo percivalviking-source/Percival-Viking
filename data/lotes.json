@@ -194,6 +194,29 @@
       "valorLote": 35.0,
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha dois lightsabers azuis conforme fotografado."
+    },
+
+
+    {
+      "id": "cty0989",
+      "codigo": "cty0989",
+      "nome": "Gold Firefighter Statue completa",
+      "tema": "LEGO City - Sky Police",
+      "setOrigem": "60207",
+      "imagem": "assets/img/lotes/img009.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 7.0,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+
+      "valorBrasil": 68.82,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete dourado e extintor dourado conforme fotografado."
     }
 
   ]
