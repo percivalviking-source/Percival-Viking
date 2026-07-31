@@ -171,6 +171,29 @@
       "valorLote": 35.0,
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. Cada unidade acompanha cabelo original, capacete azul, rangefinder, jetpack e blaster, conforme fotografado."
+    },
+
+
+    {
+      "id": "sw1096",
+      "codigo": "sw1096",
+      "nome": "Ahsoka Tano (Adult) - Dark Blue Jumpsuit + 2 lightsabers",
+      "tema": "Star Wars - The Clone Wars",
+      "setOrigem": "75283 / 75310",
+      "imagem": "assets/img/lotes/img008.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 9.21,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+
+      "valorBrasil": 90.55,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha dois lightsabers azuis conforme fotografado."
     }
 
   ]
