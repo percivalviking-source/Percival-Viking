@@ -297,6 +297,28 @@
       "valorLote": 35.0,
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete Mark 43, cabeça de Tony Stark, dois Power Blasts trans-light blue e efeitos transparentes nos pés conforme fotografado."
+    },
+
+    {
+      "id": "col15-2",
+      "codigo": "col15-2",
+      "nome": "Astronaut completo com bandeira",
+      "tema": "Collectible Minifigures Series 15",
+      "setOrigem": "71011-2",
+      "imagem": "assets/img/lotes/img014.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 6.75,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+
+      "valorBrasil": 66.35,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha base preta original, capacete dourado e bandeira espacial conforme fotografado. Não acompanha o folheto/checklist da série Collectible Minifigures."
     }
 
   ]
