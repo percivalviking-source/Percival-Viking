@@ -275,6 +275,28 @@
       "valorLote": 35.0,
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete cinza com goggles e blaster preto conforme fotografado."
+    },
+
+    {
+      "id": "sh0974",
+      "codigo": "sh0974",
+      "nome": "Iron Man Mark 43 completo com efeitos de energia",
+      "tema": "Marvel Super Heroes - The Infinity Saga",
+      "setOrigem": "76288",
+      "imagem": "assets/img/lotes/img013.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 6.0,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIOS"
+      },
+
+      "valorBrasil": 58.99,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete Mark 43, cabeça de Tony Stark, dois Power Blasts trans-light blue e efeitos transparentes nos pés conforme fotografado."
     }
 
   ]
