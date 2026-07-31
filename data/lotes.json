@@ -35,7 +35,6 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
 
-
     {
       "id": "60108-cty0652",
       "codigo": "60108-1 + cty0652",
@@ -57,7 +56,6 @@
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
-
 
     {
       "id": "colmar12",
@@ -81,7 +79,6 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
 
-
     {
       "id": "sw1193",
       "codigo": "sw1193",
@@ -103,7 +100,6 @@
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
-
 
     {
       "id": "colmar2-3",
@@ -127,7 +123,6 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
 
-
     {
       "id": "sw0554",
       "codigo": "sw0554",
@@ -149,7 +144,6 @@
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. As unidades pertencem ao mesmo código e podem acompanhar instrumentos diferentes."
     },
-
 
     {
       "id": "sw1259",
@@ -173,7 +167,6 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. Cada unidade acompanha cabelo original, capacete azul, rangefinder, jetpack e blaster, conforme fotografado."
     },
 
-
     {
       "id": "sw1096",
       "codigo": "sw1096",
@@ -196,7 +189,6 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha dois lightsabers azuis conforme fotografado."
     },
 
-
     {
       "id": "cty0989",
       "codigo": "cty0989",
@@ -217,6 +209,50 @@
       "valorLote": 35.0,
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete dourado e extintor dourado conforme fotografado."
+    },
+
+    {
+      "id": "sh0644",
+      "codigo": "sh0644",
+      "nome": "Loki completo com Tesseract",
+      "tema": "Marvel Super Heroes - Avengers",
+      "setOrigem": "76152-1",
+      "imagem": "assets/img/lotes/img010.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 7.6,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+
+      "valorBrasil": 74.0,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete dourado com chifres, capa verde e cubo Tesseract conforme fotografado. Cabelo não integra o inventário oficial desta versão."
+    },
+
+    {
+      "id": "colhp13",
+      "codigo": "colhp13",
+      "nome": "Professor Filius Flitwick completo",
+      "tema": "Harry Potter Collectible Minifigures",
+      "setOrigem": "71022-13",
+      "imagem": "assets/img/lotes/img011.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 6.19,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+
+      "valorBrasil": 60.86,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha base preta original, megafone prateado, varinhas marrons e peças originais conforme fotografado. Não acompanha o folheto/checklist da série Collectible Minifigures."
     }
 
   ]
