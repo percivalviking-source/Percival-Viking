@@ -253,6 +253,28 @@
       "valorLote": 35.0,
 
       "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha base preta original, megafone prateado, varinhas marrons e peças originais conforme fotografado. Não acompanha o folheto/checklist da série Collectible Minifigures."
+    },
+
+    {
+      "id": "sw1183",
+      "codigo": "sw1183",
+      "nome": "Imperial AT-ST Driver - Hoth completo",
+      "tema": "Star Wars",
+      "setOrigem": "75322-1",
+      "imagem": "assets/img/lotes/img012.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 8.92,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+
+      "valorBrasil": 87.70,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete cinza com goggles e blaster preto conforme fotografado."
     }
 
   ]
