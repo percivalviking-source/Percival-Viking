@@ -7,7 +7,8 @@
     "moeda": "BRL",
     "cotacaoDolar": 5.1,
     "freteIncluido": false,
-    "observacaoMetodologia": "Referências individuais estimadas a partir de preço internacional em condição NEW, conversão para reais e tributação estimada aplicável. Frete internacional não incluído."
+    "observacaoMetodologia": "Referências individuais estimadas a partir de preço internacional em condição NEW, conversão para reais e tributação estimada aplicável. Frete internacional não incluído.",
+    "observacaoCondicao": "Todos os itens deste catálogo são novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar."
   },
 
   "itens": [
@@ -31,7 +32,7 @@
       "valorBrasil": 92.71,
       "valorLote": 35.0,
 
-      "observacao": "Minifigura nova, proveniente de set lacrado aberto recentemente."
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
 
 
@@ -54,7 +55,7 @@
       "valorBrasil": 60.0,
       "valorLote": 35.0,
 
-      "observacao": "Motocicleta completa do set 60108-1 acompanhada da minifigura cty0652."
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
 
 
@@ -77,7 +78,7 @@
       "valorBrasil": 62.82,
       "valorLote": 35.0,
 
-      "observacao": "Conjunto completo com suporte e acessórios originais."
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
 
 
@@ -100,7 +101,7 @@
       "valorBrasil": 78.36,
       "valorLote": 35.0,
 
-      "observacao": "Bib Fortuna sw1193 em condição nova, acompanhado do acessório."
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
 
 
@@ -123,7 +124,7 @@
       "valorBrasil": 98.21,
       "valorLote": 35.0,
 
-      "observacao": "Conjunto completo com base e acessórios originais."
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
 
   ]
