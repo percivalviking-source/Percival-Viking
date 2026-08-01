@@ -370,6 +370,24 @@
       "valorBrasil": 56.53,
       "valorLote": 35.0,
       "observacao": "Itens novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar. As duas unidades correspondem à versão do C-3PO com braços, pernas e dedos dos pés estampados, proveniente do diorama 75339-1 Death Star Trash Compactor."
+    },
+    {
+      "id": "5162pb01",
+      "codigo": "5162pb01",
+      "nome": "Norberto / Norbert — bebê dragão Norwegian Ridgeback",
+      "tema": "Harry Potter - Philosopher's Stone",
+      "setOrigem": "76428-1",
+      "imagem": "assets/img/lotes/img021.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 5.25,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 51.62,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade corresponde ao bebê dragão Norberto, na versão verde-oliva com olhos laranja-claro, sobrancelhas e narinas estampadas, proveniente do set 76428-1 Hagrid's Hut: An Unexpected Visit."
     }
   ]
 }
