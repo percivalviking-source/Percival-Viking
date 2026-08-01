@@ -12,7 +12,6 @@
   },
 
   "itens": [
-
     {
       "id": "sh0262",
       "codigo": "sh0262",
@@ -341,7 +340,28 @@
       "valorLote": 35.0,
 
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha cabelo longo dark tan, cabeça com dupla expressão, torso sem camisa, pernas estampadas e garrafa transparente conforme fotografado. Item de fronteira do lote médio, com referência estimada próxima ao limite de R$ 99,00."
-    }
+    },
 
+    {
+      "id": "sh0616",
+      "codigo": "sh0616",
+      "nome": "Dr. Octopus completo com braços mecânicos",
+      "tema": "Marvel Super Heroes - Spider-Man",
+      "setOrigem": "76148-1",
+      "imagem": "assets/img/lotes/img016.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 10.0,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIOS"
+      },
+
+      "valorBrasil": 98.31,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha cabelo castanho, rosto com goggles, suporte traseiro, quatro braços mecânicos longos e quatro garras articuladas conforme fotografado. Item de fronteira do lote médio, com referência estimada próxima ao limite de R$ 99,00."
+    }
   ]
 }
