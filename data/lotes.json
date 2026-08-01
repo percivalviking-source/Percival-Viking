@@ -372,3 +372,40 @@
       "setOrigem": "75290-1",
       "imagem": "assets/img/lotes/img017.jpg",
       "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 10.0,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIO"
+      },
+
+      "valorBrasil": 98.31,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capuz marrom-escuro, capa marrom de tecido, traje Jedi tan e lightsaber azul completo conforme fotografado. Item de fronteira do lote médio, com referência estimada próxima ao limite de R$ 99,00."
+    },
+
+    {
+      "id": "col15-10",
+      "codigo": "col15-10 / col237",
+      "nome": "Ballerina completa com base",
+      "tema": "Collectible Minifigures Series 15",
+      "setOrigem": "71011-10",
+      "imagem": "assets/img/lotes/img018.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 5.5,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+
+      "valorBrasil": 54.08,
+      "valorLote": 35.0,
+
+      "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha cabelo em coque com flores brancas, traje branco de bailarina, tutu, pernas com sapatilhas estampadas e base preta original conforme fotografado. Não acompanha o folheto/checklist da série Collectible Minifigures."
+    }
+  ]
+}
