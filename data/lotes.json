@@ -406,6 +406,28 @@
       "valorLote": 35.0,
 
       "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha cabelo em coque com flores brancas, traje branco de bailarina, tutu, pernas com sapatilhas estampadas e base preta original conforme fotografado. Não acompanha o folheto/checklist da série Collectible Minifigures."
+    },
+
+    {
+      "id": "sw0912",
+      "codigo": "sw0912",
+      "nome": "Imperial Emigration Officer completa com blaster",
+      "tema": "Star Wars - Solo",
+      "setOrigem": "75207-1",
+      "imagem": "assets/img/lotes/img019.jpg",
+      "quantidade": 4,
+      "condicao": "NOVO",
+
+      "referenciaInternacional": {
+        "valor": 7.92,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIO"
+      },
+
+      "valorBrasil": 77.86,
+      "valorLote": 35.0,
+
+      "observacao": "Itens novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar. As quatro unidades acompanham uniforme imperial preto, capacete imperial e blaster preto com mira conforme fotografado. O blaster é apresentado como acessório adicional e não foi utilizado para elevar a referência internacional da minifigura."
     }
   ]
 }
