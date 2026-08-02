@@ -594,7 +594,7 @@
   "tema": "Marvel Super Heroes",
   "setOrigem": "71031",
   "imagem": "assets/img/lotes/img035.jpg",
-  "quantidade": 3,
+  "quantidade": 1,
   "condicao": "NOVO",
   "referenciaInternacional": {
     "valor": 6.80,
@@ -620,6 +620,24 @@
     "tipo": "NEW"
   },
   "valorBrasil": 78.34,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
+    },
+    {
+  "id": "colmar-11",
+  "codigo": "colmar-11",
+  "nome": "T'Challa Star-Lord (completo)",
+  "tema": "Marvel Super Heroes",
+  "setOrigem": "71031",
+  "imagem": "assets/img/lotes/img039.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 58.75,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
     }
