@@ -389,5 +389,23 @@
       "valorLote": 35.0,
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
+    {
+  "id": "sh0172",
+  "codigo": "sh0172",
+  "nome": "Hawkeye - Black and Dark Red Suit, Reddish Brown Spiked Hair",
+  "tema": "Marvel Super Heroes - Avengers Age of Ultron",
+  "setOrigem": "76030 / 76042",
+  "imagem": "assets/img/lotes/img022.jpg",
+  "quantidade": 3,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 10.50,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 102.80,
+  "valorLote": 35.0,
+  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. Acompanha blaster/arco preto conforme fotografado."
+    }
   ]
 }
