@@ -514,6 +514,24 @@
   "valorBrasil": 48.96,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com blasters e acessórios. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
+    },
+    {
+  "id": "sh0170",
+  "codigo": "sh0170",
+  "nome": "Thor - Spongy Cape (Age of Ultron)",
+  "tema": "Marvel Super Heroes",
+  "setOrigem": "76030 / 76042",
+  "imagem": "assets/img/lotes/img030.jpg",
+  "quantidade": 3,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 10.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 97.92,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com martelo e capa. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
     }
   ]
 }
