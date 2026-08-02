@@ -496,6 +496,24 @@
   "valorBrasil": 48.96,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com teias. Armazenado em saco ziplock protegido da luz solar."
+    },
+    {
+  "id": "sw1248",
+  "codigo": "sw1248",
+  "nome": "Clone Trooper Specialist, 501st Legion (Phase 2)",
+  "tema": "Star Wars",
+  "setOrigem": "75345",
+  "imagem": "assets/img/lotes/img028.jpg",
+  "quantidade": 3,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 48.96,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com blasters e acessórios. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
     }
   ]
 }
