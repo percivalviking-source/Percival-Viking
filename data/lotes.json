@@ -532,6 +532,24 @@
   "valorBrasil": 97.92,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com martelo e capa. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
+    },
+    {
+  "id": "sw1261",
+  "codigo": "sw1261",
+  "nome": "R2-E6 (Astromech Droid)",
+  "tema": "Star Wars",
+  "setOrigem": "75348",
+  "imagem": "assets/img/lotes/img032.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 10.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 97.92,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar."
     }
   ]
 }
