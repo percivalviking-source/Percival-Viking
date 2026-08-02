@@ -550,6 +550,24 @@
   "valorBrasil": 97.92,
   "valorLote": 35.0,
   "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar."
-    }
+    },
+  {
+  "id": "colmar-6",
+  "codigo": "colmar-6",
+  "nome": "Loki TVA Variant + Throg (completo)",
+  "tema": "Marvel Super Heroes",
+  "setOrigem": "71031",
+  "imagem": "assets/img/lotes/img029.jpg",
+  "quantidade": 4,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 10.50,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 102.82,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com caneca TVA, Throg, base e manual. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
+  }  
   ]
 }
