@@ -406,6 +406,24 @@
   "valorBrasil": 102.80,
   "valorLote": 35.0,
   "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. Acompanha blaster/arco preto conforme fotografado."
+    },
+    {
+  "id": "col20-7",
+  "codigo": "col20-7",
+  "nome": "Llama Costume Girl (completa com cenoura, base e manual)",
+  "tema": "Collectible Minifigures Series 20",
+  "setOrigem": "71027",
+  "imagem": "assets/img/lotes/img023.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE"
+  },
+  "valorBrasil": 78.34,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo, com cenoura, base preta e manual/checklist da série. Armazenado em saco ziplock protegido da luz solar."
     }
   ]
 }
