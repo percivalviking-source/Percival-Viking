@@ -424,6 +424,42 @@
   "valorBrasil": 78.34,
   "valorLote": 35.0,
   "observacao": "Item novo e completo, com cenoura, base preta e manual/checklist da série. Armazenado em saco ziplock protegido da luz solar."
+    },
+    {
+  "id": "hp198",
+  "codigo": "hp198",
+  "nome": "Death Eater - Wizard Hat (com varinha)",
+  "tema": "Harry Potter",
+  "setOrigem": "75965",
+  "imagem": "assets/img/lotes/img024.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 10.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 97.92,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo, com varinha lacrada. Armazenado em saco ziplock protegido da luz solar."
+    },
+    {
+  "id": "sw1211",
+  "codigo": "sw1211",
+  "nome": "BD-72",
+  "tema": "Star Wars",
+  "setOrigem": "75325",
+  "imagem": "assets/img/lotes/img025.jpg",
+  "quantidade": 3,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.50,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 73.44,
+  "valorLote": 35.0,
+  "observacao": "Item novo. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
     }
   ]
 }
