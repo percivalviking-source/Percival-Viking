@@ -568,6 +568,24 @@
   "valorBrasil": 102.82,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com caneca TVA, Throg, base e manual. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
-  }  
+  },
+    {
+  "id": "colmar-2",
+  "codigo": "colmar-2",
+  "nome": "The Vision (completo)",
+  "tema": "Marvel Super Heroes",
+  "setOrigem": "71031",
+  "imagem": "assets/img/lotes/img034.jpg",
+  "quantidade": 4,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 68.54,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
+    }
   ]
 }
