@@ -460,6 +460,42 @@
   "valorBrasil": 73.44,
   "valorLote": 35.0,
   "observacao": "Item novo. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
+    },
+    {
+  "id": "sw1355",
+  "codigo": "sw1355",
+  "nome": "Ezra Bridger - Dark Red Robe (Ahsoka)",
+  "tema": "Star Wars",
+  "setOrigem": "75385",
+  "imagem": "assets/img/lotes/img026.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 68.54,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com lightsaber azul. Armazenado em saco ziplock protegido da luz solar."
+    },
+    {
+  "id": "sh0778",
+  "codigo": "sh0778",
+  "nome": "Spider-Man - Integrated Suit (No Way Home)",
+  "tema": "Marvel Super Heroes",
+  "setOrigem": "76185 / 76261",
+  "imagem": "assets/img/lotes/img027.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 48.96,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com teias. Armazenado em saco ziplock protegido da luz solar."
     }
   ]
 }
