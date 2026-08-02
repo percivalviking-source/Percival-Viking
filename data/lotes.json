@@ -10,13 +10,14 @@
     "valorUnitarioLote": 35.00,
     "limiteLoteMedio": 99.00,
     "freteIncluido": false,
-    "observacaoMetodologia": "Referências individuais estimadas a partir de preço internacional em condição NEW no Bricklink (Last 6 Months Sales ou Current), convertidas para reais (USD × 5.10 × fator de tributação estimado 1.92). Frete internacional não incluído.",
+    "observacaoMetodologia": "Referências individuais estimadas a partir de preço internacional em condição NEW (principalmente Bricklink - Last 6 Months Sales ou equivalente), convertidas para reais (USD × 5.10 × fator de tributação estimado ≈ 1.92). Frete internacional não incluído.",
+    "observacaoCondicao": "Todos os itens deste catálogo são novos, retirados de sets lacrados ou embalagens lacradas e armazenados imediatamente em sacos ziplock, protegidos da luz solar.",
     "resumo": {
       "totalItensDiferentes": 21,
-      "totalPecas": 45,
-      "valorPotencialUnitario": 1628.47,
-      "valorSeVendidoEmLote35": 1575.00,
-      "economiaMediaParaCompradorNoLote": "Aproximadamente 45-60% abaixo da referência unitária estimada"
+      "totalPecas": 44,
+      "valorPotencialUnitario": 1624.55,
+      "valorSeVendidoEmLote35": 1540.00,
+      "observacaoResumo": "Valor potencial unitário = soma de (valorBrasil × quantidade). Valor em lote = 44 peças × R$ 35,00."
     }
   },
   "itens": [
@@ -43,7 +44,486 @@
         "valorLote": 35.00
       },
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "id": "60108-cty0652",
+      "codigoBricklink": "60108-1 + cty0652",
+      "nome": "Moto Fire Response completa + bombeiro",
+      "tema": "LEGO City",
+      "setOrigem": "60108",
+      "imagem": "assets/img/lotes/img002.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": null,
+        "moeda": "USD",
+        "fonte": "Referência composta",
+        "tipo": "REFERÊNCIA COMPOSTA",
+        "periodo": null
+      },
+      "calculoBrasil": {
+        "valorConvertido": null,
+        "valorComTributacao": 60.00,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "id": "colmar12",
+      "codigoBricklink": "colmar12",
+      "nome": "Gamora with the Blade of Thanos + base e acessórios",
+      "tema": "Marvel Studios Collectible Minifigures",
+      "setOrigem": "71031-12",
+      "imagem": "assets/img/lotes/img003.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 6.39,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 32.59,
+        "valorComTributacao": 62.82,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "id": "sw1193",
+      "codigoBricklink": "sw1193",
+      "nome": "Bib Fortuna",
+      "tema": "Star Wars",
+      "setOrigem": "75326",
+      "imagem": "assets/img/lotes/img004.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 7.97,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 40.65,
+        "valorComTributacao": 78.36,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "id": "colmar2-3",
+      "codigoBricklink": "colmar15",
+      "nome": "Mr. Knight completo",
+      "tema": "Marvel Studios Series 2",
+      "setOrigem": "71039",
+      "imagem": "assets/img/lotes/img005.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 9.99,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 50.95,
+        "valorComTributacao": 98.21,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "id": "sw0554",
+      "codigoBricklink": "sw0554",
+      "nome": "Bith Musician + instrumento",
+      "tema": "Star Wars",
+      "setOrigem": "75290",
+      "imagem": "assets/img/lotes/img006.jpg",
+      "quantidade": 3,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 8.82,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 44.98,
+        "valorComTributacao": 86.71,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. As unidades pertencem ao mesmo código e podem acompanhar instrumentos diferentes."
+    },
+    {
+      "id": "sw1259",
+      "codigoBricklink": "sw1259",
+      "nome": "Mandalorian Fleet Commander completo",
+      "tema": "Star Wars",
+      "setOrigem": "75348-1",
+      "imagem": "assets/img/lotes/img007.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 7.65,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 39.02,
+        "valorComTributacao": 75.21,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. Cada unidade acompanha cabelo original, capacete azul, rangefinder, jetpack e blaster, conforme fotografado."
+    },
+    {
+      "id": "sw1096",
+      "codigoBricklink": "sw1096",
+      "nome": "Ahsoka Tano (Adult) - Dark Blue Jumpsuit + 2 lightsabers",
+      "tema": "Star Wars - The Clone Wars",
+      "setOrigem": "75283 / 75310",
+      "imagem": "assets/img/lotes/img008.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 9.21,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 46.97,
+        "valorComTributacao": 90.55,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha dois lightsabers azuis conforme fotografado."
+    },
+    {
+      "id": "cty0989",
+      "codigoBricklink": "cty0989",
+      "nome": "Gold Firefighter Statue completa",
+      "tema": "LEGO City - Sky Police",
+      "setOrigem": "60207",
+      "imagem": "assets/img/lotes/img009.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 7.00,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 35.70,
+        "valorComTributacao": 68.82,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete dourado e extintor dourado conforme fotografado."
+    },
+    {
+      "id": "sh0644",
+      "codigoBricklink": "sh0644",
+      "nome": "Loki completo com Tesseract",
+      "tema": "Marvel Super Heroes - Avengers",
+      "setOrigem": "76152-1",
+      "imagem": "assets/img/lotes/img010.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 7.60,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 38.76,
+        "valorComTributacao": 74.00,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete dourado com chifres, capa verde e cubo Tesseract conforme fotografado. Cabelo não integra o inventário oficial desta versão."
+    },
+    {
+      "id": "colhp13",
+      "codigoBricklink": "colhp13",
+      "nome": "Professor Filius Flitwick completo",
+      "tema": "Harry Potter Collectible Minifigures",
+      "setOrigem": "71022-13",
+      "imagem": "assets/img/lotes/img011.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 6.19,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 31.57,
+        "valorComTributacao": 60.86,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha base preta original, megafone prateado, varinhas marrons e peças originais conforme fotografado. Não acompanha o folheto/checklist da série Collectible Minifigures."
+    },
+    {
+      "id": "sw1183",
+      "codigoBricklink": "sw1183",
+      "nome": "Imperial AT-ST Driver - Hoth completo",
+      "tema": "Star Wars",
+      "setOrigem": "75322-1",
+      "imagem": "assets/img/lotes/img012.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 8.92,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 45.49,
+        "valorComTributacao": 87.70,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete cinza com goggles e blaster preto conforme fotografado."
+    },
+    {
+      "id": "sh0974",
+      "codigoBricklink": "sh0974",
+      "nome": "Iron Man Mark 43 completo com efeitos de energia",
+      "tema": "Marvel Super Heroes - The Infinity Saga",
+      "setOrigem": "76288",
+      "imagem": "assets/img/lotes/img013.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 6.00,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIOS",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 30.60,
+        "valorComTributacao": 58.99,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capacete Mark 43, cabeça de Tony Stark, dois Power Blasts trans-light blue e efeitos transparentes nos pés conforme fotografado."
+    },
+    {
+      "id": "col15-2",
+      "codigoBricklink": "col15-2",
+      "nome": "Astronaut completo com bandeira",
+      "tema": "Collectible Minifigures Series 15",
+      "setOrigem": "71011-2",
+      "imagem": "assets/img/lotes/img014.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 6.75,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 34.43,
+        "valorComTributacao": 66.35,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha base preta original, capacete dourado e bandeira espacial conforme fotografado. Não acompanha o folheto/checklist da série Collectible Minifigures."
+    },
+    {
+      "id": "sh0753",
+      "codigoBricklink": "sh0753",
+      "nome": "Bro Thor completo com garrafa",
+      "tema": "Marvel Super Heroes - The Infinity Saga",
+      "setOrigem": "76200-1",
+      "imagem": "assets/img/lotes/img015.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 10.00,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIO",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 51.00,
+        "valorComTributacao": 98.31,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha cabelo longo dark tan, cabeça com dupla expressão, torso sem camisa, pernas estampadas e garrafa transparente conforme fotografado. Item de fronteira do lote médio, com referência estimada próxima ao limite de R$ 99,00."
+    },
+    {
+      "id": "sh0616",
+      "codigoBricklink": "sh0616",
+      "nome": "Dr. Octopus completo com braços mecânicos",
+      "tema": "Marvel Super Heroes - Spider-Man",
+      "setOrigem": "76148-1",
+      "imagem": "assets/img/lotes/img016.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 10.00,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIOS",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 51.00,
+        "valorComTributacao": 98.31,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha cabelo castanho, rosto com goggles, suporte traseiro, quatro braços mecânicos longos e quatro garras articuladas conforme fotografado. Item de fronteira do lote médio, com referência estimada próxima ao limite de R$ 99,00."
+    },
+    {
+      "id": "sw1046",
+      "codigoBricklink": "sw1046",
+      "nome": "Obi-Wan Kenobi idoso completo com lightsaber",
+      "tema": "Star Wars",
+      "setOrigem": "75290-1",
+      "imagem": "assets/img/lotes/img017.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 10.00,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIO",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 51.00,
+        "valorComTributacao": 98.31,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha capuz marrom-escuro, capa marrom de tecido, traje Jedi tan e lightsaber azul completo conforme fotografado. Item de fronteira do lote médio, com referência estimada próxima ao limite de R$ 99,00."
+    },
+    {
+      "id": "col15-10",
+      "codigoBricklink": "col15-10",
+      "nome": "Ballerina completa com base",
+      "tema": "Collectible Minifigures Series 15",
+      "setOrigem": "71011-10",
+      "imagem": "assets/img/lotes/img018.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 5.50,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 28.05,
+        "valorComTributacao": 54.08,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade acompanha cabelo em coque com flores brancas, traje branco de bailarina, tutu, pernas com sapatilhas estampadas e base preta original conforme fotografado. Não acompanha o folheto/checklist da série Collectible Minifigures."
+    },
+    {
+      "id": "sw0912",
+      "codigoBricklink": "sw0912",
+      "nome": "Imperial Emigration Officer completa com blaster",
+      "tema": "Star Wars - Solo",
+      "setOrigem": "75207-1",
+      "imagem": "assets/img/lotes/img019.jpg",
+      "quantidade": 4,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 7.92,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIO",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 40.39,
+        "valorComTributacao": 77.86,
+        "valorLote": 35.00
+      },
+      "observacao": "Itens novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar. As quatro unidades acompanham uniforme imperial preto, capacete imperial e blaster preto com mira conforme fotografado. O blaster é apresentado como acessório adicional e não foi utilizado para elevar a referência internacional da minifigura."
+    },
+    {
+      "id": "sw1201",
+      "codigoBricklink": "sw1201",
+      "nome": "C-3PO com braços, pernas e dedos dos pés estampados",
+      "tema": "Star Wars",
+      "setOrigem": "75339-1",
+      "imagem": "assets/img/lotes/img020.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 5.75,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 29.33,
+        "valorComTributacao": 56.53,
+        "valorLote": 35.00
+      },
+      "observacao": "Itens novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar. As duas unidades correspondem à versão do C-3PO com braços, pernas e dedos dos pés estampados, proveniente do diorama 75339-1 Death Star Trash Compactor."
+    },
+    {
+      "id": "5162pb01",
+      "codigoBricklink": "5162pb01",
+      "nome": "Norberto / Norbert — bebê dragão Norwegian Ridgeback",
+      "tema": "Harry Potter - Philosopher's Stone",
+      "setOrigem": "76428-1",
+      "imagem": "assets/img/lotes/img021.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "completo": true,
+      "referenciaInternacional": {
+        "valor": 5.25,
+        "moeda": "USD",
+        "fonte": "Bricklink",
+        "tipo": "NEW",
+        "periodo": "Last 6 Months Sales"
+      },
+      "calculoBrasil": {
+        "valorConvertido": 26.78,
+        "valorComTributacao": 51.62,
+        "valorLote": 35.00
+      },
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. A unidade corresponde ao bebê dragão Norberto, na versão verde-oliva com olhos laranja-claro, sobrancelhas e narinas estampadas, proveniente do set 76428-1 Hagrid's Hut: An Unexpected Visit."
     }
-    // ... os outros itens seguiriam o mesmo padrão enriquecido
   ]
 }
