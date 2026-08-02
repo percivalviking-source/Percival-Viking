@@ -1,23 +1,14 @@
 {
   "catalogo": {
-    "titulo": "Lote Completo de Minifigures LEGO Novas",
-    "subtitulo": "Venda exclusiva do lote inteiro à vista",
-    "dataAtualizacao": "2026-08-02",
-    "condicao": "NOVO - Completas com acessórios conforme fotos",
-    "armazenamento": "Retiradas de sets/embalagens lacradas e armazenadas imediatamente em sacos ziplock, protegidas da luz solar.",
+    "titulo": "Catálogo do Lote LEGO",
+    "condicaoPadrao": "NOVO",
+    "valorUnitarioLote": 35.0,
+    "limiteLoteMedio": 99.0,
     "moeda": "BRL",
-    "precoPorPecaNoLote": 35.00,
-    "formaDePagamento": "À vista (Pix ou transferência)",
-    "frete": "A combinar / não incluso",
-    "observacaoPrincipal": "O valor de R$ 35,00 por peça é válido somente na compra do lote completo (44 peças). Os valores de mercado abaixo são estimativas baseadas em referências internacionais convertidas + tributação média praticada no Brasil.",
-    "resumoDoLote": {
-      "totalDePecas": 44,
-      "precoTotalDoLote": 1540.00,
-      "valorEstimadoMercadoBrasil": 3579.67,
-      "economiaTotal": 2039.67,
-      "economiaPercentualMedia": "57%",
-      "economiaMediaPorPeca": 46.36
-    }
+    "cotacaoDolar": 5.1,
+    "freteIncluido": false,
+    "observacaoMetodologia": "Referências individuais estimadas a partir de preço internacional em condição NEW, conversão para reais e tributação estimada aplicável. Frete internacional não incluído.",
+    "observacaoCondicao": "Todos os itens deste catálogo são novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar."
   },
   "itens": [
     {
@@ -25,252 +16,378 @@
       "codigo": "sh0262",
       "nome": "Crossbones",
       "tema": "Marvel Super Heroes",
+      "setOrigem": "76050",
       "imagem": "assets/img/lotes/img001.jpg",
       "quantidade": 14,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 92.71,
-      "economiaPorPeca": 57.71,
-      "referenciaUSD": 9.43
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 9.43,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 92.71,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "60108-cty0652",
       "codigo": "60108-1 + cty0652",
       "nome": "Moto Fire Response completa + bombeiro",
       "tema": "LEGO City",
+      "setOrigem": "60108",
       "imagem": "assets/img/lotes/img002.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 60.00,
-      "economiaPorPeca": 25.00,
-      "referenciaUSD": null
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": null,
+        "moeda": "USD",
+        "tipo": "REFERÊNCIA COMPOSTA"
+      },
+      "valorBrasil": 60.0,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "colmar12",
       "codigo": "colmar12",
       "nome": "Gamora with the Blade of Thanos + base e acessórios",
-      "tema": "Marvel Studios",
+      "tema": "Marvel Studios Collectible Minifigures",
+      "setOrigem": "71031-12",
       "imagem": "assets/img/lotes/img003.jpg",
       "quantidade": 2,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 62.82,
-      "economiaPorPeca": 27.82,
-      "referenciaUSD": 6.39
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 6.39,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+      "valorBrasil": 62.82,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sw1193",
       "codigo": "sw1193",
       "nome": "Bib Fortuna",
       "tema": "Star Wars",
+      "setOrigem": "75326",
       "imagem": "assets/img/lotes/img004.jpg",
       "quantidade": 2,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 78.36,
-      "economiaPorPeca": 43.36,
-      "referenciaUSD": 7.97
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 7.97,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 78.36,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "colmar2-3",
       "codigo": "colmar15",
       "nome": "Mr. Knight completo",
       "tema": "Marvel Studios Series 2",
+      "setOrigem": "71039",
       "imagem": "assets/img/lotes/img005.jpg",
       "quantidade": 2,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 98.21,
-      "economiaPorPeca": 63.21,
-      "referenciaUSD": 9.99
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 9.99,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+      "valorBrasil": 98.21,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sw0554",
       "codigo": "sw0554",
       "nome": "Bith Musician + instrumento",
       "tema": "Star Wars",
+      "setOrigem": "75290",
       "imagem": "assets/img/lotes/img006.jpg",
       "quantidade": 3,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 86.71,
-      "economiaPorPeca": 51.71,
-      "referenciaUSD": 8.82
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 8.82,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 86.71,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sw1259",
       "codigo": "sw1259",
       "nome": "Mandalorian Fleet Commander completo",
       "tema": "Star Wars",
+      "setOrigem": "75348-1",
       "imagem": "assets/img/lotes/img007.jpg",
       "quantidade": 2,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 75.21,
-      "economiaPorPeca": 40.21,
-      "referenciaUSD": 7.65
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 7.65,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 75.21,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sw1096",
       "codigo": "sw1096",
-      "nome": "Ahsoka Tano (Adult) + 2 lightsabers",
-      "tema": "Star Wars",
+      "nome": "Ahsoka Tano (Adult) - Dark Blue Jumpsuit + 2 lightsabers",
+      "tema": "Star Wars - The Clone Wars",
+      "setOrigem": "75283 / 75310",
       "imagem": "assets/img/lotes/img008.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 90.55,
-      "economiaPorPeca": 55.55,
-      "referenciaUSD": 9.21
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 9.21,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 90.55,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "cty0989",
       "codigo": "cty0989",
       "nome": "Gold Firefighter Statue completa",
-      "tema": "LEGO City",
+      "tema": "LEGO City - Sky Police",
+      "setOrigem": "60207",
       "imagem": "assets/img/lotes/img009.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 68.82,
-      "economiaPorPeca": 33.82,
-      "referenciaUSD": 7.00
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 7.0,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 68.82,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sh0644",
       "codigo": "sh0644",
       "nome": "Loki completo com Tesseract",
-      "tema": "Marvel Super Heroes",
+      "tema": "Marvel Super Heroes - Avengers",
+      "setOrigem": "76152-1",
       "imagem": "assets/img/lotes/img010.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 74.00,
-      "economiaPorPeca": 39.00,
-      "referenciaUSD": 7.60
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 7.6,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 74.0,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "colhp13",
       "codigo": "colhp13",
       "nome": "Professor Filius Flitwick completo",
-      "tema": "Harry Potter",
+      "tema": "Harry Potter Collectible Minifigures",
+      "setOrigem": "71022-13",
       "imagem": "assets/img/lotes/img011.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 60.86,
-      "economiaPorPeca": 25.86,
-      "referenciaUSD": 6.19
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 6.19,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+      "valorBrasil": 60.86,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sw1183",
       "codigo": "sw1183",
       "nome": "Imperial AT-ST Driver - Hoth completo",
       "tema": "Star Wars",
+      "setOrigem": "75322-1",
       "imagem": "assets/img/lotes/img012.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 87.70,
-      "economiaPorPeca": 52.70,
-      "referenciaUSD": 8.92
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 8.92,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 87.7,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sh0974",
       "codigo": "sh0974",
-      "nome": "Iron Man Mark 43 completo com efeitos",
-      "tema": "Marvel Super Heroes",
+      "nome": "Iron Man Mark 43 completo com efeitos de energia",
+      "tema": "Marvel Super Heroes - The Infinity Saga",
+      "setOrigem": "76288",
       "imagem": "assets/img/lotes/img013.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 58.99,
-      "economiaPorPeca": 23.99,
-      "referenciaUSD": 6.00
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 6.0,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIOS"
+      },
+      "valorBrasil": 58.99,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "col15-2",
       "codigo": "col15-2",
       "nome": "Astronaut completo com bandeira",
       "tema": "Collectible Minifigures Series 15",
+      "setOrigem": "71011-2",
       "imagem": "assets/img/lotes/img014.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 66.35,
-      "economiaPorPeca": 31.35,
-      "referenciaUSD": 6.75
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 6.75,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+      "valorBrasil": 66.35,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sh0753",
       "codigo": "sh0753",
       "nome": "Bro Thor completo com garrafa",
-      "tema": "Marvel Super Heroes",
+      "tema": "Marvel Super Heroes - The Infinity Saga",
+      "setOrigem": "76200-1",
       "imagem": "assets/img/lotes/img015.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 98.31,
-      "economiaPorPeca": 63.31,
-      "referenciaUSD": 10.00
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 10.0,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIO"
+      },
+      "valorBrasil": 98.31,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sh0616",
       "codigo": "sh0616",
       "nome": "Dr. Octopus completo com braços mecânicos",
-      "tema": "Marvel Super Heroes",
+      "tema": "Marvel Super Heroes - Spider-Man",
+      "setOrigem": "76148-1",
       "imagem": "assets/img/lotes/img016.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 98.31,
-      "economiaPorPeca": 63.31,
-      "referenciaUSD": 10.00
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 10.0,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIOS"
+      },
+      "valorBrasil": 98.31,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sw1046",
       "codigo": "sw1046",
       "nome": "Obi-Wan Kenobi idoso completo com lightsaber",
       "tema": "Star Wars",
+      "setOrigem": "75290-1",
       "imagem": "assets/img/lotes/img017.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 98.31,
-      "economiaPorPeca": 63.31,
-      "referenciaUSD": 10.00
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 10.0,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIO"
+      },
+      "valorBrasil": 98.31,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "col15-10",
       "codigo": "col15-10",
       "nome": "Ballerina completa com base",
       "tema": "Collectible Minifigures Series 15",
+      "setOrigem": "71011-10",
       "imagem": "assets/img/lotes/img018.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 54.08,
-      "economiaPorPeca": 19.08,
-      "referenciaUSD": 5.50
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 5.5,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+      "valorBrasil": 54.08,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
       "id": "sw0912",
       "codigo": "sw0912",
       "nome": "Imperial Emigration Officer completa com blaster",
-      "tema": "Star Wars",
+      "tema": "Star Wars - Solo",
+      "setOrigem": "75207-1",
       "imagem": "assets/img/lotes/img019.jpg",
       "quantidade": 4,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 77.86,
-      "economiaPorPeca": 42.86,
-      "referenciaUSD": 7.92
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 7.92,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ACESSÓRIO"
+      },
+      "valorBrasil": 77.86,
+      "valorLote": 35.0,
+      "observacao": "Itens novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar."
     },
     {
       "id": "sw1201",
       "codigo": "sw1201",
-      "nome": "C-3PO (versão com estampas)",
+      "nome": "C-3PO com braços, pernas e dedos dos pés estampados",
       "tema": "Star Wars",
+      "setOrigem": "75339-1",
       "imagem": "assets/img/lotes/img020.jpg",
       "quantidade": 2,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 56.53,
-      "economiaPorPeca": 21.53,
-      "referenciaUSD": 5.75
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 5.75,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 56.53,
+      "valorLote": 35.0,
+      "observacao": "Itens novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar."
     },
     {
       "id": "5162pb01",
       "codigo": "5162pb01",
-      "nome": "Norberto (bebê dragão Norwegian Ridgeback)",
-      "tema": "Harry Potter",
+      "nome": "Norberto / Norbert — bebê dragão Norwegian Ridgeback",
+      "tema": "Harry Potter - Philosopher's Stone",
+      "setOrigem": "76428-1",
       "imagem": "assets/img/lotes/img021.jpg",
       "quantidade": 1,
-      "precoNoLote": 35.00,
-      "valorMercadoBrasil": 51.62,
-      "economiaPorPeca": 16.62,
-      "referenciaUSD": 5.25
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 5.25,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 51.62,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
   ]
 }
