@@ -522,7 +522,7 @@
   "tema": "Marvel Super Heroes",
   "setOrigem": "76030 / 76042",
   "imagem": "assets/img/lotes/img030.jpg",
-  "quantidade": 3,
+  "quantidade": 2,
   "condicao": "NOVO",
   "referenciaInternacional": {
     "valor": 10.00,
@@ -586,6 +586,42 @@
   "valorBrasil": 68.54,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
+    },
+    {
+  "id": "colmar-7",
+  "codigo": "colmar-7",
+  "nome": "Sylvie (completo)",
+  "tema": "Marvel Super Heroes",
+  "setOrigem": "71031",
+  "imagem": "assets/img/lotes/img035.jpg",
+  "quantidade": 3,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.80,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 66.59,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
+    },
+    {
+  "id": "colmar-4",
+  "codigo": "colmar-4",
+  "nome": "Winter Soldier (completo)",
+  "tema": "Marvel Super Heroes",
+  "setOrigem": "71031",
+  "imagem": "assets/img/lotes/img038.jpg",
+  "quantidade": 4,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 78.34,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
     }
   ]
 }
