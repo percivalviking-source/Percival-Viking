@@ -982,6 +982,42 @@
   "valorBrasil": 44.00,
   "valorLote": 35.0,
   "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
+    },
+ {
+  "id": "colhp-3",
+  "codigo": "colhp-3",
+  "nome": "Ron Weasley in School Robes (Harry Potter Series 1) completo",
+  "tema": "Collectible Minifigures - Harry Potter",
+  "setOrigem": "71022",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE (SEM MANUAL)"
+  },
+  "valorBrasil": 49.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+ },
+    {
+  "id": "colhp-1",
+  "codigo": "colhp-1",
+  "nome": "Harry Potter in School Robes (Harry Potter Series 1) completo",
+  "tema": "Collectible Minifigures - Harry Potter",
+  "setOrigem": "71022",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.50,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE (SEM MANUAL)"
+  },
+  "valorBrasil": 53.90,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
   ]
 }
