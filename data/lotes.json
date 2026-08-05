@@ -928,6 +928,24 @@
   "valorBrasil": 97.90,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com o escudo exclusivo (75902pb23). Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+  "id": "hp155",
+  "codigo": "hp155",
+  "nome": "Dementor - Black with Black Cape completo",
+  "tema": "Harry Potter",
+  "setOrigem": "75955 / 75945 / 76403 / 76405",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE"
+  },
+  "valorBrasil": 68.50,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
     }
   ]
 }
