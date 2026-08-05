@@ -784,6 +784,42 @@
   "valorBrasil": 63.60,
   "valorLote": 35.0,
   "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+  "id": "sw1229-speeder",
+  "codigo": "sw1229",
+  "nome": "Scout Trooper + Speeder Bike completa com blaster (Endor Chase)",
+  "tema": "Star Wars - Return of the Jedi",
+  "setOrigem": "75332-1",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 9.20,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM VEÍCULO"
+  },
+  "valorBrasil": 90.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo, montado como Speeder Bike + Scout Trooper com blaster. Representa a clássica perseguição em Endor. Retirado de set lacrado e armazenado em saco ziplock."
+    },
+    {
+  "id": "sw1229",
+  "codigo": "sw1229",
+  "nome": "Scout Trooper completo com blaster",
+  "tema": "Star Wars - Return of the Jedi",
+  "setOrigem": "75332-1",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.70,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 75.50,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com blaster. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
   ]
 }
