@@ -946,6 +946,24 @@
   "valorBrasil": 68.50,
   "valorLote": 35.0,
   "observacao": "Item novo e completo. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "id": "hp422",
+  "codigo": "hp422",
+  "nome": "Lord Voldemort - Sand Green Robe completo com varinha branca e poder verde",
+  "tema": "Harry Potter - Deathly Hallows",
+  "setOrigem": "76415",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 9.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM VARINHA + PODER VERDE"
+  },
+  "valorBrasil": 88.10,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com varinha horizontal branca e poder verde. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
   ]
 }
