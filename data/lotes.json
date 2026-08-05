@@ -820,6 +820,42 @@
   "valorBrasil": 75.50,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com blaster. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+  "id": "sw1342",
+  "codigo": "sw1342",
+  "nome": "Moff Gideon - Helmet + Jet Pack completo com armas",
+  "tema": "Star Wars - The Mandalorian",
+  "setOrigem": "75386",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 9.80,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM ARMAS"
+  },
+  "valorBrasil": 96.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com armas. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "id": "sw1341",
+  "codigo": "sw1341",
+  "nome": "Paz Vizsla completo",
+  "tema": "Star Wars - The Mandalorian",
+  "setOrigem": "75386",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.90,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 67.50,
+  "valorLote": 35.0,
+  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
   ]
 }
