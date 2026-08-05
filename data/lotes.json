@@ -964,6 +964,24 @@
   "valorBrasil": 88.10,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com varinha horizontal branca e poder verde. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+  "id": "colhp-6",
+  "codigo": "colhp-6",
+  "nome": "Neville Longbottom (Harry Potter Series 1) completo",
+  "tema": "Collectible Minifigures - Harry Potter",
+  "setOrigem": "71022",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 4.50,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE (SEM MANUAL)"
+  },
+  "valorBrasil": 44.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
     }
   ]
 }
