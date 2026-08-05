@@ -910,6 +910,24 @@
   "valorBrasil": 46.00,
   "valorLote": 35.0,
   "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+  "id": "sh0749",
+  "codigo": "sh0749",
+  "nome": "Captain Peggy Carter - Stealth Suit completa com escudo exclusivo",
+  "tema": "Marvel Super Heroes - What If...?",
+  "setOrigem": "76201",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 10.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM ESCUDO EXCLUSIVO"
+  },
+  "valorBrasil": 97.90,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com o escudo exclusivo (75902pb23). Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
   ]
 }
