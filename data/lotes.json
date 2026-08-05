@@ -766,6 +766,24 @@
       "valorBrasil": 58.75,
       "valorLote": 35.0,
       "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
+    },
+    {
+  "id": "sw1167",
+  "codigo": "sw1167",
+  "nome": "Imperial Stormtrooper - Male (Dual Molded Helmet, Gray Panels on Back, Reddish Brown Head, Grimace)",
+  "tema": "Star Wars - The Mandalorian",
+  "setOrigem": "75311",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.50,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 63.60,
+  "valorLote": 35.0,
+  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
   ]
 }
