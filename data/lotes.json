@@ -856,6 +856,60 @@
   "valorBrasil": 67.50,
   "valorLote": 35.0,
   "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+  "id": "sh0629",
+  "codigo": "sh0629",
+  "nome": "Black Widow - Black Jumpsuit completo com arma",
+  "tema": "Marvel Super Heroes",
+  "setOrigem": "76162",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 11.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM ARMA"
+  },
+  "valorBrasil": 107.70,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com arma. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+  "id": "lor114",
+  "codigo": "lor114",
+  "nome": "Elf Statue - Straight Hair, Skirt",
+  "tema": "The Lord of the Rings - Icons",
+  "setOrigem": "10316",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 4.10,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 40.10,
+  "valorLote": 35.0,
+  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+  "id": "lor130",
+  "codigo": "lor130",
+  "nome": "Elf Statue - Wavy Hair, Skirt",
+  "tema": "The Lord of the Rings - Icons",
+  "setOrigem": "10316",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 4.70,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 46.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     }
   ]
 }
