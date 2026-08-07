@@ -12,6 +12,7 @@
   },
   "itens": [
     {
+      "numero": "M001",
       "id": "sh0262",
       "codigo": "sh0262",
       "nome": "Crossbones",
@@ -30,6 +31,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M002",
       "id": "60108-cty0652",
       "codigo": "60108-1 + cty0652",
       "nome": "Moto Fire Response completa + bombeiro",
@@ -48,6 +50,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M003",
       "id": "colmar12",
       "codigo": "colmar12",
       "nome": "Gamora with the Blade of Thanos + base e acessórios",
@@ -66,6 +69,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M004",
       "id": "sw1193",
       "codigo": "sw1193",
       "nome": "Bib Fortuna",
@@ -84,6 +88,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M005",
       "id": "colmar2-3",
       "codigo": "colmar15",
       "nome": "Mr. Knight completo",
@@ -102,6 +107,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M006",
       "id": "sw0554",
       "codigo": "sw0554",
       "nome": "Bith Musician + instrumento",
@@ -120,6 +126,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M007",
       "id": "sw1259",
       "codigo": "sw1259",
       "nome": "Mandalorian Fleet Commander completo",
@@ -138,6 +145,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M008",
       "id": "sw1096",
       "codigo": "sw1096",
       "nome": "Ahsoka Tano (Adult) - Dark Blue Jumpsuit + 2 lightsabers",
@@ -156,6 +164,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M009",
       "id": "cty0989",
       "codigo": "cty0989",
       "nome": "Gold Firefighter Statue completa",
@@ -174,6 +183,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M010",
       "id": "sh0644",
       "codigo": "sh0644",
       "nome": "Loki completo com Tesseract",
@@ -192,6 +202,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M011",
       "id": "colhp13",
       "codigo": "colhp13",
       "nome": "Professor Filius Flitwick completo",
@@ -210,6 +221,7 @@
       "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M012",
       "id": "sw1183",
       "codigo": "sw1183",
       "nome": "Imperial AT-ST Driver - Hoth completo",
@@ -228,6 +240,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M013",
       "id": "sh0974",
       "codigo": "sh0974",
       "nome": "Iron Man Mark 43 completo com efeitos de energia",
@@ -246,6 +259,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M014",
       "id": "col15-2",
       "codigo": "col15-2",
       "nome": "Astronaut completo com bandeira",
@@ -264,6 +278,7 @@
       "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M015",
       "id": "sh0753",
       "codigo": "sh0753",
       "nome": "Bro Thor completo com garrafa",
@@ -282,6 +297,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M016",
       "id": "sh0616",
       "codigo": "sh0616",
       "nome": "Dr. Octopus completo com braços mecânicos",
@@ -300,6 +316,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M017",
       "id": "sw1046",
       "codigo": "sw1046",
       "nome": "Obi-Wan Kenobi idoso completo com lightsaber",
@@ -318,6 +335,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M018",
       "id": "col15-10",
       "codigo": "col15-10",
       "nome": "Ballerina completa com base",
@@ -336,6 +354,7 @@
       "observacao": "Item novo, retirado de embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M019",
       "id": "sw0912",
       "codigo": "sw0912",
       "nome": "Imperial Emigration Officer completa com blaster",
@@ -354,6 +373,7 @@
       "observacao": "Itens novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar."
     },
     {
+      "numero": "M020",
       "id": "sw1201",
       "codigo": "sw1201",
       "nome": "C-3PO com braços, pernas e dedos dos pés estampados",
@@ -372,6 +392,7 @@
       "observacao": "Itens novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar."
     },
     {
+      "numero": "M021",
       "id": "5162pb01",
       "codigo": "5162pb01",
       "nome": "Norberto / Norbert — bebê dragão Norwegian Ridgeback",
@@ -390,6 +411,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
+      "numero": "M022",
       "id": "sh0172",
       "codigo": "sh0172",
       "nome": "Hawkeye - Black and Dark Red Suit, Reddish Brown Spiked Hair",
@@ -408,6 +430,7 @@
       "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. Acompanha blaster/arco preto conforme fotografado."
     },
     {
+      "numero": "M023",
       "id": "col20-7",
       "codigo": "col20-7",
       "nome": "Ilhama Girl (completa com cenoura, base e manual)",
@@ -426,6 +449,7 @@
       "observacao": "Item novo e completo, com cenoura, base preta e manual/checklist da série. Armazenado em saco ziplock protegido da luz solar."
     },
     {
+      "numero": "M024",
       "id": "hp198",
       "codigo": "hp198",
       "nome": "Death Eater - Wizard Hat (com varinha)",
@@ -444,6 +468,7 @@
       "observacao": "Item novo e completo, com varinha lacrada. Armazenado em saco ziplock protegido da luz solar."
     },
     {
+      "numero": "M025",
       "id": "sw1211",
       "codigo": "sw1211",
       "nome": "BD-72",
@@ -462,6 +487,7 @@
       "observacao": "Item novo. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
     },
     {
+      "numero": "M026",
       "id": "sw1355",
       "codigo": "sw1355",
       "nome": "Ezra Bridger - Dark Red Robe (Ahsoka)",
@@ -471,291 +497,535 @@
       "quantidade": 1,
       "condicao": "NOVO",
       "referenciaInternacional": {
-        "valor": 7.0,
+        "valor": 6.50,
         "moeda": "USD",
         "tipo": "NEW"
       },
-      "valorBrasil": 68.54,
+      "valorBrasil": 63.60,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com lightsaber azul. Armazenado em saco ziplock protegido da luz solar."
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
-      "id": "sh0778",
-      "codigo": "sh0778",
-      "nome": "Spider-Man - Integrated Suit (No Way Home)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "76185 / 76261",
-      "imagem": "assets/img/lotes/img027.jpg",
+      "numero": "M027",
+      "id": "sw1229-speeder",
+      "codigo": "sw1229",
+      "nome": "Scout Trooper + Speeder Bike completa com blaster (Endor Chase)",
+      "tema": "Star Wars - Return of the Jedi",
+      "setOrigem": "75332-1",
+      "imagem": "assets/img/lotes/imi044.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 9.20,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM VEÍCULO"
+      },
+      "valorBrasil": 90.00,
+      "valorLote": 35.0,
+      "observacao": "Item novo, montado como Speeder Bike + Scout Trooper com blaster. Representa a clássica perseguição em Endor. Retirado de set lacrado e armazenado em saco ziplock."
+    },
+    {
+      "numero": "M028",
+      "id": "sw1229",
+      "codigo": "sw1229",
+      "nome": "Scout Trooper completo com blaster",
+      "tema": "Star Wars - Return of the Jedi",
+      "setOrigem": "75332-1",
+      "imagem": "assets/img/lotes/img044.jpg",
       "quantidade": 1,
       "condicao": "NOVO",
       "referenciaInternacional": {
-        "valor": 5.0,
+        "valor": 7.70,
         "moeda": "USD",
         "tipo": "NEW"
       },
-      "valorBrasil": 48.96,
+      "valorBrasil": 75.50,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com teias. Armazenado em saco ziplock protegido da luz solar."
+      "observacao": "Item novo e completo com blaster. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
-      "id": "sw1248",
-      "codigo": "sw1248",
-      "nome": "Clone Trooper Specialist, 501st Legion (Phase 2)",
-      "tema": "Star Wars",
-      "setOrigem": "75345",
-      "imagem": "assets/img/lotes/img028.jpg",
+      "numero": "M029",
+      "id": "sw1342",
+      "codigo": "sw1342",
+      "nome": "Moff Gideon - Helmet + Jet Pack completo com armas",
+      "tema": "Star Wars - The Mandalorian",
+      "setOrigem": "75386",
+      "imagem": "assets/img/lotes/img045.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 9.80,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ARMAS"
+      },
+      "valorBrasil": 96.00,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com armas. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+      "numero": "M030",
+      "id": "sw1341",
+      "codigo": "sw1341",
+      "nome": "Paz Vizsla completo",
+      "tema": "Star Wars - The Mandalorian",
+      "setOrigem": "75386",
+      "imagem": "assets/img/lotes/img046.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 6.90,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 67.50,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "numero": "M031",
+      "id": "sh0629",
+      "codigo": "sh0629",
+      "nome": "Black Widow - Black Jumpsuit completo com arma",
+      "tema": "Marvel Super Heroes",
+      "setOrigem": "76162",
+      "imagem": "assets/img/lotes/img047.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 11.00,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ARMA"
+      },
+      "valorBrasil": 107.70,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com arma. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "numero": "M032",
+      "id": "lor114",
+      "codigo": "lor114",
+      "nome": "Elf Statue - Straight Hair, Skirt",
+      "tema": "The Lord of the Rings - Icons",
+      "setOrigem": "10316",
+      "imagem": "assets/img/lotes/img048.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 4.10,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 40.10,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "numero": "M033",
+      "id": "lor130",
+      "codigo": "lor130",
+      "nome": "Elf Statue - Wavy Hair, Skirt",
+      "tema": "The Lord of the Rings - Icons",
+      "setOrigem": "10316",
+      "imagem": "assets/img/lotes/img049.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 4.70,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 46.00,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "numero": "M034",
+      "id": "sh0749",
+      "codigo": "sh0749",
+      "nome": "Captain Peggy Carter - Stealth Suit completa com escudo exclusivo",
+      "tema": "Marvel Super Heroes - What If...?",
+      "setOrigem": "76201",
+      "imagem": "assets/img/lotes/img050.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 10.00,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM ESCUDO EXCLUSIVO"
+      },
+      "valorBrasil": 97.90,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com o escudo exclusivo (75902pb23). Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "numero": "M035",
+      "id": "hp155",
+      "codigo": "hp155",
+      "nome": "Dementor - Black with Black Cape completo",
+      "tema": "Harry Potter",
+      "setOrigem": "75955 / 75945 / 76403 / 76405",
+      "imagem": "assets/img/lotes/img051.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 7.00,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE"
+      },
+      "valorBrasil": 68.50,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+      "numero": "M036",
+      "id": "hp422",
+      "codigo": "hp422",
+      "nome": "Lord Voldemort - Sand Green Robe completo com varinha branca e poder verde",
+      "tema": "Harry Potter - Deathly Hallows",
+      "setOrigem": "76415",
+      "imagem": "assets/img/lotes/img052.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 9.00,
+        "moeda": "USD",
+        "tipo": "NEW / COMPLETE COM VARINHA + PODER VERDE"
+      },
+      "valorBrasil": 88.10,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com varinha horizontal branca e poder verde. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
+    },
+    {
+      "numero": "M037",
+      "id": "colhp-6",
+      "codigo": "colhp-6",
+      "nome": "Neville Longbottom (Harry Potter Series 1) completo",
+      "tema": "Collectible Minifigures - Harry Potter",
+      "setOrigem": "71022",
+      "imagem": "assets/img/lotes/img053.jpg",
       "quantidade": 3,
       "condicao": "NOVO",
       "referenciaInternacional": {
-        "valor": 5.0,
+        "valor": 4.50,
         "moeda": "USD",
-        "tipo": "NEW"
+        "tipo": "NEW / COMPLETE (SEM MANUAL)"
       },
-      "valorBrasil": 48.96,
+      "valorBrasil": 44.00,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com blasters e acessórios. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
+      "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 3 unidades disponíveis."
     },
     {
-      "id": "colmar-6",
-      "codigo": "colmar-6",
-      "nome": "Loki TVA Variant + Throg (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71031",
-      "imagem": "assets/img/lotes/img029.jpg",
-      "quantidade": 4,
-      "condicao": "NOVO",
-      "referenciaInternacional": {
-        "valor": 10.5,
-        "moeda": "USD",
-        "tipo": "NEW"
-      },
-      "valorBrasil": 102.82,
-      "valorLote": 35.0,
-      "observacao": "Item novo e completo com caneca TVA, Throg, base e manual. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
-    },
-    {
-      "id": "sh0170",
-      "codigo": "sh0170",
-      "nome": "Thor - Spongy Cape (Age of Ultron)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "76030 / 76042",
-      "imagem": "assets/img/lotes/img030.jpg",
-      "quantidade": 2,
-      "condicao": "NOVO",
-      "referenciaInternacional": {
-        "valor": 10.0,
-        "moeda": "USD",
-        "tipo": "NEW"
-      },
-      "valorBrasil": 97.92,
-      "valorLote": 35.0,
-      "observacao": "Item novo e completo com martelo e capa. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
-    },
-    {
-      "id": "sw1261",
-      "codigo": "sw1261",
-      "nome": "R2-E6 (Astromech Droid)",
-      "tema": "Star Wars",
-      "setOrigem": "75348",
-      "imagem": "assets/img/lotes/img031.jpg",
+      "numero": "M038",
+      "id": "colhp-3",
+      "codigo": "colhp-3",
+      "nome": "Ron Weasley in School Robes (Harry Potter Series 1) completo",
+      "tema": "Collectible Minifigures - Harry Potter",
+      "setOrigem": "71022",
+      "imagem": "assets/img/lotes/img054.jpg",
       "quantidade": 1,
       "condicao": "NOVO",
       "referenciaInternacional": {
-        "valor": 10.0,
+        "valor": 5.00,
         "moeda": "USD",
-        "tipo": "NEW"
+        "tipo": "NEW / COMPLETE (SEM MANUAL)"
       },
-      "valorBrasil": 97.92,
+      "valorBrasil": 49.00,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar."
+      "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
-      "id": "colmar-2",
-      "codigo": "colmar-2",
-      "nome": "The Vision (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71031",
-      "imagem": "assets/img/lotes/img032.jpg",
-      "quantidade": 4,
-      "condicao": "NOVO",
-      "referenciaInternacional": {
-        "valor": 7.0,
-        "moeda": "USD",
-        "tipo": "NEW"
-      },
-      "valorBrasil": 68.54,
-      "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
-    },
-    {
-      "id": "colmar-7",
-      "codigo": "colmar-7",
-      "nome": "Sylvie (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71031",
-      "imagem": "assets/img/lotes/img033.jpg",
+      "numero": "M039",
+      "id": "colhp-1",
+      "codigo": "colhp-1",
+      "nome": "Harry Potter in School Robes (Harry Potter Series 1) completo",
+      "tema": "Collectible Minifigures - Harry Potter",
+      "setOrigem": "71022",
+      "imagem": "assets/img/lotes/img055.jpg",
       "quantidade": 1,
       "condicao": "NOVO",
       "referenciaInternacional": {
-        "valor": 6.8,
+        "valor": 5.50,
         "moeda": "USD",
-        "tipo": "NEW"
+        "tipo": "NEW / COMPLETE (SEM MANUAL)"
       },
-      "valorBrasil": 66.59,
+      "valorBrasil": 53.90,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
+      "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
     },
     {
-      "id": "colmar-4",
-      "codigo": "colmar-4",
-      "nome": "Winter Soldier (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71031",
-      "imagem": "assets/img/lotes/img034.jpg",
-      "quantidade": 4,
+      "numero": "M040",
+      "id": "hp236a",
+      "codigo": "hp236a",
+      "nome": "Centaur - Quiver",
+      "tema": "Harry Potter",
+      "setOrigem": "75967",
+      "imagem": "assets/img/lotes/img056.jpg",
+      "quantidade": 5,
       "condicao": "NOVO",
       "referenciaInternacional": {
-        "valor": 8.0,
+        "valor": 9.00,
         "moeda": "USD",
         "tipo": "NEW"
       },
-      "valorBrasil": 78.34,
+      "valorBrasil": 88.10,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
+      "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 5 unidades disponíveis."
     },
     {
-      "id": "colmar-11",
-      "codigo": "colmar-11",
-      "nome": "T'Challa Star-Lord (completo)",
+      "numero": "M041",
+      "id": "sh0773",
+      "codigo": "sh0773",
+      "nome": "Thanos - Pearl Gold Outfit (completo)",
       "tema": "Marvel Super Heroes",
-      "setOrigem": "71031",
-      "imagem": "assets/img/lotes/img035.jpg",
+      "setOrigem": "76237",
+      "imagem": "assets/img/lotes/img057.jpg",
       "quantidade": 1,
-      "condicao": "NOVO",
-      "referenciaInternacional": {
-        "valor": 6.0,
-        "moeda": "USD",
-        "tipo": "NEW"
-      },
-      "valorBrasil": 58.75,
-      "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
-    },
-    {
-      "id": "colmar-3",
-      "codigo": "colmar-3",
-      "nome": "Monica Rambeau (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71031",
-      "imagem": "assets/img/lotes/img036.jpg",
-      "quantidade": 2,
-      "condicao": "NOVO",
-      "referenciaInternacional": {
-        "valor": 5.5,
-        "moeda": "USD",
-        "tipo": "NEW"
-      },
-      "valorBrasil": 53.86,
-      "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
-    },
-    {
-      "id": "colmar-10",
-      "codigo": "colmar-10",
-      "nome": "Captain Carter (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71031",
-      "imagem": "assets/img/lotes/img037.jpg",
-      "quantidade": 4,
       "condicao": "NOVO",
       "referenciaInternacional": {
         "valor": 8.5,
         "moeda": "USD",
         "tipo": "NEW"
       },
-      "valorBrasil": 83.23,
+      "valorBrasil": 83.20,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
+      "observacao": "Item novo e completo com capacete dourado. Armazenado em saco ziplock protegido da luz solar."
     },
     {
-      "id": "colmar2-4",
-      "codigo": "colmar2-4",
-      "nome": "The Werewolf (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71039",
-      "imagem": "assets/img/lotes/img038.jpg",
+      "numero": "M042",
+      "id": "sw1290",
+      "codigo": "sw1290",
+      "nome": "Morgan Elsbeth - Black Skirt (completo)",
+      "tema": "Star Wars",
+      "setOrigem": "75364",
+      "imagem": "assets/img/lotes/img058.jpg",
       "quantidade": 1,
       "condicao": "NOVO",
       "referenciaInternacional": {
-        "valor": 6.0,
+        "valor": 8.3,
         "moeda": "USD",
         "tipo": "NEW"
       },
-      "valorBrasil": 58.75,
+      "valorBrasil": 81.30,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
+      "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     },
     {
-      "id": "colmar2-5",
-      "codigo": "colmar2-5",
-      "nome": "She-Hulk (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71039",
-      "imagem": "assets/img/lotes/img039.jpg",
+      "numero": "M043",
+      "id": "sw1291",
+      "codigo": "sw1291",
+      "nome": "Astromech Droid - New Republic (completo)",
+      "tema": "Star Wars",
+      "setOrigem": "75364",
+      "imagem": "assets/img/lotes/img059.jpg",
       "quantidade": 1,
       "condicao": "NOVO",
       "referenciaInternacional": {
-        "valor": 5.0,
+        "valor": 9.0,
         "moeda": "USD",
         "tipo": "NEW"
       },
-      "valorBrasil": 48.96,
+      "valorBrasil": 88.10,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
+      "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     },
     {
-      "id": "colmar2-9",
-      "codigo": "colmar2-9",
-      "nome": "Echo (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71039",
-      "imagem": "assets/img/lotes/img040.jpg",
+      "numero": "M044",
+      "id": "sw1289",
+      "codigo": "sw1289",
+      "nome": "Captain Porter (completo)",
+      "tema": "Star Wars",
+      "setOrigem": "75364",
+      "imagem": "assets/img/lotes/img060.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 8.5,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 83.20,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+      "numero": "M045",
+      "id": "sw1300",
+      "codigo": "sw1300",
+      "nome": "Ahsoka Tano (Adult) - Printed Arms (completo com 2 sabres)",
+      "tema": "Star Wars",
+      "setOrigem": "75362",
+      "imagem": "assets/img/lotes/img061.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 9.5,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 93.00,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com os 2 sabres de luz incolor exclusivos. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+      "numero": "M046",
+      "id": "sw1302",
+      "codigo": "sw1302",
+      "nome": "Sabine Wren - Dark Brown Armor (completa)",
+      "tema": "Star Wars",
+      "setOrigem": "75362",
+      "imagem": "assets/img/lotes/img062.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 9.5,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 93.00,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com cabelo, capacete e armas. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+      "numero": "M047",
+      "id": "sw1204",
+      "codigo": "sw1204",
+      "nome": "Han Solo - Stormtrooper Outfit (completo com blaster)",
+      "tema": "Star Wars",
+      "setOrigem": "75339",
+      "imagem": "assets/img/lotes/img063.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 10.5,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 102.80,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+      "numero": "M048",
+      "id": "sw1203",
+      "codigo": "sw1203",
+      "nome": "Luke Skywalker - Stormtrooper Outfit (completo com blaster)",
+      "tema": "Star Wars",
+      "setOrigem": "75339",
+      "imagem": "assets/img/lotes/img064.jpg",
       "quantidade": 3,
       "condicao": "NOVO",
       "referenciaInternacional": {
+        "valor": 9.5,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 93.00,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
+    },
+    {
+      "numero": "M049",
+      "id": "sw1326",
+      "codigo": "sw1326",
+      "nome": "Imperial Stormtrooper - Female (completa com blaster)",
+      "tema": "Star Wars",
+      "setOrigem": "vários (2024+)",
+      "imagem": "assets/img/lotes/img065.jpg",
+      "quantidade": 4,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 4.5,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 44.00,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
+    },
+    {
+      "numero": "M050",
+      "id": "sw1327",
+      "codigo": "sw1327",
+      "nome": "Imperial Stormtrooper - Male (completo com blaster)",
+      "tema": "Star Wars",
+      "setOrigem": "75387 / 40755",
+      "imagem": "assets/img/lotes/img066.jpg",
+      "quantidade": 4,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 4.7,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 46.00,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
+    },
+    {
+      "numero": "M051",
+      "id": "sw1168",
+      "codigo": "sw1168",
+      "nome": "Imperial Stormtrooper - Female (completa com blaster)",
+      "tema": "Star Wars",
+      "setOrigem": "75311",
+      "imagem": "assets/img/lotes/img067.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 6.5,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 63.70,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com 1 blaster. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+      "numero": "M052",
+      "id": "lor115",
+      "codigo": "lor115",
+      "nome": "Elf Statue - Wavy Hair, Legs (completo)",
+      "tema": "The Lord of the Rings",
+      "setOrigem": "10316",
+      "imagem": "assets/img/lotes/img068.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
         "valor": 5.0,
         "moeda": "USD",
         "tipo": "NEW"
       },
-      "valorBrasil": 48.96,
+      "valorBrasil": 49.00,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
+      "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
     },
     {
-      "id": "colmar2-1",
-      "codigo": "colmar2-1",
-      "nome": "Agatha Harkness (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71039",
-      "imagem": "assets/img/lotes/img041.jpg",
+      "numero": "M053",
+      "id": "idea082",
+      "codigo": "idea082",
+      "nome": "Blacksmith - Male (completo com Greatsword e Hammer)",
+      "tema": "Ideas",
+      "setOrigem": "21325",
+      "imagem": "assets/img/lotes/img069.jpg",
       "quantidade": 1,
       "condicao": "NOVO",
       "referenciaInternacional": {
-        "valor": 8.0,
+        "valor": 7.5,
         "moeda": "USD",
         "tipo": "NEW"
       },
-      "valorBrasil": 78.34,
+      "valorBrasil": 73.40,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
+      "observacao": "Item novo e completo com Greatsword (66964) e Hammer (4522). Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     },
     {
-      "id": "colmar2-6",
-      "codigo": "colmar2-6",
-      "nome": "Hawkeye (completo)",
-      "tema": "Marvel Super Heroes",
-      "setOrigem": "71039",
-      "imagem": "assets/img/lotes/img042.jpg",
+      "numero": "M054",
+      "id": "hp176",
+      "codigo": "hp176",
+      "nome": "Harry Potter - Black and Dark Red Uniform (completo com varinha, vassoura e ovo dourado)",
+      "tema": "Harry Potter",
+      "setOrigem": "75946",
+      "imagem": "assets/img/lotes/img070.jpg",
       "quantidade": 1,
       "condicao": "NOVO",
       "referenciaInternacional": {
@@ -763,531 +1033,28 @@
         "moeda": "USD",
         "tipo": "NEW"
       },
-      "valorBrasil": 58.75,
+      "valorBrasil": 58.80,
       "valorLote": 35.0,
-      "observacao": "Item novo e completo com acessórios e base. Armazenado em saco ziplock protegido da luz solar."
+      "observacao": "Item novo e completo com varinha, vassoura (Firebolt) e ovo dourado. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     },
     {
-  "id": "sw1167",
-  "codigo": "sw1167",
-  "nome": "Imperial Stormtrooper - Male (Dual Molded Helmet, Gray Panels on Back, Reddish Brown Head, Grimace)",
-  "tema": "Star Wars - The Mandalorian",
-  "setOrigem": "75311",
-  "imagem": "assets/img/lotes/img043.jpg",
-  "quantidade": 3,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 6.50,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 63.60,
-  "valorLote": 35.0,
-  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
-    },
-    {
-  "id": "sw1229-speeder",
-  "codigo": "sw1229",
-  "nome": "Scout Trooper + Speeder Bike completa com blaster (Endor Chase)",
-  "tema": "Star Wars - Return of the Jedi",
-  "setOrigem": "75332-1",
-  "imagem": "assets/img/lotes/imi044.jpg",
-  "quantidade": 2,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 9.20,
-    "moeda": "USD",
-    "tipo": "NEW / COMPLETE COM VEÍCULO"
-  },
-  "valorBrasil": 90.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo, montado como Speeder Bike + Scout Trooper com blaster. Representa a clássica perseguição em Endor. Retirado de set lacrado e armazenado em saco ziplock."
-    },
-    {
-  "id": "sw1229",
-  "codigo": "sw1229",
-  "nome": "Scout Trooper completo com blaster",
-  "tema": "Star Wars - Return of the Jedi",
-  "setOrigem": "75332-1",
-  "imagem": "assets/img/lotes/img044.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 7.70,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 75.50,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com blaster. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
-    },
-    {
-  "id": "sw1342",
-  "codigo": "sw1342",
-  "nome": "Moff Gideon - Helmet + Jet Pack completo com armas",
-  "tema": "Star Wars - The Mandalorian",
-  "setOrigem": "75386",
-  "imagem": "assets/img/lotes/img045.jpg",
-  "quantidade": 2,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 9.80,
-    "moeda": "USD",
-    "tipo": "NEW / COMPLETE COM ARMAS"
-  },
-  "valorBrasil": 96.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com armas. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
-    },
-    {
-  "id": "sw1341",
-  "codigo": "sw1341",
-  "nome": "Paz Vizsla completo",
-  "tema": "Star Wars - The Mandalorian",
-  "setOrigem": "75386",
-  "imagem": "assets/img/lotes/img046.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 6.90,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 67.50,
-  "valorLote": 35.0,
-  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
-    },
-    {
-  "id": "sh0629",
-  "codigo": "sh0629",
-  "nome": "Black Widow - Black Jumpsuit completo com arma",
-  "tema": "Marvel Super Heroes",
-  "setOrigem": "76162",
-  "imagem": "assets/img/lotes/img047.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 11.00,
-    "moeda": "USD",
-    "tipo": "NEW / COMPLETE COM ARMA"
-  },
-  "valorBrasil": 107.70,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com arma. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
-    },
-    {
-  "id": "lor114",
-  "codigo": "lor114",
-  "nome": "Elf Statue - Straight Hair, Skirt",
-  "tema": "The Lord of the Rings - Icons",
-  "setOrigem": "10316",
-  "imagem": "assets/img/lotes/img048.jpg",
-  "quantidade": 2,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 4.10,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 40.10,
-  "valorLote": 35.0,
-  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
-    },
-    {
-  "id": "lor130",
-  "codigo": "lor130",
-  "nome": "Elf Statue - Wavy Hair, Skirt",
-  "tema": "The Lord of the Rings - Icons",
-  "setOrigem": "10316",
-  "imagem": "assets/img/lotes/img049.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 4.70,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 46.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
-    },
-    {
-  "id": "sh0749",
-  "codigo": "sh0749",
-  "nome": "Captain Peggy Carter - Stealth Suit completa com escudo exclusivo",
-  "tema": "Marvel Super Heroes - What If...?",
-  "setOrigem": "76201",
-  "imagem": "assets/img/lotes/img050.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 10.00,
-    "moeda": "USD",
-    "tipo": "NEW / COMPLETE COM ESCUDO EXCLUSIVO"
-  },
-  "valorBrasil": 97.90,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com o escudo exclusivo (75902pb23). Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
-    },
-    {
-  "id": "hp155",
-  "codigo": "hp155",
-  "nome": "Dementor - Black with Black Cape completo",
-  "tema": "Harry Potter",
-  "setOrigem": "75955 / 75945 / 76403 / 76405",
-  "imagem": "assets/img/lotes/img051.jpg",
-  "quantidade": 2,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 7.00,
-    "moeda": "USD",
-    "tipo": "NEW / COMPLETE"
-  },
-  "valorBrasil": 68.50,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
-    },
-    {
-  "id": "hp422",
-  "codigo": "hp422",
-  "nome": "Lord Voldemort - Sand Green Robe completo com varinha branca e poder verde",
-  "tema": "Harry Potter - Deathly Hallows",
-  "setOrigem": "76415",
-  "imagem": "assets/img/lotes/img052.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 9.00,
-    "moeda": "USD",
-    "tipo": "NEW / COMPLETE COM VARINHA + PODER VERDE"
-  },
-  "valorBrasil": 88.10,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com varinha horizontal branca e poder verde. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
-    },
-    {
-  "id": "colhp-6",
-  "codigo": "colhp-6",
-  "nome": "Neville Longbottom (Harry Potter Series 1) completo",
-  "tema": "Collectible Minifigures - Harry Potter",
-  "setOrigem": "71022",
-  "imagem": "assets/img/lotes/img053.jpg",
-  "quantidade": 3,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 4.50,
-    "moeda": "USD",
-    "tipo": "NEW / COMPLETE (SEM MANUAL)"
-  },
-  "valorBrasil": 44.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
-    },
- {
-  "id": "colhp-3",
-  "codigo": "colhp-3",
-  "nome": "Ron Weasley in School Robes (Harry Potter Series 1) completo",
-  "tema": "Collectible Minifigures - Harry Potter",
-  "setOrigem": "71022",
-  "imagem": "assets/img/lotes/img054.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 5.00,
-    "moeda": "USD",
-    "tipo": "NEW / COMPLETE (SEM MANUAL)"
-  },
-  "valorBrasil": 49.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
- },
-    {
-  "id": "colhp-1",
-  "codigo": "colhp-1",
-  "nome": "Harry Potter in School Robes (Harry Potter Series 1) completo",
-  "tema": "Collectible Minifigures - Harry Potter",
-  "setOrigem": "71022",
-  "imagem": "assets/img/lotes/img055.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 5.50,
-    "moeda": "USD",
-    "tipo": "NEW / COMPLETE (SEM MANUAL)"
-  },
-  "valorBrasil": 53.90,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo (sem manual). Retirado de pacote lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar."
-    },
-    {
-  "id": "hp236a",
-  "codigo": "hp236a",
-  "nome": "Centaur - Quiver",
-  "tema": "Harry Potter",
-  "setOrigem": "75967",
-  "imagem": "assets/img/lotes/img056.jpg",
-  "quantidade": 5,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 9.00,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 88.10,
-  "valorLote": 35.0,
-  "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 5 unidades disponíveis."
-    },
-    {
-  "id": "sh0773",
-  "codigo": "sh0773",
-  "nome": "Thanos - Pearl Gold Outfit (completo)",
-  "tema": "Marvel Super Heroes",
-  "setOrigem": "76237",
-  "imagem": "assets/img/lotes/img057.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 8.5,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 83.20,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com capacete dourado. Armazenado em saco ziplock protegido da luz solar."
-    },
-    {
-  "id": "sw1290",
-  "codigo": "sw1290",
-  "nome": "Morgan Elsbeth - Black Skirt (completo)",
-  "tema": "Star Wars",
-  "setOrigem": "75364",
-  "imagem": "assets/img/lotes/img058.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 8.3,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 81.30,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
-    },
-    {
-  "id": "sw1291",
-  "codigo": "sw1291",
-  "nome": "Astromech Droid - New Republic (completo)",
-  "tema": "Star Wars",
-  "setOrigem": "75364",
-  "imagem": "assets/img/lotes/img059.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 9.0,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 88.10,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
-    },
-    {
-  "id": "sw1289",
-  "codigo": "sw1289",
-  "nome": "Captain Porter (completo)",
-  "tema": "Star Wars",
-  "setOrigem": "75364",
-  "imagem": "assets/img/lotes/img060.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 8.5,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 83.20,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
-    },
-    {
-  "id": "sw1300",
-  "codigo": "sw1300",
-  "nome": "Ahsoka Tano (Adult) - Printed Arms (completo com 2 sabres)",
-  "tema": "Star Wars",
-  "setOrigem": "75362",
-  "imagem": "assets/img/lotes/img061.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 9.5,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 93.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com os 2 sabres de luz incolor exclusivos. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
-    },
-    {
-  "id": "sw1302",
-  "codigo": "sw1302",
-  "nome": "Sabine Wren - Dark Brown Armor (completa)",
-  "tema": "Star Wars",
-  "setOrigem": "75362",
-  "imagem": "assets/img/lotes/img062.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 9.5,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 93.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com cabelo, capacete e armas. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
-    },
-    {
-  "id": "sw1204",
-  "codigo": "sw1204",
-  "nome": "Han Solo - Stormtrooper Outfit (completo com blaster)",
-  "tema": "Star Wars",
-  "setOrigem": "75339",
-  "imagem": "assets/img/lotes/img063.jpg",
-  "quantidade": 2,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 10.5,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 102.80,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
-    },
-    {
-  "id": "sw1203",
-  "codigo": "sw1203",
-  "nome": "Luke Skywalker - Stormtrooper Outfit (completo com blaster)",
-  "tema": "Star Wars",
-  "setOrigem": "75339",
-  "imagem": "assets/img/lotes/img064.jpg",
-  "quantidade": 3,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 9.5,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 93.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
-    },
-    {
-  "id": "sw1326",
-  "codigo": "sw1326",
-  "nome": "Imperial Stormtrooper - Female (completa com blaster)",
-  "tema": "Star Wars",
-  "setOrigem": "vários (2024+)",
-  "imagem": "assets/img/lotes/img065.jpg",
-  "quantidade": 4,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 4.5,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 44.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
-    },
-    {
-  "id": "sw1327",
-  "codigo": "sw1327",
-  "nome": "Imperial Stormtrooper - Male (completo com blaster)",
-  "tema": "Star Wars",
-  "setOrigem": "75387 / 40755",
-  "imagem": "assets/img/lotes/img066.jpg",
-  "quantidade": 3,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 4.7,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 46.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
-    },
-    {
-  "id": "sw1168",
-  "codigo": "sw1168",
-  "nome": "Imperial Stormtrooper - Female (completa com blaster)",
-  "tema": "Star Wars",
-  "setOrigem": "75311",
-  "imagem": "assets/img/lotes/img067.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 6.5,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 63.70,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com 1 blaster. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
-    },
-    {
-  "id": "lor115",
-  "codigo": "lor115",
-  "nome": "Elf Statue - Wavy Hair, Legs (completo)",
-  "tema": "The Lord of the Rings",
-  "setOrigem": "10316",
-  "imagem": "assets/img/lotes/img068.jpg",
-  "quantidade": 2,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 5.0,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 49.00,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
-    },
-    {
-  "id": "idea082",
-  "codigo": "idea082",
-  "nome": "Blacksmith - Male (completo com Greatsword e Hammer)",
-  "tema": "Ideas",
-  "setOrigem": "21325",
-  "imagem": "assets/img/lotes/img069.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 7.5,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 73.40,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com Greatsword (66964) e Hammer (4522). Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
-    },
-    {
-  "id": "hp176",
-  "codigo": "hp176",
-  "nome": "Harry Potter - Black and Dark Red Uniform (completo com varinha, vassoura e ovo dourado)",
-  "tema": "Harry Potter",
-  "setOrigem": "75946",
-  "imagem": "assets/img/lotes/img070.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 6.0,
-    "moeda": "USD",
-    "tipo": "NEW"
-  },
-  "valorBrasil": 58.80,
-  "valorLote": 35.0,
-  "observacao": "Item novo e completo com varinha, vassoura (Firebolt) e ovo dourado. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+      "numero": "M055",
+      "id": "sw1248",
+      "codigo": "sw1248",
+      "nome": "Clone Trooper Specialist, 501st Legion (Phase 2) - Blue Arms, Macrobinoculars (completo)",
+      "tema": "Star Wars - The Clone Wars",
+      "setOrigem": "75345 / 912407",
+      "imagem": "assets/img/lotes/img071.jpg",
+      "quantidade": 5,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 4.80,
+        "moeda": "USD",
+        "tipo": "NEW"
+      },
+      "valorBrasil": 47.00,
+      "valorLote": 35.0,
+      "observacao": "Item novo e completo com macrobinoculars. Armazenado em saco ziplock protegido da luz solar. 5 unidades disponíveis."
     }
   ]
 }
