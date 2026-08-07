@@ -1126,6 +1126,24 @@
   "valorBrasil": 93.00,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com os 2 sabres de luz incolor exclusivos. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "id": "sw1302",
+  "codigo": "sw1302",
+  "nome": "Sabine Wren - Dark Brown Armor (completa)",
+  "tema": "Star Wars",
+  "setOrigem": "75362",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 9.5,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 93.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com cabelo, capacete e armas. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
 }
