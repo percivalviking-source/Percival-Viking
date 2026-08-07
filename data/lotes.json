@@ -1054,6 +1054,60 @@
   "valorBrasil": 83.20,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com capacete dourado. Armazenado em saco ziplock protegido da luz solar."
+    },
+    {
+  "id": "sw1290",
+  "codigo": "sw1290",
+  "nome": "Morgan Elsbeth - Black Skirt (completo)",
+  "tema": "Star Wars",
+  "setOrigem": "75364",
+  "imagem": "assets/img/lotes/img058.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.3,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 81.30,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "id": "sw1291",
+  "codigo": "sw1291",
+  "nome": "Astromech Droid - New Republic (completo)",
+  "tema": "Star Wars",
+  "setOrigem": "75364",
+  "imagem": "assets/img/lotes/img059.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 9.0,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 88.10,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "id": "sw1289",
+  "codigo": "sw1289",
+  "nome": "Captain Porter (completo)",
+  "tema": "Star Wars",
+  "setOrigem": "75364",
+  "imagem": "assets/img/lotes/img060.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.5,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 83.20,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
 }
