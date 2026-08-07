@@ -1108,6 +1108,24 @@
   "valorBrasil": 83.20,
   "valorLote": 35.0,
   "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "id": "sw1300",
+  "codigo": "sw1300",
+  "nome": "Ahsoka Tano (Adult) - Printed Arms (completo com 2 sabres)",
+  "tema": "Star Wars",
+  "setOrigem": "75362",
+  "imagem": "assets/img/lotes/img061.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 9.5,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 93.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com os 2 sabres de luz incolor exclusivos. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
 }
