@@ -1144,6 +1144,42 @@
   "valorBrasil": 93.00,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com cabelo, capacete e armas. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "id": "sw1204",
+  "codigo": "sw1204",
+  "nome": "Han Solo - Stormtrooper Outfit (completo com blaster)",
+  "tema": "Star Wars",
+  "setOrigem": "75339",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 10.5,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 102.80,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "id": "sw1203",
+  "codigo": "sw1203",
+  "nome": "Luke Skywalker - Stormtrooper Outfit (completo com blaster)",
+  "tema": "Star Wars",
+  "setOrigem": "75339",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 3,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 9.5,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 93.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
     }
   ]
 }
