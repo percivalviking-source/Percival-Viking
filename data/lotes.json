@@ -1036,6 +1036,24 @@
   "valorBrasil": 88.10,
   "valorLote": 35.0,
   "observacao": "Item novo, retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 5 unidades disponíveis."
+    },
+    {
+  "id": "sh0773",
+  "codigo": "sh0773",
+  "nome": "Thanos - Pearl Gold Outfit (completo)",
+  "tema": "Marvel Super Heroes",
+  "setOrigem": "76237",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.5,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 83.20,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com capacete dourado. Armazenado em saco ziplock protegido da luz solar."
     }
   ]
 }
