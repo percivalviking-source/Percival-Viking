@@ -1234,6 +1234,60 @@
   "valorBrasil": 63.70,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com 1 blaster. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "id": "lor115",
+  "codigo": "lor115",
+  "nome": "Elf Statue - Wavy Hair, Legs (completo)",
+  "tema": "The Lord of the Rings",
+  "setOrigem": "10316",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.0,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 49.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "id": "idea082",
+  "codigo": "idea082",
+  "nome": "Blacksmith - Male (completo com Greatsword e Hammer)",
+  "tema": "Ideas",
+  "setOrigem": "21325",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.5,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 73.40,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com Greatsword (66964) e Hammer (4522). Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "id": "hp176",
+  "codigo": "hp176",
+  "nome": "Harry Potter - Black and Dark Red Uniform (completo com varinha, vassoura e ovo dourado)",
+  "tema": "Harry Potter",
+  "setOrigem": "75946",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.0,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 58.80,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com varinha, vassoura (Firebolt) e ovo dourado. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
 }
