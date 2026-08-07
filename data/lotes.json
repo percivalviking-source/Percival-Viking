@@ -1180,6 +1180,60 @@
   "valorBrasil": 93.00,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 3 unidades disponíveis."
+    },
+    {
+  "id": "sw1326",
+  "codigo": "sw1326",
+  "nome": "Imperial Stormtrooper - Female (completa com blaster)",
+  "tema": "Star Wars",
+  "setOrigem": "vários (2024+)",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 4.5,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 44.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "id": "sw1327",
+  "codigo": "sw1327",
+  "nome": "Imperial Stormtrooper - Male (completo com blaster)",
+  "tema": "Star Wars",
+  "setOrigem": "75387 / 40755",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 4,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 4.7,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 46.00,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 4 unidades disponíveis."
+    },
+    {
+  "id": "sw1168",
+  "codigo": "sw1168",
+  "nome": "Imperial Stormtrooper - Female (completa com blaster)",
+  "tema": "Star Wars",
+  "setOrigem": "75311",
+  "imagem": "assets/img/lotes/imgXXX.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.5,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 63.70,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com 1 blaster. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
 }
