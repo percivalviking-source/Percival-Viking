@@ -1568,6 +1568,63 @@
   "valorBrasil": 107.71,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com o martelo grande. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M083",
+  "id": "hp297",
+  "codigo": "hp297",
+  "nome": "Mr. Borgin (completo com varinha)",
+  "tema": "Harry Potter",
+  "setOrigem": "40500",
+  "imagem": "assets/img/lotes/img082.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM VARINHA"
+  },
+  "valorBrasil": 48.96,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com varinha. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M084",
+  "id": "sw0532",
+  "codigo": "sw0532",
+  "nome": "Chewbacca - Medium Nougat Fur (completo)",
+  "tema": "Star Wars",
+  "setOrigem": "Vários (75042, 75192, 75290, etc.)",
+  "imagem": "assets/img/lotes/img083.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 68.54,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "numero": "M085",
+  "id": "col20-12",
+  "codigo": "col20-12",
+  "nome": "Sea Rescuer - Series 20 (completo com base, acessórios e manual)",
+  "tema": "Collectible Minifigures - Series 20",
+  "setOrigem": "71027",
+  "imagem": "assets/img/lotes/img084.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.50,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM MANUAL"
+  },
+  "valorBrasil": 63.65,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
     }
