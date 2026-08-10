@@ -7,7 +7,7 @@
     "moeda": "BRL",
     "cotacaoDolar": 5.1,
     "freteIncluido": false,
-    "observacaoMetodologia": "Referências individuais estimadas a partir de preço internacional em condição NEW, conversão para reais e tributação estimada aplicável. Frete internacional não incluído.",
+    "observacaoMetodologia": "O Valor Brasil (Referência Individual BR) é calculado da seguinte forma: Preço Internacional (USD) × Cotação do Dólar (R$ 5,10) × 1,92. O multiplicador 1,92 é uma estimativa que já contempla Imposto de Importação, ICMS, PIS/COFINS, IOF e custos operacionais. O frete internacional NÃO está incluído neste valor.",
     "observacaoCondicao": "Todos os itens deste catálogo são novos, retirados de sets lacrados e armazenados imediatamente em sacos ziplock, protegidos da luz solar."
   },
   "itens": [
@@ -1627,4 +1627,4 @@
       "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
-    }
+}
