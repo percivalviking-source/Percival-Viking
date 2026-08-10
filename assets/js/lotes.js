@@ -356,6 +356,42 @@
       }
 
 
+      .lote-badge-numero {
+
+        position: absolute;
+
+        top: 12px;
+
+        right: 12px;
+
+        padding:
+          6px 10px;
+
+        border-radius:
+          999px;
+
+        background:
+          #1a1a1a;
+
+        color:
+          #fff;
+
+        border:
+          1px solid
+          rgba(0,0,0,.15);
+
+        font-size:
+          .78rem;
+
+        font-weight:
+          700;
+
+        letter-spacing:
+          0.3px;
+
+      }
+
+
       .lote-card-conteudo {
 
         padding:
@@ -1056,6 +1092,7 @@
         <div
           class="lotes-modal-codigo"
         >
+          ${item.numero ? `<strong style="color:#111;margin-right:8px;">${escaparHTML(item.numero)}</strong>` : ""}
           Código:
           <strong>
             ${escaparHTML(item.codigo)}
@@ -1413,6 +1450,18 @@
           ${escaparHTML(item.condicao)}
         </span>
 
+        ${
+          item.numero
+            ? `
+              <span
+                class="lote-badge-numero"
+              >
+                ${escaparHTML(item.numero)}
+              </span>
+            `
+            : ""
+        }
+
       </div>
 
 
@@ -1423,6 +1472,7 @@
         <div
           class="lote-card-codigo"
         >
+          ${item.numero ? `<strong style="color:#111;margin-right:6px;">${escaparHTML(item.numero)}</strong>` : ""}
           Código:
           <strong>
             ${escaparHTML(item.codigo)}
@@ -1738,7 +1788,9 @@
 
           item.observacao,
 
-          item.id
+          item.id,
+
+          item.numero
 
         ];
 
