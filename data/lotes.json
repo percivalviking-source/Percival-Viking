@@ -1359,6 +1359,82 @@
       "valorBrasil": 58.8,
       "valorLote": 35.0,
       "observacao": "Item novo e completo com varinha, vassoura (Firebolt) e ovo dourado. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M072",
+  "id": "colhp2-8",
+  "codigo": "colhp2-8",
+  "nome": "James Potter (completo com base e acessórios)",
+  "tema": "Collectible Minifigures - Harry Potter Series 2",
+  "setOrigem": "71028",
+  "imagem": "assets/img/lotes/img071.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.80,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE"
+  },
+  "valorBrasil": 66.59,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com base e acessórios. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M073",
+  "id": "sw1216",
+  "codigo": "sw1216",
+  "nome": "Taun We (completo)",
+  "tema": "Star Wars - Attack of the Clones",
+  "setOrigem": "75333",
+  "imagem": "assets/img/lotes/img072.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.30,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 71.48,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M074",
+  "id": "sw1221",
+  "codigo": "sw1221",
+  "nome": "R4-P17 - Astromech Droid (completo)",
+  "tema": "Star Wars - Attack of the Clones",
+  "setOrigem": "75333",
+  "imagem": "assets/img/lotes/img073.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 4.20,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 41.13,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M075",
+  "id": "sh0545",
+  "codigo": "sh0545",
+  "nome": "Green Goblin - Lime Skin, Dark Purple Outfit (completo com glider, bomba, saco e base)",
+  "tema": "Marvel Super Heroes - Spider-Man",
+  "setOrigem": "76133",
+  "imagem": "assets/img/lotes/img074.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 10.50,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM ACESSÓRIOS"
+  },
+  "valorBrasil": 102.82,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com a navinha (glider), bomba de abóbora, saco de dinheiro e base. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
     }
