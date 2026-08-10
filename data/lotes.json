@@ -1435,6 +1435,139 @@
   "valorBrasil": 102.82,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com a navinha (glider), bomba de abóbora, saco de dinheiro e base. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M075",
+  "id": "sh0545",
+  "codigo": "sh0545",
+  "nome": "Green Goblin - Lime Skin, Dark Purple Outfit (completo com glider, bomba, saco e base)",
+  "tema": "Marvel Super Heroes - Spider-Man",
+  "setOrigem": "76133",
+  "imagem": "assets/img/lotes/img074.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 10.50,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM ACESSÓRIOS"
+  },
+  "valorBrasil": 102.82,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com a navinha (glider), bomba de abóbora, saco de dinheiro e base. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M076",
+  "id": "colmar2-2",
+  "codigo": "colmar2-2",
+  "nome": "Moon Knight (completo com base, acessórios e manual)",
+  "tema": "Marvel Studios Series 2 - Collectible Minifigures",
+  "setOrigem": "71039",
+  "imagem": "assets/img/lotes/img075.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 12.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM MANUAL"
+  },
+  "valorBrasil": 117.50,
+  "valorLote": 80.0,
+  "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M077",
+  "id": "sw1235",
+  "codigo": "sw1235",
+  "nome": "Clone Trooper, 212th Attack Battalion (Phase 2) - White Arms, Dirt Stains (completo com blaster cano longo)",
+  "tema": "Star Wars - Revenge of the Sith",
+  "setOrigem": "75337 / 75366 / 912303",
+  "imagem": "assets/img/lotes/img076.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 9.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM BLASTER"
+  },
+  "valorBrasil": 88.13,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com blaster cano longo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M078",
+  "id": "sw1305",
+  "codigo": "sw1305",
+  "nome": "Clone Shock Trooper, Coruscant Guard (Phase 2) - Nougat Head (completo com blaster e binóculo)",
+  "tema": "Star Wars - The Clone Wars",
+  "setOrigem": "75354 / 75372 / 912403",
+  "imagem": "assets/img/lotes/img077.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.50,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM BLASTER E BINÓCULO"
+  },
+  "valorBrasil": 63.65,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com blaster e binóculo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M079",
+  "id": "sw1276",
+  "codigo": "sw1276",
+  "nome": "Clone Trooper, 501st Legion, 332nd Company (Phase 2) - Helmet with Togruta Markings + Blue Jet Pack (completo)",
+  "tema": "Star Wars - The Clone Wars",
+  "setOrigem": "75359",
+  "imagem": "assets/img/lotes/img078.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 4.20,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 41.13,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com jet pack azul. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "numero": "M080",
+  "id": "sw1258",
+  "codigo": "sw1258",
+  "nome": "The Mandalorian / Din Djarin - Silver Beskar Armor, Jet Pack (completo com Sabre Negro)",
+  "tema": "Star Wars - The Mandalorian",
+  "setOrigem": "75348 / 75361 / 75363",
+  "imagem": "assets/img/lotes/img079.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM DARKSABER"
+  },
+  "valorBrasil": 78.34,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com jet pack e Sabre Negro (Darksaber). Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M081",
+  "id": "sh0959",
+  "codigo": "sh0959",
+  "nome": "Harley Quinn - Jester's Cap, Black and Red Hands (completo com martelo)",
+  "tema": "DC Super Heroes - Batman: The Animated Series",
+  "setOrigem": "76271 / 76274",
+  "imagem": "assets/img/lotes/img080.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 11.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM MARTELO"
+  },
+  "valorBrasil": 107.71,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com o martelo grande. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
     }
