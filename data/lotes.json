@@ -1720,6 +1720,101 @@
   "valorBrasil": 66.59,
   "valorLote": 35.0,
   "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M094",
+  "id": "sw1210",
+  "codigo": "sw1210",
+  "nome": "Peli Motto (completa)",
+  "tema": "Star Wars - The Mandalorian",
+  "setOrigem": "75325",
+  "imagem": "assets/img/lotes/img093.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.20,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 70.50,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M095",
+  "id": "sw1077",
+  "codigo": "sw1077",
+  "nome": "Mandalorian Tribe Warrior - Female, Black Cape, Light Bluish Gray Helmet (completa)",
+  "tema": "Star Wars - The Mandalorian",
+  "setOrigem": "75267",
+  "imagem": "assets/img/lotes/img094.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.40,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 52.84,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M096",
+  "id": "sw1078",
+  "codigo": "sw1078",
+  "nome": "Mandalorian Tribe Warrior - Female, Dark Brown Cape, Green Helmet (completa)",
+  "tema": "Star Wars - The Mandalorian",
+  "setOrigem": "75267",
+  "imagem": "assets/img/lotes/img095.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.20,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 50.88,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M097",
+  "id": "sw1079",
+  "codigo": "sw1079",
+  "nome": "Mandalorian Tribe Warrior - Male, Dark Brown Cape, Dark Orange Helmet (completa)",
+  "tema": "Star Wars - The Mandalorian",
+  "setOrigem": "75267",
+  "imagem": "assets/img/lotes/img096.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.30,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 51.86,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M098",
+  "id": "sw1080",
+  "codigo": "sw1080",
+  "nome": "Mandalorian Tribe Warrior - Male, Olive Green Cape, Dark Azure Helmet (completa)",
+  "tema": "Star Wars - The Mandalorian",
+  "setOrigem": "75267",
+  "imagem": "assets/img/lotes/img097.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.40,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 52.84,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
 }
