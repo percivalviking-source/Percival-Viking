@@ -1625,6 +1625,82 @@
       "valorBrasil": 63.65,
       "valorLote": 35.0,
       "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M089",
+  "id": "dis079",
+  "codigo": "dis079",
+  "nome": "Daisy Duck - Lavender Dress, Gold Crown (completo com varinha rosa trans-clear e chave dourada)",
+  "tema": "Disney - Mickey and Friends",
+  "setOrigem": "10780",
+  "imagem": "assets/img/lotes/img088.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.20,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 70.50,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com a varinha rosa trans-clear e a chave dourada do set. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M090",
+  "id": "sh0816",
+  "codigo": "sh0816",
+  "nome": "King Valkyrie (completa com espada)",
+  "tema": "Marvel Super Heroes - Thor: Love and Thunder",
+  "setOrigem": "76208",
+  "imagem": "assets/img/lotes/img089.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.20,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 60.71,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com a espada. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M091",
+  "id": "lor116",
+  "codigo": "lor116",
+  "nome": "Elf Statue - Straight Hair, Legs (completo)",
+  "tema": "The Lord of the Rings - Icons",
+  "setOrigem": "10316",
+  "imagem": "assets/img/lotes/img090.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 4.60,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 45.01,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M092",
+  "id": "col20-1",
+  "codigo": "col20-1",
+  "nome": "Piñata Boy - Series 20 (completo com base, acessórios e manual)",
+  "tema": "Collectible Minifigures Series 20",
+  "setOrigem": "71027",
+  "imagem": "assets/img/lotes/img091.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.00,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE COM MANUAL"
+  },
+  "valorBrasil": 78.34,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
     }
   ]
 }
