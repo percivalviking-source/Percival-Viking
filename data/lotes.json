@@ -1815,6 +1815,82 @@
   "valorBrasil": 52.84,
   "valorLote": 35.0,
   "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
-    }
+    },
+    {
+  "numero": "M099",
+  "id": "idea083",
+  "codigo": "idea083",
+  "nome": "Huntress - Green Tunic (completa com arco, flechas e maça)",
+  "tema": "Ideas - Medieval Blacksmith",
+  "setOrigem": "21325",
+  "imagem": "assets/img/lotes/img098.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.40,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 52.84,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com arco, flechas e maça. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M100",
+  "id": "colhp2-7",
+  "codigo": "colhp2-7",
+  "nome": "Lily Potter (completa)",
+  "tema": "Harry Potter Collectible Minifigures Series 2",
+  "setOrigem": "71028",
+  "imagem": "assets/img/lotes/img099.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.00,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 78.34,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo (sem manual). Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M101",
+  "id": "sw0994",
+  "codigo": "sw0994",
+  "nome": "Princess Leia - White Dress (completa com blaster)",
+  "tema": "Star Wars - Episode IV",
+  "setOrigem": "75229 / 75339",
+  "imagem": "assets/img/lotes/img100.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.20,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 80.29,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com blaster. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "M102",
+  "id": "sw1249",
+  "codigo": "sw1249",
+  "nome": "Darth Vader - Printed Arms, Spongy Cape (completo com sabre)",
+  "tema": "Star Wars - Episode VI",
+  "setOrigem": "75347 / 75352 / 75387",
+  "imagem": "assets/img/lotes/img101.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.50,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 83.23,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com sabre de luz. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
+    }    
   ]
 }
