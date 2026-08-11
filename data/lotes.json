@@ -1701,6 +1701,25 @@
   "valorBrasil": 78.34,
   "valorLote": 35.0,
   "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "numero": "M093",
+  "id": "sw1192",
+  "codigo": "sw1192",
+  "nome": "Fennec Shand - Hair (completa)",
+  "tema": "Star Wars - The Book of Boba Fett",
+  "setOrigem": "75326",
+  "imagem": "assets/img/lotes/img092.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 6.80,
+    "moeda": "USD",
+    "tipo": "NEW"
+  },
+  "valorBrasil": 66.59,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
 }
