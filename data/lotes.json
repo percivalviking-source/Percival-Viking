@@ -2974,6 +2974,101 @@
       "valorBrasil": 137.09,
       "valorLote": 80.0,
       "observacao": "Robô Zurg completo e montado, proveniente do set LEGO Disney / Pixar Lightyear 76831, acompanhado da cartela original de adesivos sem uso e lacrada. Item novo, retirado de set lacrado e armazenado protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "MR055",
+  "id": "sh0202",
+  "codigo": "sh0202",
+  "nome": "Ant-Man (Hank Pym) - completo com capacete",
+  "tema": "Marvel Super Heroes - Ant-Man",
+  "setOrigem": "76039",
+  "imagem": "assets/img/lotes/img156.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 18.0,
+    "moeda": "USD",
+    "tipo": "NEW / REFERÊNCIA CONSERVADORA"
+  },
+  "valorBrasil": 176.26,
+  "valorLote": 80.0,
+  "observacao": "Item novo e completo com capacete, exclusivo do set LEGO Marvel Super Heroes 76039 Ant-Man Final Battle. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "MR056",
+  "id": "sw1315",
+  "codigo": "sw1315",
+  "nome": "Clone Trooper Captain Rex, 501st Legion (Phase 2) - Blue Cloth Pauldron, Rangefinder, Printed White Arms",
+  "tema": "Star Wars - The Clone Wars",
+  "setOrigem": "75367 / 75391",
+  "imagem": "assets/img/lotes/img157.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.0,
+    "moeda": "USD",
+    "tipo": "NEW / REFERÊNCIA CONSERVADORA"
+  },
+  "valorBrasil": 78.34,
+  "valorLote": 35.0,
+  "observacao": "Item novo com pauldron azul e rangefinder, versão Captain Rex da 501st Legion Phase 2 (sw1315). Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "numero": "MR057",
+  "id": "hp430",
+  "codigo": "hp430",
+  "nome": "Draco Malfoy - Dark Green Slytherin Quidditch Uniform with Hood and Cape",
+  "tema": "Harry Potter - Quidditch",
+  "setOrigem": "76416",
+  "imagem": "assets/img/lotes/img158.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.5,
+    "moeda": "USD",
+    "tipo": "NEW / REFERÊNCIA CONSERVADORA"
+  },
+  "valorBrasil": 73.44,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com capuz e capa, versão exclusiva do set LEGO Harry Potter 76416 Quidditch Trunk. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "MR058",
+  "id": "colhp-4",
+  "codigo": "colhp-4",
+  "nome": "Draco Malfoy - Harry Potter Series 1 (completo com base, vassoura, Pomo de Ouro e varinha)",
+  "tema": "Harry Potter Collectible Minifigures Series 1",
+  "setOrigem": "71022",
+  "imagem": "assets/img/lotes/img159.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.0,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE / REFERÊNCIA CONSERVADORA"
+  },
+  "valorBrasil": 48.96,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com base, vassoura, Pomo de Ouro e varinha. Versão Draco Malfoy da Harry Potter Collectible Minifigures Series 1 (71022). Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
+    },
+    {
+  "numero": "MR059",
+  "id": "colhp-12",
+  "codigo": "colhp-12",
+  "nome": "Cedric Diggory - Harry Potter Series 1 (completo com base, Taça Tribruxo e varinha)",
+  "tema": "Harry Potter Collectible Minifigures Series 1",
+  "setOrigem": "71022",
+  "imagem": "assets/img/lotes/img160.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 5.0,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE / REFERÊNCIA CONSERVADORA"
+  },
+  "valorBrasil": 48.96,
+  "valorLote": 35.0,
+  "observacao": "Item novo e completo com base, Taça Tribruxo e varinha. Versão Cedric Diggory da Harry Potter Collectible Minifigures Series 1 (71022). Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     }
   ]
     }
