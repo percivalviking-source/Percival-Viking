@@ -1627,6 +1627,25 @@
       "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     },
     {
+  "numero": "M086",
+  "id": "38117pb01",
+  "codigo": "38117pb01",
+  "nome": "Niffler - Molded Nougat Snout and Paws, Printed Black Eyes",
+  "tema": "Fantastic Beasts / Harry Potter",
+  "setOrigem": "75952 / 71022",
+  "imagem": "assets/img/lotes/img085.jpg",
+  "quantidade": 2,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 7.99,
+    "moeda": "USD",
+    "tipo": "NEW / REFERÊNCIA CONSERVADORA"
+  },
+  "valorBrasil": 78.24,
+  "valorLote": 35.0,
+  "observacao": "Item novo, retirado de set ou embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
       "numero": "M089",
       "id": "dis079",
       "codigo": "dis079",
