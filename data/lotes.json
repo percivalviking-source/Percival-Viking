@@ -2254,24 +2254,24 @@
       "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     },
     {
-      "numero": "MR017",
-      "id": "sw1132",
-      "codigo": "sw1132",
-      "nome": "Sandtrooper Squad Leader (Captain) - Dual Molded Helmet, Orange Pauldron (completo)",
-      "tema": "Star Wars - Episode IV",
-      "setOrigem": "75290",
-      "imagem": "assets/img/lotes/img118.jpg",
-      "quantidade": 1,
-      "condicao": "NOVO",
-      "referenciaInternacional": {
-        "valor": 16.5,
-        "moeda": "USD",
-        "tipo": "NEW"
-      },
-      "valorBrasil": 161.57,
-      "valorLote": 80.0,
-      "observacao": "Item novo e completo. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
-    },
+  "numero": "MR017",
+  "id": "sw1132",
+  "codigo": "sw1132",
+  "nome": "Sandtrooper Squad Leader (Captain) - Dual Molded Helmet, Orange Pauldron (completo)",
+  "tema": "Star Wars - Episode IV",
+  "setOrigem": "75290",
+  "imagem": "assets/img/lotes/img118.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 24.0,
+    "moeda": "USD",
+    "tipo": "NEW / COMPLETE"
+  },
+  "valorBrasil": 235.01,
+  "valorLote": 80.0,
+  "observacao": "Item novo e completo com pauldron laranja e survival backpack. Retirado de set lacrado e armazenado imediatamente em saco ziplock, protegido da luz solar. 1 unidade disponível."
+    }
     {
       "numero": "MR018",
       "id": "sh0213",
