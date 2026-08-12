@@ -1641,9 +1641,48 @@
     "moeda": "USD",
     "tipo": "NEW / REFERÊNCIA CONSERVADORA"
   },
+      {
+  "numero": "M087",
+  "id": "sonic-animal-trio",
+  "codigo": "69901pb10 + 3918pb02 + 3918pb04",
+  "nome": "Trio Sonic - Becky Bear + Clucky Chicken + Pecky Penguin",
+  "tema": "Sonic the Hedgehog",
+  "setOrigem": "Vários sets Sonic the Hedgehog",
+  "imagem": "assets/img/lotes/img086.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.61,
+    "moeda": "USD",
+    "tipo": "NEW / CONJUNTO DE 3 PERSONAGENS"
+  },
+  "valorBrasil": 84.31,
+  "valorLote": 35.0,
+  "observacao": "Conjunto com 3 personagens LEGO Sonic the Hedgehog: Becky Bear (69901pb10), Clucky Chicken (3918pb02) e Pecky Penguin (3918pb04). Itens novos, retirados de sets lacrados e armazenados imediatamente em saco ziplock, protegidos da luz solar. Vendidos juntos como um único conjunto."
+    },
+    
   "valorBrasil": 78.24,
   "valorLote": 35.0,
   "observacao": "Item novo, retirado de set ou embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
+    },
+    {
+  "numero": "M088",
+  "id": "cty1306-2x80679pb03",
+  "codigo": "cty1306 + 2x 80679pb03",
+  "nome": "Wildlife Rescue Worker + 2 esquilos cinza",
+  "tema": "LEGO City - Wildlife Rescue",
+  "setOrigem": "60302",
+  "imagem": "assets/img/lotes/img087.jpg",
+  "quantidade": 1,
+  "condicao": "NOVO",
+  "referenciaInternacional": {
+    "valor": 8.0,
+    "moeda": "USD",
+    "tipo": "NEW / CONJUNTO DE 3 ITENS"
+  },
+  "valorBrasil": 78.34,
+  "valorLote": 35.0,
+  "observacao": "Conjunto com 1 Wildlife Rescue Worker (cty1306) e 2 esquilos Light Bluish Gray (80679pb03). Itens novos, retirados de set lacrado e armazenados imediatamente em saco ziplock, protegidos da luz solar. Vendidos juntos como um único conjunto."
     },
     {
       "numero": "M089",
