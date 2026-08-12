@@ -1627,62 +1627,61 @@
       "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     },
     {
-  "numero": "M086",
-  "id": "38117pb01",
-  "codigo": "38117pb01",
-  "nome": "Niffler - Molded Nougat Snout and Paws, Printed Black Eyes",
-  "tema": "Fantastic Beasts / Harry Potter",
-  "setOrigem": "75952 / 71022",
-  "imagem": "assets/img/lotes/img085.jpg",
-  "quantidade": 2,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 7.99,
-    "moeda": "USD",
-    "tipo": "NEW / REFERÊNCIA CONSERVADORA"
-  },
-      {
-  "numero": "M087",
-  "id": "sonic-animal-trio",
-  "codigo": "69901pb10 + 3918pb02 + 3918pb04",
-  "nome": "Trio Sonic - Becky Bear + Clucky Chicken + Pecky Penguin",
-  "tema": "Sonic the Hedgehog",
-  "setOrigem": "Vários sets Sonic the Hedgehog",
-  "imagem": "assets/img/lotes/img086.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 8.61,
-    "moeda": "USD",
-    "tipo": "NEW / CONJUNTO DE 3 PERSONAGENS"
-  },
-  "valorBrasil": 84.31,
-  "valorLote": 35.0,
-  "observacao": "Conjunto com 3 personagens LEGO Sonic the Hedgehog: Becky Bear (69901pb10), Clucky Chicken (3918pb02) e Pecky Penguin (3918pb04). Itens novos, retirados de sets lacrados e armazenados imediatamente em saco ziplock, protegidos da luz solar. Vendidos juntos como um único conjunto."
-    },
-    
-  "valorBrasil": 78.24,
-  "valorLote": 35.0,
-  "observacao": "Item novo, retirado de set ou embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
+      "numero": "M086",
+      "id": "38117pb01",
+      "codigo": "38117pb01",
+      "nome": "Niffler - Molded Nougat Snout and Paws, Printed Black Eyes",
+      "tema": "Fantastic Beasts / Harry Potter",
+      "setOrigem": "75952 / 71022",
+      "imagem": "assets/img/lotes/img085.jpg",
+      "quantidade": 2,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 7.99,
+        "moeda": "USD",
+        "tipo": "NEW / REFERÊNCIA CONSERVADORA"
+      },
+      "valorBrasil": 78.24,
+      "valorLote": 35.0,
+      "observacao": "Item novo, retirado de set ou embalagem lacrada e armazenado imediatamente em saco ziplock, protegido da luz solar. 2 unidades disponíveis."
     },
     {
-  "numero": "M088",
-  "id": "cty1306-2x80679pb03",
-  "codigo": "cty1306 + 2x 80679pb03",
-  "nome": "Wildlife Rescue Worker + 2 esquilos cinza",
-  "tema": "LEGO City - Wildlife Rescue",
-  "setOrigem": "60302",
-  "imagem": "assets/img/lotes/img087.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 8.0,
-    "moeda": "USD",
-    "tipo": "NEW / CONJUNTO DE 3 ITENS"
-  },
-  "valorBrasil": 78.34,
-  "valorLote": 35.0,
-  "observacao": "Conjunto com 1 Wildlife Rescue Worker (cty1306) e 2 esquilos Light Bluish Gray (80679pb03). Itens novos, retirados de set lacrado e armazenados imediatamente em saco ziplock, protegidos da luz solar. Vendidos juntos como um único conjunto."
+      "numero": "M087",
+      "id": "sonic-animal-trio",
+      "codigo": "69901pb10 + 3918pb02 + 3918pb04",
+      "nome": "Trio Sonic - Becky Bear + Clucky Chicken + Pecky Penguin",
+      "tema": "Sonic the Hedgehog",
+      "setOrigem": "Vários sets Sonic the Hedgehog",
+      "imagem": "assets/img/lotes/img086.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 8.61,
+        "moeda": "USD",
+        "tipo": "NEW / CONJUNTO DE 3 PERSONAGENS"
+      },
+      "valorBrasil": 84.31,
+      "valorLote": 35.0,
+      "observacao": "Conjunto com 3 personagens LEGO Sonic the Hedgehog: Becky Bear (69901pb10), Clucky Chicken (3918pb02) e Pecky Penguin (3918pb04). Itens novos, retirados de sets lacrados e armazenados imediatamente em saco ziplock, protegidos da luz solar. Vendidos juntos como um único conjunto."
+    },
+    {
+      "numero": "M088",
+      "id": "cty1306-2x80679pb03",
+      "codigo": "cty1306 + 2x 80679pb03",
+      "nome": "Wildlife Rescue Worker + 2 esquilos cinza",
+      "tema": "LEGO City - Wildlife Rescue",
+      "setOrigem": "60302",
+      "imagem": "assets/img/lotes/img087.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 8.0,
+        "moeda": "USD",
+        "tipo": "NEW / CONJUNTO DE 3 ITENS"
+      },
+      "valorBrasil": 78.34,
+      "valorLote": 35.0,
+      "observacao": "Conjunto com 1 Wildlife Rescue Worker (cty1306) e 2 esquilos Light Bluish Gray (80679pb03). Itens novos, retirados de set lacrado e armazenados imediatamente em saco ziplock, protegidos da luz solar. Vendidos juntos como um único conjunto."
     },
     {
       "numero": "M089",
@@ -2243,7 +2242,7 @@
       "tema": "Collectible Minifigures Series 20",
       "setOrigem": "71027",
       "imagem": "assets/img/lotes/img117.jpg",
-      "quantidade": 2,
+      "quantidade": 1,
       "condicao": "NOVO",
       "referenciaInternacional": {
         "valor": 27.0,
@@ -2252,7 +2251,7 @@
       },
       "valorBrasil": 264.38,
       "valorLote": 80.0,
-      "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
+      "observacao": "Item novo e completo com base, acessórios e manual. Armazenado em saco ziplock protegido da luz solar. 1 unidade disponível."
     },
     {
       "numero": "MR017",
@@ -2958,23 +2957,23 @@
       "observacao": "Item novo e completo com as 6 Joias do Infinito já instaladas. Armazenado em saco ziplock protegido da luz solar. 2 unidades disponíveis."
     },
     {
-  "numero": "MR054",
-  "id": "76831-zurg-build",
-  "codigo": "76831 + 76831stk01",
-  "nome": "Zurg - robô montável completo + cartela original de adesivos lacrada",
-  "tema": "Disney / Pixar Lightyear",
-  "setOrigem": "76831",
-  "imagem": "assets/img/lotes/img155.jpg",
-  "quantidade": 1,
-  "condicao": "NOVO",
-  "referenciaInternacional": {
-    "valor": 14.0,
-    "moeda": "USD",
-    "tipo": "NEW / ZURG BUILD + STICKER SHEET"
-  },
-  "valorBrasil": 137.09,
-  "valorLote": 80.0,
-  "observacao": "Robô Zurg completo e montado, proveniente do set LEGO Disney / Pixar Lightyear 76831, acompanhado da cartela original de adesivos sem uso e lacrada. Item novo, retirado de set lacrado e armazenado protegido da luz solar. 1 unidade disponível."
+      "numero": "MR054",
+      "id": "76831-zurg-build",
+      "codigo": "76831 + 76831stk01",
+      "nome": "Zurg - robô montável completo + cartela original de adesivos lacrada",
+      "tema": "Disney / Pixar Lightyear",
+      "setOrigem": "76831",
+      "imagem": "assets/img/lotes/img155.jpg",
+      "quantidade": 1,
+      "condicao": "NOVO",
+      "referenciaInternacional": {
+        "valor": 14.0,
+        "moeda": "USD",
+        "tipo": "NEW / ZURG BUILD + STICKER SHEET"
+      },
+      "valorBrasil": 137.09,
+      "valorLote": 80.0,
+      "observacao": "Robô Zurg completo e montado, proveniente do set LEGO Disney / Pixar Lightyear 76831, acompanhado da cartela original de adesivos sem uso e lacrada. Item novo, retirado de set lacrado e armazenado protegido da luz solar. 1 unidade disponível."
     }
   ]
-}
+    }
