@@ -1,1087 +1,349 @@
-:root {
-  --bg: #f2f3f7;
-  --surface: #fff;
-  --text: #111827;
-  --muted: #6b7280;
-  --line: #e5e7eb;
-  --primary: #0b7f86;
-  --primary-dark: #064e5a;
-  --shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
-  --radius-lg: 24px;
-  --container: 1120px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  background:
-    radial-gradient(circle at top, rgba(20, 184, 196, 0.06), transparent 32rem),
-    var(--bg);
-  color: var(--text);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.45;
-}
-
-body.menu-open,
-body.search-open {
-  overflow: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-.skip-link {
-  position: absolute;
-  left: -999px;
-}
-
-.skip-link:focus {
-  left: 12px;
-  top: 12px;
-  z-index: 120;
-  background: #111827;
-  color: #fff;
-  padding: 10px 14px;
-  border-radius: 12px;
-}
-
-/* Header */
-
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 70;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--line);
-}
-
-.header-inner {
-  min-height: 74px;
-  display: grid;
-  grid-template-columns: 48px 1fr 48px;
-  align-items: center;
-  gap: 8px;
-  max-width: var(--container);
-  margin: 0 auto;
-  padding: 0 18px;
-}
-
-.icon-button {
-  width: 44px;
-  height: 44px;
-  border: 0;
-  border-radius: 16px;
-  background: transparent;
-  color: var(--text);
-  display: grid;
-  place-items: center;
-  font-size: 34px;
-  cursor: pointer;
-}
-
-.menu-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.menu-button span {
-  display: block;
-  width: 26px;
-  height: 3px;
-  border-radius: 999px;
-  background: currentColor;
-  transition:
-    transform 0.25s ease,
-    opacity 0.2s ease;
-}
-
-body.menu-open .menu-button span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-body.menu-open .menu-button span:nth-child(2) {
-  opacity: 0;
-}
-
-body.menu-open .menu-button span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.brand-logo {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-}
-
-.brand-name {
-  font-weight: 850;
-  letter-spacing: -0.04em;
-  font-size: clamp(1.45rem, 5vw, 2.2rem);
-  white-space: nowrap;
-}
-
-.brand-name strong {
-  color: var(--primary);
-}
-
-.search-button {
-  font-size: 34px;
-  line-height: 1;
-}
-
-/* Desktop nav */
-
-.desktop-nav {
-  display: none;
-  max-width: var(--container);
-  margin: 0 auto;
-  padding: 0 18px 12px;
-  gap: 20px;
-  justify-content: center;
-  font-weight: 700;
-  color: #334155;
-}
-
-.desktop-nav a {
-  padding: 8px 12px;
-  border-radius: 999px;
-}
-
-.desktop-nav a:hover {
-  background: rgba(11, 127, 134, 0.1);
-  color: var(--primary-dark);
-}
-
-/* Mobile menu */
-
-.menu-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 80;
-  background: rgba(15, 23, 42, 0.42);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.25s ease;
-  backdrop-filter: blur(3px);
-}
-
-.mobile-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 90;
-  width: min(82vw, 340px);
-  height: 100dvh;
-  background: #fff;
-  border-right: 1px solid var(--line);
-  box-shadow: 18px 0 45px rgba(15, 23, 42, 0.18);
-  transform: translateX(-105%);
-  transition: transform 0.28s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-body.menu-open .menu-overlay {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-body.menu-open .mobile-menu {
-  transform: translateX(0);
-}
-
-.mobile-menu-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-  padding: 18px;
-  border-bottom: 1px solid var(--line);
-}
-
-.mobile-menu-brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--text);
-  text-decoration: none;
-  font-size: 1.18rem;
-  font-weight: 850;
-  letter-spacing: -0.04em;
-}
-
-.mobile-menu-brand img {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-}
-
-.mobile-menu-brand strong {
-  color: var(--primary);
-}
-
-.mobile-menu-close {
-  width: 42px;
-  height: 42px;
-  border: 0;
-  border-radius: 999px;
-  background: rgba(11, 127, 134, 0.1);
-  color: var(--text);
-  font-size: 2rem;
-  line-height: 1;
-  cursor: pointer;
-}
-
-.mobile-menu-nav {
-  display: grid;
-  gap: 8px;
-  padding: 16px;
-}
-
-.mobile-menu-nav a {
-  display: flex;
-  align-items: center;
-  min-height: 48px;
-  padding: 12px 14px;
-  border-radius: 16px;
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 800;
-  background: #f8fafc;
-  border: 1px solid transparent;
-  transition:
-    background 0.2s ease,
-    border-color 0.2s ease,
-    color 0.2s ease,
-    transform 0.2s ease;
-}
-
-.mobile-menu-nav a:hover,
-.mobile-menu-nav a:focus {
-  background: rgba(11, 127, 134, 0.1);
-  border-color: rgba(11, 127, 134, 0.18);
-  color: var(--primary-dark);
-  transform: translateX(2px);
-}
-
-.mobile-menu-footer {
-  margin-top: auto;
-  padding: 18px;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 0.96rem;
-  line-height: 1.5;
-}
-
-.mobile-menu-footer p {
-  margin: 0;
-}
-
-/* Busca */
-
-.search-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 82;
-  background: rgba(15, 23, 42, 0.42);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.25s ease;
-  backdrop-filter: blur(3px);
-}
-
-.search-panel {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 96;
-  max-height: 86dvh;
-  overflow-y: auto;
-  background: #fff;
-  border-bottom: 1px solid var(--line);
-  border-radius: 0 0 28px 28px;
-  box-shadow: 0 22px 60px rgba(15, 23, 42, 0.2);
-  transform: translateY(-110%);
-  opacity: 0;
-  pointer-events: none;
-  transition:
-    transform 0.28s ease,
-    opacity 0.22s ease;
-}
-
-body.search-open .search-overlay {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-body.search-open .search-panel {
-  transform: translateY(0);
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.search-panel-inner {
-  max-width: var(--container);
-  margin: 0 auto;
-  padding: 22px 16px 24px;
-}
-
-.search-panel-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 16px;
-}
-
-.search-panel-header h2 {
-  margin: 8px 0 0;
-  font-size: clamp(1.45rem, 6vw, 2.2rem);
-  line-height: 1.05;
-  letter-spacing: -0.05em;
-}
-
-.search-close {
-  width: 44px;
-  height: 44px;
-  border: 0;
-  border-radius: 999px;
-  background: rgba(11, 127, 134, 0.1);
-  color: var(--text);
-  font-size: 2rem;
-  line-height: 1;
-  cursor: pointer;
-}
-
-.search-box input {
-  width: 100%;
-  min-height: 54px;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  padding: 0 16px;
-  background: #f8fafc;
-  color: var(--text);
-  font: inherit;
-  font-size: 1rem;
-  outline: none;
-}
-
-.search-box input:focus {
-  border-color: rgba(11, 127, 134, 0.45);
-  box-shadow: 0 0 0 4px rgba(11, 127, 134, 0.1);
-  background: #fff;
-}
-
-.search-status {
-  margin: 12px 2px 14px;
-  color: var(--muted);
-  font-size: 0.92rem;
-}
-
-.search-results {
-  display: grid;
-  gap: 10px;
-}
-
-.search-result {
-  display: grid;
-  gap: 6px;
-  padding: 14px;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  background: #fff;
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
-}
-
-.search-result:hover,
-.search-result:focus {
-  border-color: rgba(11, 127, 134, 0.22);
-  background: #f8ffff;
-}
-
-.search-result-category {
-  width: fit-content;
-  padding: 4px 8px;
-  border-radius: 999px;
-  background: rgba(11, 127, 134, 0.1);
-  color: var(--primary-dark);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  font-weight: 900;
-}
-
-.search-result-title {
-  margin: 0;
-  color: var(--text);
-  font-size: 1.02rem;
-  line-height: 1.2;
-  letter-spacing: -0.03em;
-  font-weight: 850;
-}
-
-.search-result-summary {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.45;
-}
-
-.search-empty {
-  padding: 16px;
-  border: 1px dashed var(--line);
-  border-radius: 18px;
-  background: #f8fafc;
-  color: var(--muted);
-}
-
-/* Layout principal */
-
-.site-main {
-  max-width: var(--container);
-  margin: 0 auto;
-  padding: 16px 14px 28px;
-}
-
-.home-shell {
-  display: grid;
-  gap: 20px;
-}
-
-/* Categorias */
-
-.category-strip {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  padding: 2px 2px 4px;
-  scrollbar-width: none;
-}
-
-.category-strip::-webkit-scrollbar {
-  display: none;
-}
-
-.pill {
-  flex: 0 0 auto;
-  padding: 10px 16px;
-  border: 1px solid var(--line);
-  background: var(--surface);
-  border-radius: 999px;
-  color: #475569;
-  font-size: 0.92rem;
-  font-weight: 750;
-  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
-}
-
-.pill.is-active {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
-}
-
-/* Títulos de seção */
-
-.section-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin: 8px 2px 12px;
-}
-
-.section-heading h1,
-.section-heading h2 {
-  margin: 0;
-  letter-spacing: -0.04em;
-}
-
-.section-heading h1 {
-  font-size: clamp(1.35rem, 5vw, 2rem);
-}
-
-.section-heading h2 {
-  font-size: clamp(1.3rem, 5vw, 1.8rem);
-}
-
-.section-heading h1::before,
-.section-heading h2::before {
-  content: "";
-  display: inline-block;
-  width: 6px;
-  height: 26px;
-  margin-right: 12px;
-  border-radius: 999px;
-  background: var(--primary);
-  vertical-align: -5px;
-}
-
-.section-link {
-  white-space: nowrap;
-  color: var(--primary-dark);
-  font-weight: 850;
-  font-size: 0.92rem;
-}
-
-/* Cards */
-
-.hero-card,
-.news-card,
-.compact-card,
-.callout-card {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
-  overflow: hidden;
-}
-
-.hero-cover,
-.news-cover {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  background: #dbeafe;
-}
-
-.hero-body,
-.news-body,
-.compact-body {
-  padding: 18px;
-}
-
-.category,
-.eyebrow {
-  display: inline-flex;
-  width: fit-content;
-  padding: 6px 10px;
-  border-radius: 999px;
-  background: rgba(11, 127, 134, 0.1);
-  color: var(--primary-dark);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  font-weight: 900;
-}
-
-.hero-title,
-.news-title,
-.compact-title {
-  margin: 10px 0 8px;
-  letter-spacing: -0.04em;
-  line-height: 1.08;
-}
-
-.hero-title {
-  font-size: clamp(1.65rem, 7vw, 3rem);
-}
-
-.news-title {
-  font-size: clamp(1.14rem, 5vw, 1.55rem);
-}
-
-.compact-title {
-  font-size: 1.05rem;
-  line-height: 1.18;
-}
-
-.excerpt {
-  margin: 0;
-  color: var(--muted);
-  font-size: 1rem;
-}
-
-.meta-row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 14px;
-  color: var(--muted);
-  font-size: 0.88rem;
-}
-
-.dot {
-  width: 4px;
-  height: 4px;
-  border-radius: 999px;
-  background: currentColor;
-  opacity: 0.55;
-}
-
-.news-feed,
-.compact-feed {
-  display: grid;
-  gap: 16px;
-}
-
-.compact-card a {
-  display: grid;
-  grid-template-columns: 38% 1fr;
-  min-height: 126px;
-}
-
-.compact-cover {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background: #dbeafe;
-}
-
-.compact-body {
-  padding: 14px;
-}
-
-.share-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-.share-button {
-  border: 0;
-  border-radius: 999px;
-  padding: 9px 12px;
-  color: var(--primary-dark);
-  background: rgba(11, 127, 134, 0.1);
-  font-weight: 850;
-  cursor: pointer;
-}
-
-/* Callout */
-
-.callout-card {
-  display: grid;
-  gap: 14px;
-  padding: 20px;
-  background:
-    linear-gradient(
-      135deg,
-      rgba(11, 127, 134, 0.96),
-      rgba(6, 78, 90, 0.96)
-    );
-  color: #fff;
-}
-
-.callout-card .eyebrow {
-  background: rgba(255, 255, 255, 0.16);
-  color: #fff;
-}
-
-.callout-card h2 {
-  margin: 10px 0 6px;
-  font-size: clamp(1.2rem, 5vw, 1.8rem);
-  line-height: 1.1;
-  letter-spacing: -0.04em;
-}
-
-.callout-card p {
-  margin: 0;
-  color: rgba(255, 255, 255, 0.82);
-}
-
-.button-secondary {
-  display: inline-flex;
-  width: fit-content;
-  padding: 12px 16px;
-  border-radius: 14px;
-  background: #fff;
-  color: var(--primary-dark);
-  font-weight: 900;
-}
-
-/* Footer */
-
-.site-footer {
-  max-width: var(--container);
-  margin: 0 auto;
-  padding: 24px 14px 34px;
-  color: #475569;
-}
-
-.footer-card {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 16px;
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-}
-
-.footer-logo {
-  width: 54px;
-  height: 54px;
-  object-fit: contain;
-}
-
-.footer-card strong {
-  color: var(--text);
-  font-size: 1.05rem;
-}
-
-.footer-card p {
-  margin: 4px 0 0;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin: 18px 4px;
-  font-weight: 750;
-}
-
-.legal-note {
-  margin: 0 4px;
-  font-size: 0.86rem;
-}
-
-/* Estados */
-
-.loading,
-.error {
-  padding: 18px;
-  border: 1px dashed var(--line);
-  border-radius: 18px;
-  background: #fff;
-  color: var(--muted);
-}
-
-/* Responsivo */
-
-@media (min-width: 700px) {
-  .site-main {
-    padding: 22px 22px 36px;
-  }
-
-  .news-feed {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .callout-card {
-    grid-template-columns: 1fr auto;
-    align-items: center;
-  }
-}
-
-@media (min-width: 980px) {
-  .desktop-nav {
-    display: flex;
-  }
-
-  .site-main {
-    padding-top: 28px;
-  }
-
-  .hero-card {
-    display: grid;
-    grid-template-columns: 58% 1fr;
-  }
-
-  .hero-cover {
-    height: 100%;
-    aspect-ratio: auto;
-  }
-
-  .hero-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 32px;
-  }
-
-  .news-feed {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .compact-feed {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 /* =========================================================
-   REVISTA PERCIVAL VIKING
-   Home / banca digital
+   PERCIVAL VIKING
+   HOME — BANCA DIGITAL
+   Mobile first
    ========================================================= */
 
-.revista-home {
-  display: grid;
-  gap: 16px;
-}
-
-.revista-home-intro {
-  padding: 8px 2px 0;
-}
-
-.revista-home-intro h1 {
-  margin: 10px 0 6px;
-  font-size: clamp(2rem, 9vw, 3.8rem);
-  line-height: 0.98;
-  letter-spacing: -0.06em;
-}
-
-.revista-home-intro p {
-  max-width: 700px;
-  margin: 0;
-  color: var(--muted);
-  font-size: 1rem;
+.home-revista {
+  gap: 32px;
 }
 
 
-/* Edição atual */
+/* =========================================================
+   CABEÇALHOS DAS ÁREAS
+   ========================================================= */
 
-.revista-destaque {
-  display: grid;
-  gap: 0;
-  overflow: hidden;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
-}
-
-.revista-capa-wrap {
-  display: grid;
-  place-items: center;
-  padding: 22px;
-  background:
-    radial-gradient(
-      circle at top,
-      rgba(20, 184, 196, 0.16),
-      transparent 55%
-    ),
-    #e8f3f4;
-}
-
-
-/* Placeholder enquanto não temos a capa */
-
-.revista-capa-placeholder {
-  width: min(100%, 390px);
-  aspect-ratio: 3 / 4;
+.home-section-topo {
   display: flex;
-  flex-direction: column;
+  align-items: flex-end;
   justify-content: space-between;
-  padding: 24px;
-  overflow: hidden;
-  border-radius: 12px;
-  background:
-    linear-gradient(
-      155deg,
-      var(--primary-dark),
-      var(--primary)
-    );
-  color: #fff;
-  box-shadow:
-    0 18px 40px rgba(15, 23, 42, 0.22);
+
+  gap: 16px;
+
+  margin: 0 2px 14px;
 }
 
-.revista-capa-placeholder span {
-  font-size: 0.78rem;
-  font-weight: 900;
-  letter-spacing: 0.16em;
-}
+.home-kicker {
+  display: block;
 
-.revista-capa-placeholder strong {
-  font-size: clamp(2.1rem, 12vw, 4rem);
-  line-height: 0.84;
-  letter-spacing: -0.08em;
-}
+  margin-bottom: 5px;
 
-.revista-capa-placeholder small {
+  color: var(--primary);
+
   font-size: 0.72rem;
-  font-weight: 850;
-  letter-spacing: 0.08em;
+  font-weight: 900;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
+.home-section-topo h1,
+.home-section-topo h2 {
+  margin: 0;
 
-/* Quando colocarmos a capa verdadeira */
+  color: var(--text);
 
-.revista-capa-imagem {
-  width: min(100%, 390px);
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow:
-    0 18px 40px rgba(15, 23, 42, 0.22);
-}
+  line-height: 1;
 
-
-/* Informações da edição */
-
-.revista-destaque-conteudo {
-  padding: 20px;
-}
-
-.revista-edicao-meta {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 9px;
-  color: var(--muted);
-  font-size: 0.86rem;
-  font-weight: 750;
-}
-
-.revista-destaque-conteudo h2 {
-  margin: 12px 0 8px;
-  font-size: clamp(1.8rem, 8vw, 3.3rem);
-  line-height: 0.98;
   letter-spacing: -0.055em;
 }
 
-.revista-subtitulo {
-  margin: 0;
-  color: var(--primary-dark);
-  font-size: 1.08rem;
-  line-height: 1.45;
-  font-weight: 800;
+.home-section-topo h1 {
+  font-size: clamp(1.9rem, 8vw, 3.4rem);
 }
 
-.revista-descricao {
-  margin: 14px 0 0;
-  color: var(--muted);
-  font-size: 1rem;
-  line-height: 1.55;
+.home-section-topo h2 {
+  font-size: clamp(1.55rem, 7vw, 2.6rem);
 }
 
-.revista-botao {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
-  min-height: 52px;
-  margin-top: 20px;
-  padding: 12px 18px;
-  border-radius: 16px;
+.home-edicao-numero {
+  flex: 0 0 auto;
+
+  padding: 7px 11px;
+
+  border-radius: 999px;
+
   background: var(--primary);
-  color: #fff;
-  font-weight: 900;
-  transition:
-    transform 0.2s ease,
-    background 0.2s ease;
-}
 
-.revista-botao:hover,
-.revista-botao:focus {
-  background: var(--primary-dark);
-  transform: translateY(-1px);
+  color: #fff;
+
+  font-size: 0.75rem;
+  font-weight: 900;
+
+  letter-spacing: 0.05em;
 }
 
 
 /* =========================================================
-   ARQUIVO DE EDIÇÕES
+   CAPA PRINCIPAL
+   Imagem original: 1200 x 1600 px
    ========================================================= */
 
-.revista-arquivo {
-  display: grid;
+.home-capa-principal {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  background: #dbe7e9;
+
+  box-shadow:
+    0 20px 50px rgba(15, 23, 42, 0.14);
+
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
 }
 
-.revista-arquivo-vazio {
+.home-capa-principal img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 3 / 4;
+
+  object-fit: cover;
+}
+
+.home-capa-principal:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 26px 60px rgba(15, 23, 42, 0.18);
+}
+
+
+/* Botão sobre a própria capa */
+
+.home-capa-abrir {
+  position: absolute;
+
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+
   display: flex;
   align-items: center;
-  gap: 14px;
-  padding: 18px;
-  border: 1px dashed rgba(11, 127, 134, 0.28);
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.72);
-}
+  justify-content: space-between;
 
-.revista-arquivo-icone {
-  flex: 0 0 auto;
-  width: 46px;
-  height: 46px;
-  display: grid;
-  place-items: center;
-  border-radius: 15px;
-  background: rgba(11, 127, 134, 0.1);
-  color: var(--primary);
-  font-size: 1.3rem;
-}
+  min-height: 52px;
 
-.revista-arquivo-vazio strong {
-  color: var(--text);
-}
+  padding: 12px 16px;
 
-.revista-arquivo-vazio p {
-  margin: 4px 0 0;
-  color: var(--muted);
-  font-size: 0.92rem;
+  border:
+    1px solid rgba(255, 255, 255, 0.3);
+
+  border-radius: 16px;
+
+  background:
+    rgba(15, 23, 42, 0.76);
+
+  backdrop-filter: blur(12px);
+
+  color: #fff;
+
+  font-size: 0.94rem;
+  font-weight: 900;
 }
 
 
 /* =========================================================
-   CARDS DAS EDIÇÕES FUTURAS
-
-   Já deixamos preparados para quando criarmos edicoes.json.
+   ARQUIVO DE REVISTAS
    ========================================================= */
 
-.revista-grid {
+.home-edicoes {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+
+/* Enquanto temos somente a edição 001 */
+
+.home-edicoes-inicio {
+  display: flex;
+  align-items: center;
+
+  gap: 13px;
+
+  padding: 17px;
+
+  border:
+    1px dashed rgba(11, 127, 134, 0.3);
+
+  border-radius: 20px;
+
+  background:
+    rgba(255, 255, 255, 0.72);
+
+  color: var(--muted);
+}
+
+.home-edicoes-inicio > span {
+  flex: 0 0 auto;
+
+  display: grid;
+  place-items: center;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 14px;
+
+  background:
+    rgba(11, 127, 134, 0.1);
+
+  color: var(--primary);
+
+  font-size: 1.2rem;
+}
+
+.home-edicoes-inicio p {
+  margin: 0;
+
+  font-size: 0.92rem;
+
+  line-height: 1.45;
+}
+
+
+/* Grade das edições anteriores */
+
+.home-edicoes-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
   gap: 14px;
 }
 
-.revista-card {
+.home-edicao-card {
+  display: grid;
+
   overflow: hidden;
+
   background: #fff;
-  border: 1px solid var(--line);
+
+  border:
+    1px solid var(--line);
+
   border-radius: 18px;
-  box-shadow: var(--shadow);
+
+  box-shadow:
+    0 8px 24px rgba(15, 23, 42, 0.08);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-.revista-card a {
-  display: block;
+.home-edicao-card:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 14px 30px rgba(15, 23, 42, 0.12);
 }
 
-.revista-card img {
+.home-edicao-card img {
   width: 100%;
+
   aspect-ratio: 3 / 4;
+
   object-fit: cover;
-  background: #e8f3f4;
 }
 
-.revista-card-body {
-  padding: 12px;
+.home-edicao-card > span {
+  padding: 11px 12px;
+
+  color: var(--text);
+
+  font-size: 0.82rem;
+  font-weight: 850;
 }
 
-.revista-card-edicao {
-  color: var(--primary-dark);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+
+/* =========================================================
+   POKÉMON / COLECIONISMO
+   ========================================================= */
+
+.home-acessos {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 10px;
+}
+
+.home-acesso {
+  display: grid;
+
+  grid-template-columns:
+    1fr auto;
+
+  align-items: center;
+
+  min-height: 112px;
+
+  padding: 16px;
+
+  overflow: hidden;
+
+  border:
+    1px solid var(--line);
+
+  border-radius: 20px;
+
+  background: #fff;
+
+  box-shadow:
+    0 8px 22px rgba(15, 23, 42, 0.06);
+}
+
+.home-acesso-icone {
+  grid-column: 1 / -1;
+
+  color: var(--primary);
+
+  font-size: 0.68rem;
   font-weight: 900;
+
+  letter-spacing: 0.08em;
 }
 
-.revista-card h3 {
-  margin: 6px 0 0;
-  font-size: 0.98rem;
-  line-height: 1.15;
-  letter-spacing: -0.03em;
+.home-acesso > span:nth-child(2) {
+  align-self: end;
+
+  font-size:
+    clamp(1rem, 4.5vw, 1.3rem);
+
+  font-weight: 900;
+
+  letter-spacing: -0.04em;
+}
+
+.home-acesso strong {
+  align-self: end;
+
+  color: var(--primary);
+
+  font-size: 1.25rem;
+}
+
+
+/* =========================================================
+   ÁREAS DO ACERVO
+   ========================================================= */
+
+.home-acervo,
+.home-explorar,
+.home-recentes {
+  display: grid;
 }
 
 
@@ -1091,27 +353,45 @@ body.search-open .search-panel {
 
 @media (min-width: 700px) {
 
-  .revista-destaque {
-    grid-template-columns: minmax(280px, 42%) 1fr;
+  .home-revista {
+    gap: 42px;
   }
 
-  .revista-capa-wrap {
-    padding: 28px;
+  .home-edicao-atual {
+    max-width: 760px;
+
+    margin-inline: auto;
+
+    width: 100%;
   }
 
-  .revista-destaque-conteudo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 32px;
+  .home-capa-principal {
+    border-radius: 28px;
   }
 
-  .revista-botao {
-    width: fit-content;
+  .home-capa-abrir {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+
+    padding: 14px 18px;
   }
 
-  .revista-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .home-edicoes-grid {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+
+    gap: 18px;
+  }
+
+  .home-acessos {
+    gap: 16px;
+  }
+
+  .home-acesso {
+    min-height: 130px;
+
+    padding: 20px;
   }
 }
 
@@ -1122,23 +402,38 @@ body.search-open .search-panel {
 
 @media (min-width: 980px) {
 
-  .revista-home {
+  .home-revista {
+    gap: 52px;
+  }
+
+  /*
+    A capa continua vertical.
+    Não esticamos para ocupar a largura inteira,
+    porque queremos preservar a aparência de revista.
+  */
+
+  .home-edicao-atual {
+    max-width: 540px;
+
+    margin-inline: auto;
+  }
+
+  .home-edicoes-grid {
+    grid-template-columns:
+      repeat(4, minmax(0, 1fr));
+
     gap: 20px;
   }
 
-  .revista-destaque {
-    grid-template-columns: minmax(360px, 40%) 1fr;
+  .home-acessos {
+    max-width: 820px;
+
+    margin-inline: auto;
+
+    width: 100%;
   }
 
-  .revista-capa-wrap {
-    padding: 34px;
-  }
-
-  .revista-destaque-conteudo {
-    padding: 44px;
-  }
-
-  .revista-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .home-acesso {
+    min-height: 145px;
   }
 }
