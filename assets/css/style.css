@@ -822,4 +822,323 @@ body.search-open .search-panel {
   .compact-feed {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+/* =========================================================
+   REVISTA PERCIVAL VIKING
+   Home / banca digital
+   ========================================================= */
+
+.revista-home {
+  display: grid;
+  gap: 16px;
+}
+
+.revista-home-intro {
+  padding: 8px 2px 0;
+}
+
+.revista-home-intro h1 {
+  margin: 10px 0 6px;
+  font-size: clamp(2rem, 9vw, 3.8rem);
+  line-height: 0.98;
+  letter-spacing: -0.06em;
+}
+
+.revista-home-intro p {
+  max-width: 700px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+
+/* Edição atual */
+
+.revista-destaque {
+  display: grid;
+  gap: 0;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.revista-capa-wrap {
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(20, 184, 196, 0.16),
+      transparent 55%
+    ),
+    #e8f3f4;
+}
+
+
+/* Placeholder enquanto não temos a capa */
+
+.revista-capa-placeholder {
+  width: min(100%, 390px);
+  aspect-ratio: 3 / 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  overflow: hidden;
+  border-radius: 12px;
+  background:
+    linear-gradient(
+      155deg,
+      var(--primary-dark),
+      var(--primary)
+    );
+  color: #fff;
+  box-shadow:
+    0 18px 40px rgba(15, 23, 42, 0.22);
+}
+
+.revista-capa-placeholder span {
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+}
+
+.revista-capa-placeholder strong {
+  font-size: clamp(2.1rem, 12vw, 4rem);
+  line-height: 0.84;
+  letter-spacing: -0.08em;
+}
+
+.revista-capa-placeholder small {
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+}
+
+
+/* Quando colocarmos a capa verdadeira */
+
+.revista-capa-imagem {
+  width: min(100%, 390px);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow:
+    0 18px 40px rgba(15, 23, 42, 0.22);
+}
+
+
+/* Informações da edição */
+
+.revista-destaque-conteudo {
+  padding: 20px;
+}
+
+.revista-edicao-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.revista-destaque-conteudo h2 {
+  margin: 12px 0 8px;
+  font-size: clamp(1.8rem, 8vw, 3.3rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.revista-subtitulo {
+  margin: 0;
+  color: var(--primary-dark);
+  font-size: 1.08rem;
+  line-height: 1.45;
+  font-weight: 800;
+}
+
+.revista-descricao {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.revista-botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 52px;
+  margin-top: 20px;
+  padding: 12px 18px;
+  border-radius: 16px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 900;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.revista-botao:hover,
+.revista-botao:focus {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   ARQUIVO DE EDIÇÕES
+   ========================================================= */
+
+.revista-arquivo {
+  display: grid;
+}
+
+.revista-arquivo-vazio {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  border: 1px dashed rgba(11, 127, 134, 0.28);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.revista-arquivo-icone {
+  flex: 0 0 auto;
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 15px;
+  background: rgba(11, 127, 134, 0.1);
+  color: var(--primary);
+  font-size: 1.3rem;
+}
+
+.revista-arquivo-vazio strong {
+  color: var(--text);
+}
+
+.revista-arquivo-vazio p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+
+/* =========================================================
+   CARDS DAS EDIÇÕES FUTURAS
+
+   Já deixamos preparados para quando criarmos edicoes.json.
+   ========================================================= */
+
+.revista-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.revista-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+.revista-card a {
+  display: block;
+}
+
+.revista-card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  background: #e8f3f4;
+}
+
+.revista-card-body {
+  padding: 12px;
+}
+
+.revista-card-edicao {
+  color: var(--primary-dark);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 900;
+}
+
+.revista-card h3 {
+  margin: 6px 0 0;
+  font-size: 0.98rem;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (min-width: 700px) {
+
+  .revista-destaque {
+    grid-template-columns: minmax(280px, 42%) 1fr;
+  }
+
+  .revista-capa-wrap {
+    padding: 28px;
+  }
+
+  .revista-destaque-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+  }
+
+  .revista-botao {
+    width: fit-content;
+  }
+
+  .revista-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+/* =========================================================
+   DESKTOP
+   ========================================================= */
+
+@media (min-width: 980px) {
+
+  .revista-home {
+    gap: 20px;
+  }
+
+  .revista-destaque {
+    grid-template-columns: minmax(360px, 40%) 1fr;
+  }
+
+  .revista-capa-wrap {
+    padding: 34px;
+  }
+
+  .revista-destaque-conteudo {
+    padding: 44px;
+  }
+
+  .revista-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
